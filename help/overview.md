@@ -329,9 +329,9 @@ CARDS
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
-| [Compétences de l’agent ](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
-| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
+| [Compétences de l’agent &#x200B;](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
+| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configuration et authentification du projet d’API |
-| [](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
+| [&#128279;](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
 | [Experience League](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentation et tutoriels complets sur l’application Adobe |
