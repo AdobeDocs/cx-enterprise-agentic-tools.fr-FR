@@ -2,7 +2,7 @@
 title: Exécuter une révision de campagne cross-canal
 description: Utilisez la passerelle MCP Entreprise CX dans une seule session d’IA pour obtenir une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -91,13 +91,14 @@ What journeys are currently active in AJO?
 | Réengagement de la fidélité | Email | 20 Mai 2026 |
 | Panier abandonné - 24 heures | E-mail, SMS | 10 Mai 2026 |
 | Promotion du printemps | E-mail, notification push | 19 Mai 2026 |
-| Reconquête — 90 Jours Inactifs | E-mail | 28 Avril 2026 |
+| Reconquête — 90 Jours Inactifs | Email | 28 Avril 2026 |
 | Récompense d&#39;anniversaire | Email | 15 Avril 2026 |
 | Réengagement - Opt-Out Push | SMS | 12 Mai 2026 |
 
 3 parcours ont été modifiés ces 7 derniers jours. Voulez-vous des détails sur l&#39;un d&#39;entre eux ?
 
 +++
+
 
 ## Étape 2 : vérifier le statut d’activation de l’audience
 
@@ -122,6 +123,7 @@ Aucune erreur de flux de données détectée. Toutes les activations se sont ter
 
 +++
 
+
 ## Étape 3 : extraire les mesures de performances de CJA
 
 Une fois le contexte du parcours et de l’audience établi, utilisez CJA pour évaluer comment ces campagnes sont converties et où l’engagement chute.
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 Taux de conversion combiné : 3,8 %. Le taux de clics des e-mails a augmenté de 1,2 % par rapport à la période de 30 jours précédente. Les conversions push sont aplaties.
 
 +++
+
 
 ## Étape 4 : synthétiser un résumé de l&#39;intégrité de la campagne
 
@@ -170,6 +173,7 @@ parcours actifs :**8 en ligne, 3 modifiés cette semaine.** Le parcours de réen
 Aucun problème critique détecté. Deux éléments ci-dessus méritent d’être examinés avant le prochain lancement de campagne.
 
 +++
+
 
 C’est là que l’approche multi-serveur s’avère payante : votre client d’IA raisonne sur la configuration du parcours, le statut de l’audience et les données de performances dans une seule conversation.
 
@@ -199,6 +203,7 @@ La conversion plate signale généralement une fatigue des messages ou une incoh
 Par quoi souhaiteriez-vous commencer ?
 
 +++
+
 
 ## Ce que vous avez accompli
 
@@ -279,6 +284,7 @@ Which channel has the highest conversion rate across all active campaigns?
 ```
 
 +++
+
 
 ## Informations supplémentaires
 

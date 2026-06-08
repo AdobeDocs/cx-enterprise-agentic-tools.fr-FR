@@ -2,7 +2,7 @@
 title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez la passerelle MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## Étape 2 : extraire les données de performances de la campagne
 
 Une fois la vue de données identifiée, demandez les performances de la campagne par chiffre d’affaires et taux de conversion. L’IA résout les noms des mesures et des dimensions à partir de la vue de données sans nécessiter d’identifiants techniques.
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 Client ![AI affichant les principales campagnes par chiffre d’affaires et taux de conversion à partir de la vue de données omnicanal - secteur](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ Client ![AI expliquant les facteurs déterminant les performances du groupe de c
 
 +++
 
+
 ## Étape 4 : accéder à un type de campagne spécifique
 
 Donner suite à un résultat spécifique en demandant une répartition au niveau du segment. Les types de clients qui génèrent des performances au sein d’un type de campagne apparaissent.
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## Étape 5 : Agir sur ce que vous avez trouvé
 
 Demandez des recommandations hiérarchisées en fonction de tout ce qui a été abordé au cours de la session. Demander des estimations de valeur commerciale vous aide à décider par où agir en premier.
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![Le client IA recommande des actions prioritaires avec une valeur commerciale estimée](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## Informations supplémentaires
 

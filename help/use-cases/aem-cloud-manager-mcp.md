@@ -2,7 +2,7 @@
 title: Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
 description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre client d’IA.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ Client ![AI affichant le statut de l’environnement de production à partir de 
 
 +++
 
+
 ## Étape 2 : vérifier les exécutions de pipeline
 
 Consultez l’historique récent des pipelines pour comprendre les modèles de déploiement et intercepter les échecs avant qu’ils ne bloquent votre prochaine version.
@@ -144,6 +145,7 @@ Client ![AI affichant les cinq dernières exécutions de pipeline pour le pipeli
 
 +++
 
+
 ## Étape 3 : déclencher un pipeline
 
 Démarrer un pipeline directement à partir de votre client d’IA. Le serveur confirme l’environnement cible et demande une validation avant de démarrer.
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 Client ![AI affichant la confirmation du déclenchement du pipeline et l’interface utilisateur de Cloud Manager reflétant le pipeline en cours d’exécution](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 Client ![AI affichant le statut de l’exécution du pipeline déclenché](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## Ce que vous avez accompli
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## Informations supplémentaires
 

@@ -2,7 +2,7 @@
 title: Découvrez vos audiences et où elles sont activées
 description: Utilisez la passerelle MCP Entreprise CX pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## Étape 2 : Identifier vos segments les plus précieux
 
 Avec le paysage de l’audience en vue, demandez-vous quels segments sont les plus grands et ce qui les rend stratégiquement précieux.
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 Client ![AI identifiant les audiences les plus importantes et expliquant ce qui les rend précieuses](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## Étape 3 : vérifier l’activation et les destinations
 
@@ -110,6 +112,7 @@ Client ![AI affichant le statut d’activation de l’audience et le mappage de 
 
 +++
 
+
 ## Étape 4 : obtenez des recommandations stratégiques
 
 Les outils RTCDP de la passerelle CX Enterprise MCP sont en lecture seule : ils affichent le statut d’activation, l’intégrité de la destination et les données de flux de données, mais ne modifient pas la configuration. Une fois que vous avez identifié un problème, le correctif se produit dans l’application.
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![Client AI donnant des recommandations prioritaires en matière de stratégie d’audience](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -219,6 +223,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 ```
 
 +++
+
 
 ## Informations supplémentaires
 
