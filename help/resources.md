@@ -32,7 +32,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 |---|---|
 | [Documentation MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guide de configuration du serveur CJA MCP et référence des outils |
 | [Guides MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guides d’utilisation détaillés du serveur MCP CJA |
-| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
+| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
 
 ## Compétences de l’agent
 
@@ -73,7 +73,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 
 | Ressource | Ce que vous trouverez |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Documentation complète de l’application AEP |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/home) | Documentation complète de l’application AEP |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) | Documentation complète de l’application AJO |
 | [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) | Documentation complète de l’application Real-Time CDP |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |
