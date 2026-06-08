@@ -133,7 +133,7 @@ Consultez [Procédures pas à pas du monde réel](agentic-tools-in-action.md) po
 Découvrez comment les outils agentiques accélèrent vos workflows Adobe quotidiens.
 
 - Connectez votre client AI aux données Adobe en quelques minutes à l’aide des serveurs [MCP](tools/mcp-servers.md)
-- Suivez les procédures pas à pas pour les tâches courantes [campagne](use-cases/analyze-campaign-performance.md), [audience](use-cases/query-audiences.md) et [parcours ](use-cases/manage-ajo-journeys.md)
+- Suivez les procédures pas à pas pour les tâches courantes [campagne](use-cases/analyze-campaign-performance.md), [audience](use-cases/query-audiences.md) et [parcours &#x200B;](use-cases/manage-ajo-journeys.md)
 - Travaillez dans l’environnement d’IA que vous utilisez déjà.
 
 >[!TAB Constructeurs et développeurs]
@@ -142,14 +142,14 @@ Intégrez les fonctionnalités Adobe CX Enterprise dans des applications et des 
 
 - Parcourez les [API pour les créateurs](tools/apis.md) par domaine de fonctionnalités et connectez-vous aux [serveurs MCP](tools/mcp-servers.md) dans votre environnement de développement
 - Utilisez des outils de codage assistés par l’IA tels que [Claude Code](https://docs.anthropic.com/en/docs/claude-code/mcp) et [Cursor](https://cursor.com/docs/mcp) avec les API Adobe.
-- Configurer l&#39;authentification et les informations d&#39;identification dans le [](https://developer.adobe.com/developer-console/docs/guides/)
+- Configurer l&#39;authentification et les informations d&#39;identification dans le [&#128279;](https://developer.adobe.com/developer-console/docs/guides/)
 - Consultez [Serveurs MCP](tools/mcp-servers.md) pour obtenir la liste complète des clients d’IA pris en charge et des instructions de configuration
 
 >[!TAB Administrateurs et administratrices]
 
 Gérez l’accès, gérez les outils d’agence approuvés et maintenez une supervision à l’échelle de votre organisation.
 
-- Configurez l’authentification pour les serveurs MCP et les API via [](https://developer.adobe.com/developer-console/docs/guides/)
+- Configurez l’authentification pour les serveurs MCP et les API via [&#128279;](https://developer.adobe.com/developer-console/docs/guides/)
 - Configurez les autorisations au niveau de l’organisation d’Identity Management System (IMS) pour contrôler quels utilisateurs et équipes peuvent accéder aux outils d’agent
 - Définir et appliquer les clients d’IA et les serveurs MCP dont l’utilisation dans votre organisation est approuvée
 - Surveillez l’utilisation, examinez les pistes d’audit et assurez-vous que l’activité de l’agence répond à vos exigences de conformité
@@ -342,7 +342,7 @@ CARDS
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP et des compétences des agents disponibles |
-| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP et des compétences des agents disponibles |
+| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configuration et authentification du projet d’API |
 | [Experience League](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentation et tutoriels complets sur l’application Adobe |
