@@ -272,7 +272,7 @@ Save this analysis as a Workspace project for executive reporting.
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation du serveur MCP ](https://developer.adobe.com/analytics-mcp/docs/cja/) | Guide complet de configuration et de référence des outils |
+| [Documentation du serveur MCP &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | Guide complet de configuration et de référence des outils |
 | [Guides d’utilisation de CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guides d’utilisation détaillés |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilité et outils du serveur CJA MCP |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |

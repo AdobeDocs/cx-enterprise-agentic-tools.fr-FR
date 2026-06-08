@@ -290,9 +290,9 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) | Documentation complète de l’application AJO |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) | Documentation complète de l’application AJO |
 | [Documentation MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Configuration de CJA MCP et référence des outils |
 | [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guide de configuration de RTCDP MCP |
 | [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilité et outils du serveur AJO MCP |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilité et outils du serveur CJA MCP |
-| [ Serveurs MCP ](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
+| [&#x200B; Serveurs MCP &#x200B;](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
