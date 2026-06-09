@@ -1,8 +1,9 @@
 ---
 title: Tenez le contenu à jour et envoyez les mises à jour plus rapidement
 description: Utilisez le serveur AEM Content MCP pour rechercher, réviser, mettre à jour et publier du contenu AEM sans passer d’un outil à l’autre.
+last-substantial-update: 2026-05-22T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -263,8 +264,8 @@ Promote the May Updates launch to production.
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du serveur MCP |
+| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du serveur MCP |
 | [Serveur AEM Content MCP dans le registre AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Liste des outils et disponibilité |
-| [Documentation d’AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service) | Documentation complète de l’application AEM |
-| [fragments de contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Référence de création de fragment de contenu |
-| [&#x200B; Serveurs MCP &#x200B;](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
+| [Documentation d’AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentation complète de l’application AEM |
+| [fragments de contenu ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | Référence de création de fragment de contenu |
+| [ Serveurs MCP ](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |

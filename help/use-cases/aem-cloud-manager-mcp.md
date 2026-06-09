@@ -1,8 +1,9 @@
 ---
 title: Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
 description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre client d’IA.
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480344/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
 
 La gestion des environnements Adobe Experience Manager implique généralement une connexion à Cloud Manager, une navigation dans les pipelines et les environnements et un changement de contexte pour suivre le statut du déploiement. Cette présentation explique comment gérer ces opérations à partir d’un client d’IA à l’aide du serveur MCP AEM Cloud Manager, de sorte que les développeurs et les équipes d’exploitation puissent vérifier le statut, passer en revue les pipelines et agir sur les détails de déploiement sans quitter leur environnement d’IA.
 
@@ -277,6 +278,6 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Documentation complète de l’application Cloud Manager |
-| [Documentation d’AEM as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service) | Documentation complète de l’application AEM |
-| [&#x200B; Serveurs MCP &#x200B;](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
+| [Documentation ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Documentation complète de l’application Cloud Manager |
+| [Documentation d’AEM as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Documentation complète de l’application AEM |
+| [ Serveurs MCP ](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |

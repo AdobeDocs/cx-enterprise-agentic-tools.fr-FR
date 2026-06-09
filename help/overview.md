@@ -1,8 +1,9 @@
 ---
 title: Outils Adobe CX Enterprise Agentic
 description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 3%
@@ -14,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491244/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Laissez l’IA devenir votre collègue d’Adobe CX Enterprise. Connectez votre client d’IA à des campagnes, des audiences, des parcours et du contenu et interagissez avec eux en langage clair à partir de n’importe quel outil que vous utilisez déjà. Pas de nouvelles interfaces, pas de changement de contexte, pas de codage requis pour commencer.
 
@@ -255,9 +256,9 @@ CARDS
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
-| [Compétences de l’agent &#x200B;](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
-| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
+| [Compétences de l’agent ](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
+| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configuration et authentification du projet d’API |
-| [&#128279;](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
+| [](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
 | [Experience League](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentation et tutoriels complets sur l’application Adobe |
