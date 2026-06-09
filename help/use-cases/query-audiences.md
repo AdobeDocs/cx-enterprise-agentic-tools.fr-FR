@@ -1,12 +1,12 @@
 ---
 title: Découvrez vos audiences et où elles sont activées
-description: Utilisez la passerelle MCP Entreprise CX pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
-last-substantial-update: 2026-06-04T00:00:00Z
+description: Utilisez CX Enterprise MCP pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 3%
 
 ---
 
@@ -19,12 +19,12 @@ Client ![AI fournissant une stratégie d’audience prioritaire avec des recomma
 
 Comprendre quelles audiences sont activées, où elles circulent et si les destinations sont saines implique généralement l’ouverture de Real-Time CDP et la navigation sur plusieurs écrans. Cette présentation explique comment obtenir les mêmes réponses par le biais d’un client d’IA, à l’aide du serveur RTCDP MCP pour faire apparaître la configuration de destination, le statut d’activation et l’intégrité du flux de données au moyen de questions en langage clair.
 
-| | |
+| Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | Real-Time Customer Data Platform (Real-Time CDP) |
-| Outils agentiques | Passerelle MCP Entreprise CX |
-| Audience | Marketeurs, analystes, opérateurs |
-| Prérequis | Client d’IA compatible avec MCP, accès à Real-Time CDP |
+| **Applications d’entreprise CX** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Audience** | Marketeurs, analystes, opérateurs |
+| **Prérequis** | Client d’IA compatible avec MCP, accès à Real-Time CDP |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -34,7 +34,7 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 
 >[!TAB Claude.ai]
 
-Connectez la passerelle MCP d’entreprise CX en tant que connecteur personnalisé pour accéder aux outils Real-Time CDP.
+Connectez CX Enterprise MCP en tant que connecteur personnalisé pour accéder aux outils Real-Time CDP.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
 2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Configuration complète : [documentation des connecteurs personnalisés Claude.a
 
 >[!TAB ChatGPT]
 
-Connectez la passerelle MCP Entreprise CX en utilisant le mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
+Connectez le CX Enterprise MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
 1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
@@ -55,7 +55,7 @@ Configuration complète : [documentation MCP ChatGPT](https://developers.openai.
 
 >[!TAB Autres clients d’IA]
 
-Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous à la passerelle MCP d’entreprise CX à l’aide de ce point d’entrée :
+Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au MCP d’entreprise CX à l’aide de ce point d’entrée :
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -116,7 +116,7 @@ Client ![AI affichant le statut d’activation de l’audience et le mappage de 
 
 ## Étape 4 : obtenez des recommandations stratégiques
 
-Les outils RTCDP de la passerelle CX Enterprise MCP sont en lecture seule : ils affichent le statut d’activation, l’intégrité de la destination et les données de flux de données, mais ne modifient pas la configuration. Une fois que vous avez identifié un problème, le correctif se produit dans l’application.
+Les outils RTCDP du CX Enterprise MCP sont en lecture seule : ils affichent le statut d’activation, l’intégrité de la destination et les données de flux de données, mais ne modifient pas la configuration. Une fois que vous avez identifié un problème, le correctif se produit dans l’application.
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -131,7 +131,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->Les outils RTCDP de la passerelle CX Enterprise MCP font apparaître les données de destination et d’activation, mais ne peuvent pas modifier la configuration de destination, les définitions de segment ou les paramètres de flux de données. Les étapes de correction se produisent dans l’application Real-Time CDP.
+>Les outils RTCDP de CX Enterprise MCP font apparaître les données de destination et d’activation, mais ne peuvent pas modifier la configuration de destination, les définitions de segment ou les paramètres de flux de données. Les étapes de correction se produisent dans l’application Real-Time CDP.
 
 ## Ce que vous avez accompli
 
@@ -139,7 +139,7 @@ Vous avez connecté un client d’IA à Real-Time CDP et dressé un portrait str
 
 ## Plus de choses à accomplir
 
-Les outils Real-Time CDP de la passerelle CX Enterprise MCP prennent en charge un large éventail de requêtes d’audience et d’activation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
+Les outils Real-Time CDP de CX Enterprise MCP prennent en charge un large éventail de requêtes d’audience et d’activation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
 
 +++Savoir exactement ce qui coule où avant l’envoi d’une campagne
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configuration du serveur MCP et référence des outils |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Métadonnées et disponibilité du serveur MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) | Documentation complète de l’application Real-Time CDP |
-| [Documentation sur les destinations &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home) | Référence des destinations complètes |
+| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Configuration du serveur MCP et référence des outils |
+| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Métadonnées et disponibilité du serveur MCP |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) | Documentation complète de l’application Real-Time CDP |
+| [Documentation sur les destinations ](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home) | Référence des destinations complètes |

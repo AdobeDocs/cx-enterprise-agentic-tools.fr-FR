@@ -3,9 +3,9 @@ title: Outils Agentic
 description: Comparez les serveurs MCP, les compétences des agents et les API pour Builders et choisissez l’outil agentique approprié pour vos workflows Adobe CX Enterprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
-Tous les outils agentiques ne répondent pas au même besoin. Découvrez ce que chacun fait, quand l’utiliser et comment commencer à l’utiliser, afin de pouvoir choisir le bon point de départ pour votre situation.
+Tous les outils agentiques ne répondent pas au même besoin. Explorez ce que chacun fait, quand l&#39;utiliser et comment commencer, afin de pouvoir choisir le bon point de départ pour votre situation.
 
 <!--
 CARDS
@@ -133,7 +133,7 @@ CARDS
 
 >[!TAB  Serveurs MCP ]
 
-Considérez les serveurs MCP comme un lien dynamique entre votre client IA et les applications CX Enterprise. Connectez-vous une seule fois et votre IA peut interroger les campagnes, extraire les audiences, vérifier le statut du parcours, etc. Le tout en langage clair, sans code nécessaire.
+Considérez les serveurs MCP comme un lien dynamique entre votre client IA et les applications CX Enterprise. Connectez-vous une seule fois et votre IA peut interroger les campagnes, extraire les audiences, vérifier le statut du parcours, etc., le tout en langage clair, sans code nécessaire.
 
 **Utiliser des serveurs MCP quand :**
 
@@ -146,7 +146,7 @@ Considérez les serveurs MCP comme un lien dynamique entre votre client IA et le
 
 >[!TAB Compétences agent]
 
-Les compétences de l’agent sont des compétences de domaine Adobe, encodées en instructions que votre agent peut suivre. Au lieu d&#39;espérer que votre agent comprenne les bonnes étapes, une compétence lui indique exactement ce qu&#39;il doit faire, de manière fiable, répétée et déjà adaptée aux workflows CX Enterprise.
+Les compétences de l’agent sont des compétences de domaine Adobe, encodées en instructions que votre agent peut suivre. Au lieu d&#39;espérer que votre agent comprenne les bonnes étapes, une compétence lui indique exactement ce qu&#39;il faut faire, de manière fiable, répétée et déjà adaptée aux workflows d&#39;entreprise CX.
 
 **Utiliser les compétences de l’agent lorsque :**
 
