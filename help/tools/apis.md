@@ -3,10 +3,10 @@ title: API pour les créateurs
 description: Créez des applications et des intégrations personnalisées à l’aide des API d’entreprise Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 24%
+source-wordcount: '935'
+ht-degree: 25%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 24%
 Les API d’entreprise Adobe CX donnent aux développeurs et aux outils de codage assistés par l’IA un accès direct aux données et aux workflows d’Adobe. Utilisez-les pour créer des applications personnalisées, automatiser les intégrations et incorporer les fonctionnalités d’Adobe dans vos propres systèmes. Les API sont le bon choix lorsque vous avez besoin d’un contrôle programmatique complet sur une intégration système ou que vous créez une application sur les données d’Adobe. Pour un accès conversationnel piloté par un agent aux workflows Adobe, reportez-vous à la section [Serveurs MCP](mcp-servers.md).
 
 ## API d’entreprise Adobe CX
-
-Les API d’entreprise Adobe CX exposent les données et opérations de base qui alimentent des produits tels que Adobe Experience Platform, Journey Optimizer et Customer Journey Analytics. Chaque API suit une conception API-first, donnant aux développeurs et aux outils d’agence de codage assistés par l’IA un accès direct et programmable aux mêmes fonctionnalités qu’Adobe utilise en interne. Utilisez-les pour créer des applications personnalisées, automatiser les workflows et intégrer les données Adobe dans vos propres systèmes.
 
 <!--
 CARDS
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## API pour Builders et serveurs MCP
-
-Utilisez les API lorsque vous avez besoin d’un contrôle total de l’intégration du système ou que vous créez une application personnalisée. Utilisez les serveurs MCP lorsque vous souhaitez qu’un agent d’IA travaille directement avec les workflows Adobe.
-
-| | API | Serveurs MCP |
-| --- | --- | --- |
-| Intégration directe du système | Oui | Parfois |
-| Orchestration conviviale pour les agents | Limité | Oui |
-| Accès aux données brutes | Oui | Généralement abstrait |
-| Développement d’applications personnalisées | Cas d’utilisation du Principal | Secondaire |
-| Workflows assistés par l’IA | Pris en charge | Cas d’utilisation du Principal |
-
 ## Prise en main des API pour Builders
 
 ![Un IDE se connectant aux API d’entreprise Adobe CX](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **Actualisation des spécifications**
 
 Lorsqu’Adobe publie une nouvelle version d’API : téléchargez un nouvel instantané dans `/specs`, mettez à jour la date dans `README.md`, puis régénérez l’index et le `AGENTS.md`.
+
+## API pour Builders et serveurs MCP
+
+Utilisez les API lorsque vous avez besoin d’un contrôle total de l’intégration du système ou que vous créez une application personnalisée. Utilisez les serveurs MCP lorsque vous souhaitez qu’un agent d’IA travaille directement avec les workflows Adobe.
+
+| | API | Serveurs MCP |
+| --- | --- | --- |
+| Intégration directe du système | Oui | Parfois |
+| Orchestration conviviale pour les agents | Limité | Oui |
+| Accès aux données brutes | Oui | Généralement abstrait |
+| Développement d’applications personnalisées | Cas d’utilisation du Principal | Secondaire |
+| Workflows assistés par l’IA | Pris en charge | Cas d’utilisation du Principal |
