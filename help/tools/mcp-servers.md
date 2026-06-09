@@ -44,7 +44,7 @@ https://cx-enterprise.adobe.io/mcp
 | Adobe Journey Optimizer | Examiner les configurations des parcours, des campagnes et des canaux | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Adobe Journey Optimizer B2B edition | Gérez les parcours B2B, les programmes de compte, les groupes d’achats et la personnalisation | TODO: validate |
 | Customer Journey Analytics | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | Vérifiez le statut d’activation de l’audience, l’intégrité de la destination et celle du flux de données | [Affichage des outils](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| Real-Time CDP | Vérifiez le statut d’activation de l’audience, l’intégrité de la destination et celle du flux de données | [Affichage des outils](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | Adobe Analytics | Découverte de suites de rapports, création de segments et création d’espaces de travail | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | Adobe Experience Platform | Découverte de jeux de données, navigation dans les schémas et gestion des sandbox | — |
 
@@ -54,13 +54,13 @@ Adobe Experience Manager dispose de plusieurs serveurs MCP pour différents work
 
 | Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
 | --- | --- | --- | --- |
-| [Contenu &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestion des pages, des fragments de contenu, des ressources et des lancements | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Découvrir et interroger des pages, des fragments de contenu et des lancements sans accès en écriture | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestion des pages, des fragments de contenu, des ressources et des lancements | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Découvrir et interroger des pages, des fragments de contenu et des lancements sans accès en écriture | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM (Mode Code)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Accès direct de l’API REST à AEM par le biais de la recherche, de la lecture, de l’écriture et de la suppression en langage naturel | — |
+| [AEM (Mode Code)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Accès direct de l’API REST à AEM par le biais de la recherche, de la lecture, de l’écriture et de la suppression en langage naturel | — |
 | [Création de documents ]&#x200B;(TODO : valider) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Gestion des fichiers, de l’historique des versions et des références de média dans la création de documents | — |
 | [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Évaluer le contenu et les images par rapport aux directives et aux règles de conformité de la marque | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformer et créer des pages AEM à grande échelle à l’aide de résumés de contenu pilotés par l’IA | — |
+| [AEM Experience Production](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformer et créer des pages AEM à grande échelle à l’aide de résumés de contenu pilotés par l’IA | — |
 
 >[!TAB Target]
 
@@ -68,17 +68,17 @@ Adobe Target MCP est en version bêta publique. Tous les outils actuellement dis
 
 | Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
 | --- | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox et les rapports de performances | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox et les rapports de performances | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
 
 >[!TAB Tab]
 
 >[!NOTE]
 >
->Marketo Engage MCP utilise les informations d’identification de service natives Marketo, et non Adobe IMS. Consultez la documentation du serveur MCP Marketo Engage [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) pour obtenir des instructions de configuration de l&#39;authentification.
+>Marketo Engage MCP utilise les informations d’identification de service natives Marketo, et non Adobe IMS. Consultez la documentation du serveur MCP Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) pour obtenir des instructions de configuration de l&#39;authentification.
 
 | Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
 | --- | --- | --- | --- |
-| [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestion des programmes, des campagnes, des prospects, des listes dynamiques, des e-mails et des formulaires | TODO: validate |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestion des programmes, des campagnes, des prospects, des listes dynamiques, des e-mails et des formulaires | TODO: validate |
 
 >[!TAB Experience Platform]
 
@@ -100,17 +100,17 @@ Tous les points d’entrée sont répertoriés dans le registre Adobe AI [&#1282
 
 | Serveur | Point d’entrée | Outils |
 | --- | --- | --- |
-| [CX Enterprise MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>· [outils Adobe Analytics](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
+| [CX Enterprise MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>· [outils Adobe Analytics](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [Contenu &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM (Mode Code)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
+| [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [AEM (Mode Code)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
 | [Création de documents ]&#x200B;(TODO : valider) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | — |
 | [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
-| [&#128279;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO: validate |
+| [AEM Experience Production](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
+| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO: validate |
 | []&#x200B;(TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | TODO: validate |
 | []&#x200B;(TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO: validate |
 
