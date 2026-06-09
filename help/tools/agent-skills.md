@@ -3,10 +3,10 @@ title: Compétences de l’agent
 description: Workflows et instructions traités par Adobe qui guident les agents d’IA de manière cohérente tout au long des tâches d’entreprise CX.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 3%
+source-wordcount: '440'
+ht-degree: 1%
 
 ---
 
@@ -49,7 +49,7 @@ Compétences en agent pour la génération de modèles automatique, le test et l
 
 [Afficher les compétences de l’agent](https://github.com/adobe/skills/tree/main/plugins/app-builder)
 
->[!TAB Tab]
+>[!TAB ]
 
 Compétences d’agent pour la modification de photos par lots, la conception à partir de modèles, la modification vidéo et les variantes de médias sociaux avec Creative Cloud.
 
@@ -57,17 +57,13 @@ Compétences d’agent pour la modification de photos par lots, la conception à
 
 >[!ENDTABS]
 
-## Fonctionnement des compétences d’agent
+## Add Agent Skills
 
 ![Fonctionnement des compétences d’agent](../assets/hero-connect-agent-skills.gif)
 
 Une compétence d’agent est un ensemble d’instructions qui indique à un agent d’IA comment effectuer une tâche à l’aide d’outils d’agent Adobe. Lorsqu’un agent charge une compétence, il suit ce workflow plutôt que d’improviser.
 
-- Les agents effectuent les tâches de la même manière à chaque fois
-- L’expertise du domaine est codée une fois et réutilisée dans les conversations
-- Les compétences peuvent enchaîner plusieurs outils et actions agentiques en un seul workflow
-
-## Commencer
+### Installer les compétences de l’agent
 
 Les compétences de l’agent sont installées en fonction du client d’IA que vous utilisez. Certains clients prennent en charge l’installation directe à partir de la ligne de commande :
 
@@ -79,19 +75,10 @@ Pour les autres clients, vous devez télécharger et ajouter directement les fic
 
 ### Recherche de compétences d’agent
 
-Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
+Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences ](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
 
 Après avoir installé ou ajouté le package `adobe/skills`, certains clients d’IA vous permettent de répertorier directement toutes les compétences disponibles :
 
 - **Code Claude** : `claude /plugin list`
 - **Environnements de nœud** : `npx skills list`
 - **GitHub CLI** : `gh upskill list`
-
-## Compétences de l’agent / Serveurs MCP / API pour Builders
-
-| | Compétences de l’agent | Serveurs MCP | API pour les créateurs |
-| --- | --- | --- | --- |
-| Rôle | Workflows guidés et bonnes pratiques | Données Adobe et accès aux workflows | Intégration directe du système |
-| Encode l&#39;expertise du domaine | Oui | Non | Non |
-| Nécessite un codage | Non | Non | Oui |
-| Idéal pour | Tâches répétables et guidées | Requêtes de données et actions de workflow | Développement d’applications personnalisées |

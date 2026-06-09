@@ -3,9 +3,9 @@ title: API pour les créateurs
 description: Créez des applications et des intégrations personnalisées à l’aide des API d’entreprise Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 9a3b90f5f1238e780a0f40b082623cd8da0e71a5
+source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '747'
 ht-degree: 12%
 
 ---
@@ -77,7 +77,7 @@ Ingestion des données Edge Network, collecte d’événements en temps réel et
 
 [Explorer l’API](https://developer.adobe.com/data-collection-apis/docs/)
 
->[!TAB Tab]
+>[!TAB ]
 
 Configuration du projet API, authentification et gestion des informations d’identification.
 
@@ -103,11 +103,11 @@ Gestion des utilisateurs, administration des identités et automatisation des co
 
 >[!ENDTABS]
 
-## Prise en main des API pour Builders
+## Créer avec des API
 
 ![Un IDE se connectant aux API d’entreprise Adobe CX](../assets/hero-connect-apis.gif)
 
-Avant de pouvoir créer des API d’entreprise Adobe CX, deux éléments sont nécessaires : des informations d’identification authentifiées de Adobe Developer Console et l’ajout d’une documentation d’API à votre projet afin que votre agent de codage puisse travailler avec les API d’Adobe de manière fiable.
+Les agents de codage tels que Claude Code, Cursor et OpenAI Codex sont parfaitement adaptés à la création avec les API d’entreprise Adobe CX. Ajoutez une spécification OpenAPI à votre projet et l’agent peut découvrir les points d’entrée, créer des requêtes et expliquer le comportement de l’API sans câblage manuel. Pour commencer, deux éléments sont nécessaires : les informations d’identification authentifiées de Adobe Developer Console et l’ajout de la documentation de l’API à votre projet.
 
 ### Configuration des informations d’identification d’API dans Adobe Developer Console
 
@@ -192,15 +192,3 @@ project/
 **Actualisation des spécifications**
 
 Lorsqu’Adobe publie une nouvelle version d’API : téléchargez un nouvel instantané dans `/specs`, mettez à jour la date dans `README.md`, puis régénérez l’index et le `AGENTS.md`.
-
-## API pour Builders et serveurs MCP
-
-Utilisez les API lorsque vous avez besoin d’un contrôle total de l’intégration du système ou que vous créez une application personnalisée. Utilisez les serveurs MCP lorsque vous souhaitez qu’un agent d’IA travaille directement avec les workflows Adobe.
-
-| | API | Serveurs MCP |
-| --- | --- | --- |
-| Intégration directe du système | Oui | Parfois |
-| Orchestration conviviale pour les agents | Limité | Oui |
-| Accès aux données brutes | Oui | Généralement abstrait |
-| Développement d’applications personnalisées | Cas d’utilisation du Principal | Secondaire |
-| Workflows assistés par l’IA | Pris en charge | Cas d’utilisation du Principal |
