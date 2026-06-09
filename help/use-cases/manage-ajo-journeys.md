@@ -3,10 +3,10 @@ title: Surveillez les problèmes de parcours avant qu’ils n’affectent les cl
 description: Utilisez le CX Enterprise MCP pour surveiller les parcours AJO actifs, passer en revue la configuration des campagnes et faire apparaître les problèmes opérationnels avant qu’ils n’atteignent votre audience.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '984'
+ht-degree: 2%
 
 ---
 
@@ -136,7 +136,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Voir un exemple de réponse
 
-![Client AI expliquant la relation entre les campagnes et les parcours &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![Client AI expliquant la relation entre les campagnes et les parcours ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
 
@@ -253,7 +253,5 @@ What channel configurations are set up in our AJO environment?
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | Disponibilité et outils du serveur AJO MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) | Documentation complète de l’application AJO |
-| [API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/) | Référence de l’API AJO pour les intégrations personnalisées |
-| [Tutoriels &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview) | Tutoriels vidéo et parcours d’apprentissage |
+| [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Disponibilité et outils du serveur AJO MCP |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
