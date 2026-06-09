@@ -3,9 +3,9 @@ title: Outils Agentic en action
 description: Présentation détaillée des outils Adobe CX Enterprise Agentic appliqués à de vrais workflows d’entreprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,6 @@ CARDS
 * optimize-content-with-performance-data.md
   {title = Optimize content based on performance data}
   {description = Move from analytics insight to published update in one session, without switching tools. Uses CX Enterprise MCP and AEM Content MCP Server.}
-  {cta = Start walkthrough}
-
-* cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Review AJO journey status, Real-Time CDP audience activation, and CJA performance data in one AI session. Uses CX Enterprise MCP.}
   {cta = Start walkthrough}
 
 * aem-cloud-manager-mcp.md
@@ -170,29 +165,6 @@ CARDS
                     <p class="is-size-6">Passez d’Analytics insight à la mise à jour publiée en une seule session, sans changer d’outil. Utilise CX Enterprise MCP et AEM Content MCP Server.</p>
                 </div>
                 <a href="optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="cross-channel-campaign-review.md" title="Exécuter une révision de campagne cross-canal" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="Exécuter une révision de campagne cross-canal"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="cross-channel-campaign-review.md" target="_blank" rel="referrer" title="Exécuter une révision de campagne cross-canal">Exécuter une révision de campagne cross-canal</a>
-                    </p>
-                    <p class="is-size-6">Examinez le statut du parcours AJO, l’activation des audiences Real-Time CDP et les données de performances de CJA en une seule session d’IA. Utilise CX Enterprise MCP.</p>
-                </div>
-                <a href="cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>

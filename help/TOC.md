@@ -3,9 +3,9 @@ user-guide-title: Outils Adobe CX Enterprise Agentic
 breadcrumb-title: Outils Agentic
 user-guide-description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '90'
 ht-degree: 5%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 5%
    + [Surveillez les problèmes de parcours avant qu’ils n’affectent les clients](/help/use-cases/manage-ajo-journeys.md)
    + [Tenez le contenu à jour et envoyez les mises à jour plus rapidement](/help/use-cases/manage-aem-content.md)
    + [Optimiser le contenu en fonction des données de performance](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Exécuter une révision de campagne cross-canal](/help/use-cases/cross-channel-campaign-review.md)
    + [Effectuez un déploiement sur AEM as a Cloud Service en toute confiance](/help/use-cases/aem-cloud-manager-mcp.md)
