@@ -3,10 +3,10 @@ title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 36c10d31072f13be42e508944a3ce742818e88b4
+source-git-commit: 76242d3d26596139c0ea7c2e81b698a4ef891370
 workflow-type: tm+mt
-source-wordcount: '2068'
-ht-degree: 2%
+source-wordcount: '2296'
+ht-degree: 4%
 
 ---
 
@@ -21,215 +21,98 @@ Les serveurs Adobe CX Enterprise MCP donnent à tout client d’IA compatible un
 
 Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro). Tout client d’IA compatible avec MCP se connecte à tout serveur MCP Adobe.
 
-## MCP d’entreprise CX
+## Serveurs MCP Adobe
 
 ![Le CX Enterprise MCP connecte votre client IA aux outils de la suite Adobe CX Enterprise complète](../assets/mcp-gateway-hero.gif)
 
-**Un point d’entrée. Plusieurs applications d’entreprise CX.**
-
-Connectez-vous une fois et votre client AI aura accès aux applications CX Enterprise en fonction des licences de votre entreprise. Les outils disponibles sont automatiquement déterminés par vos droits Adobe, aucune connexion distincte n’étant requise pour chaque application.
+Sélectionnez une application pour afficher le point d’entrée, les fonctionnalités et les outils disponibles.
 
 >[!BEGINTABS]
 
->[!TAB Applications d’entreprise CX]
+>[!TAB CX Enterprise MCP]
 
-Les outils de chaque application sont disponibles en fonction des licences Adobe de votre entreprise.
+**Un point d’entrée. Plusieurs applications d’entreprise CX.**
 
-| Application | Ce que vous pouvez faire |
-| --- | --- |
-| Adobe Journey Optimizer | [Vérifier les parcours, les campagnes et les configurations de canal](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
-| Customer Journey Analytics | [Rapports de requête, découvrir les vues de données, créer des espaces de travail](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [Vérifier les destinations, le statut d’activation et l’intégrité du flux de données](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (version bêta fermée) |
-
-Si votre application n’est pas répertoriée ici, reportez-vous à la [liste complète des serveurs MCP](#adobe-cx-enterprise-mcp-servers) ci-dessous.
-
->[!TAB Connexion]
-
-Utilisez le point d’entrée MCP Entreprise CX où vous utiliseriez un point d’entrée MCP spécifique à une application.
+Connectez-vous une fois et votre client AI aura accès aux applications CX Enterprise en fonction des licences de votre entreprise.
 
 ```
 https://cx-enterprise.adobe.io/mcp
 ```
 
-Connectez-vous avec votre Adobe ID lorsque vous y êtes invité et sélectionnez l’organisation IMS liée à vos applications Adobe. Choisir la mauvaise organisation est la source la plus courante d’outils manquants ou d’erreurs d’authentification.
+| Application | Ce que vous pouvez faire | Outils |
+| --- | --- | --- |
+| Adobe Journey Optimizer | Examiner les configurations des parcours, des campagnes et des canaux | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
+| Adobe Journey Optimizer B2B edition | Gérez les parcours B2B, les programmes de compte, les groupes d’achats et la personnalisation | TODO: validate |
+| Customer Journey Analytics | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
+| Real-Time CDP | Vérifiez le statut d’activation de l’audience, l’intégrité de la destination et celle du flux de données | [Affichage des outils](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| Adobe Analytics | Découverte de suites de rapports, création de segments et création d’espaces de travail | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
+| Adobe Experience Platform | Découverte de jeux de données, navigation dans les schémas et gestion des sandbox | — |
 
-Pour obtenir des instructions de configuration complètes, voir [Connexion à votre client d’IA](#connect-to-your-ai-client) ci-dessous.
+>[!TAB Experience Manager]
+
+Adobe Experience Manager dispose de plusieurs serveurs MCP pour différents workflows.
+
+| Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
+| --- | --- | --- | --- |
+| [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestion des pages, des fragments de contenu, des ressources et des lancements | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Découvrir et interroger des pages, des fragments de contenu et des lancements sans accès en écriture | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
+| [AEM (Mode Code)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Accès direct de l’API REST à AEM par le biais de la recherche, de la lecture, de l’écriture et de la suppression en langage naturel | — |
+| [Création de documents ]&#x200B;(TODO : valider) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | Gestion des fichiers, de l’historique des versions et des références de média dans la création de documents | — |
+| [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Évaluer le contenu et les images par rapport aux directives et aux règles de conformité de la marque | — |
+| [AEM Experience Production](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | Transformer et créer des pages AEM à grande échelle à l’aide de résumés de contenu pilotés par l’IA | — |
+
+>[!TAB Target]
+
+Adobe Target MCP est en version bêta publique. Tous les outils actuellement disponibles sont en lecture seule. Les outils d’écriture sont prévus pour une disponibilité générale.
+
+| Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
+| --- | --- | --- | --- |
+| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox et les rapports de performances | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+
+>[!TAB Tab]
+
+>[!NOTE]
+>
+>Marketo Engage MCP utilise les informations d’identification de service natives Marketo, et non Adobe IMS. Consultez la documentation du serveur MCP Marketo Engage [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) pour obtenir des instructions de configuration de l&#39;authentification.
+
+| Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
+| --- | --- | --- | --- |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gestion des programmes, des campagnes, des prospects, des listes dynamiques, des e-mails et des formulaires | TODO: validate |
+
+>[!TAB Experience Platform]
+
+| Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
+| --- | --- | --- | --- |
+| []&#x200B;(TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | Orchestrer l’analyse des audiences, les diagnostics AEP et la création de parcours B2B AJO dans les applications AEP | TODO: validate |
+
+>[!TAB Workfront]
+
+| Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Outils |
+| --- | --- | --- | --- |
+| []&#x200B;(TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gérer le travail, les projets, les enregistrements de planification, les informations et les approbations de contenu | TODO: validate |
 
 >[!ENDTABS]
 
-## Serveurs Adobe CX Enterprise MCP
+## Points d’entrée du serveur MCP
 
-Les serveurs répertoriés ci-dessous se connectent directement. Pour AJO, Customer Journey Analytics et Real-Time CDP, utilisez [CX Enterprise MCP](#cx-enterprise-mcp) ci-dessus.
-
-<!--
-CARDS
-
-* #cx-enterprise-mcp
-  {title = CX Enterprise MCP}
-  {description = One connection to AJO, CJA, and Real-Time CDP. Your AI client gets access to the applications your organization is licensed for — automatically.}
-  {cta = Connect}
-  {image = ../assets/mcp-cxenterprise-card.png}
-
-* https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp
-  {title = Adobe Analytics}
-  {description = Tools for report suite discovery, dimension and metric analysis, segment authoring, and workspace creation in Adobe Analytics.}
-  {cta = View in AI Registry}
-  {target = _blank}
-  {image = ../assets/mcp-analytics-card.png}
-
-* https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp
-  {title = AEM Content}
-  {description = Tools for managing pages, content fragments, assets, and launches in Adobe Experience Manager as a Cloud Service using natural language.}
-  {cta = View in AI Registry}
-  {target = _blank}
-  {image = ../assets/mcp-aem-card.png}
-
-* https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly
-  {title = AEM Content (Read-Only)}
-  {description = Tools for discovering and querying pages, content fragments, and launches in AEM as a Cloud Service. No write access.}
-  {cta = View in AI Registry}
-  {target = _blank}
-  {image = ../assets/mcp-aem-card.png}
-
-* https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp
-  {title = AEM Cloud Manager}
-  {description = Tools for managing Cloud Manager programs, environments, pipelines, and repositories from your IDE using natural language.}
-  {cta = View in AI Registry}
-  {target = _blank}
-  {image = ../assets/mcp-aem-card.png}
-
--->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="CX Enterprise MCP">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="#cx-enterprise-mcp" title="MCP d’entreprise CX" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/mcp-cxenterprise-card.png" alt="MCP d’entreprise CX"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#cx-enterprise-mcp" target="_blank" rel="referrer" title="MCP d’entreprise CX">CX Enterprise MCP</a>
-                    </p>
-                    <p class="is-size-6">Une connexion à AJO, CJA et Real-Time CDP. Votre client d’IA accède automatiquement aux applications pour lesquelles votre entreprise dispose d’une licence.</p>
-                </div>
-                <a href="#cx-enterprise-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Connexion</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Analytics">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" title="Adobe Analytics" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/mcp-analytics-card.png" alt="Adobe Analytics"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" target="_blank" rel="referrer" title="Adobe Analytics">Adobe Analytics</a>
-                    </p>
-                    <p class="is-size-6">Outils de découverte de suites de rapports, d’analyse des dimensions et des mesures, de création de segments et de création d’espaces de travail dans Adobe Analytics.</p>
-                </div>
-                <a href="https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Afficher dans le registre IA</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" title="Contenu AEM" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="Contenu AEM"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" target="_blank" rel="referrer" title="Contenu AEM">Contenu </a>
-                    </p>
-                    <p class="is-size-6">Outils de gestion des pages, des fragments de contenu, des ressources et des lancements dans Adobe Experience Manager as a Cloud Service à l’aide du langage naturel.</p>
-                </div>
-                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Afficher dans le registre IA</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Content (Read-Only)">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" title="Contenu AEM (Lecture Seule)" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="Contenu AEM (Lecture Seule)"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" target="_blank" rel="referrer" title="Contenu AEM (Lecture Seule)">Contenu AEM (Lecture Seule)</a>
-                    </p>
-                    <p class="is-size-6">Outils de découverte et d’interrogation de pages, de fragments de contenu et de lancements dans AEM as a Cloud Service. Aucun accès en écriture.</p>
-                </div>
-                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Afficher dans le registre IA</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="AEM Cloud Manager">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" title="AEM Cloud Manager" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="../assets/mcp-aem-card.png" alt="AEM Cloud Manager"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" target="_blank" rel="referrer" title="AEM Cloud Manager"></a>
-                    </p>
-                    <p class="is-size-6">Outils de gestion des programmes, environnements, pipelines et référentiels Cloud Manager à partir de votre IDE à l’aide du langage naturel.</p>
-                </div>
-                <a href="https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Afficher dans le registre IA</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-### Points d’entrée du serveur MCP
-
-Tous les points d’entrée sont répertoriés dans le registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector). Ce tableau est une référence rapide si vous savez déjà ce dont vous avez besoin : saisissez l’URL du point d’entrée et analysez les outils disponibles avant de vous connecter.
+Tous les points d’entrée sont répertoriés dans le registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector). Ce tableau est une référence rapide : saisissez l’URL du point d’entrée et analysez les outils disponibles avant de vous connecter.
 
 | Serveur | Point d’entrée | Outils |
 | --- | --- | --- |
-| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [CX Enterprise MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>· [outils Adobe Analytics](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
 | [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
 | [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [AEM (Mode Code)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
+| [Création de documents ]&#x200B;(TODO : valider) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | — |
+| [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | — |
+| [AEM Experience Production](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
+| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO: validate |
+| []&#x200B;(TODO: validate) | `https://aep-ai-ama.adobe.io/mcp` | TODO: validate |
+| []&#x200B;(TODO: validate) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO: validate |
 
 ## Connexion à votre client d’IA
 
@@ -590,4 +473,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
