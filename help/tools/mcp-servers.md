@@ -3,7 +3,7 @@ title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
+source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Les étapes ci-dessous utilisent le point d’entrée CX Enterprise MCP comme ex
 
 >[!TAB Claude.ai]
 
-### ![Recommandé](../assets/badge-recommended.svg) Utilisation d’un connecteur géré
+### ![Recommandé](../assets/icons/star.svg) Utilisation d’un connecteur géré
 
 Accédez au registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector) et recherchez votre application Adobe. Si un connecteur Claude est répertorié (par exemple, le connecteur [&#128279;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), suivez ses instructions de configuration au lieu des étapes ci-dessous.
 

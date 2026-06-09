@@ -3,7 +3,7 @@ title: Découvrez vos audiences et où elles sont activées
 description: Utilisez CX Enterprise MCP pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ Comprendre quelles audiences sont activées, où elles circulent et si les desti
 
 | Détails du scénario | |
 | --- | --- |
-| **Applications d’entreprise CX** | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Audience** | Marketeurs, analystes, opérateurs |
-| **Prérequis** | Client d’IA compatible avec MCP, accès à Real-Time CDP |
+| Applications d’entreprise CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Audience | Marketeurs, analystes, opérateurs |
+| Prérequis | Client d’IA compatible avec MCP, accès à Real-Time CDP |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 

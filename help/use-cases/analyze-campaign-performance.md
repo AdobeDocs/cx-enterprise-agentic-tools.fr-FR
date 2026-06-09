@@ -3,7 +3,7 @@ title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 1%
@@ -21,10 +21,10 @@ L’analyse des campagnes qui nécessitait autrefois la création de rapports da
 
 | Détails du scénario | |
 | --- | --- |
-| **Applications d’entreprise CX** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Audience** | Analystes, responsables de campagne |
-| **Prérequis** | Client d’IA compatible avec MCP, accès à CJA |
+| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Audience | Analystes, responsables de campagne |
+| Prérequis | Client d’IA compatible avec MCP, accès à CJA |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 

@@ -3,7 +3,7 @@ title: Exécuter une révision de campagne cross-canal
 description: Utilisez le MCP Entreprise CX dans une seule session d’IA pour obtenir une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 5%
@@ -21,10 +21,10 @@ Une image complète de l’intégrité de la campagne nécessite des données pr
 
 | Détails du scénario | |
 | --- | --- |
-| **Applications d’entreprise CX** | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Audience** | Chargés d&#39;opération, opérations marketing |
-| **Prérequis** | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
+| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Audience | Chargés d&#39;opération, opérations marketing |
+| Prérequis | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
