@@ -3,7 +3,7 @@ title: Outils Agentic en action
 description: Présentation détaillée des outils Adobe CX Enterprise Agentic appliqués à de vrais workflows d’entreprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -59,7 +59,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="analyze-campaign-performance.md" title="Analyse des performances des campagnes" target="_blank" rel="referrer">
+                    <a href="analyze-campaign-performance.md" title="Analyse des performances des campagnes">
                         <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analyse des performances des campagnes"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -68,11 +68,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="analyze-campaign-performance.md" target="_blank" rel="referrer" title="Analyse des performances des campagnes">Analyse des performances des campagnes</a>
+                        <a href="analyze-campaign-performance.md" title="Analyse des performances des campagnes">Analyse des performances des campagnes</a>
                     </p>
                     <p class="is-size-6">Affichez les comparaisons avec Customer Journey Analytics et les tendances de conversion au moyen de questions en langage clair. Utilise CX Enterprise MCP.</p>
                 </div>
-                <a href="analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
@@ -82,7 +82,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="query-audiences.md" title="Requête sur les audiences" target="_blank" rel="referrer">
+                    <a href="query-audiences.md" title="Requête sur les audiences">
                         <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="Requête sur les audiences"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -91,11 +91,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="query-audiences.md" target="_blank" rel="referrer" title="Requête sur les audiences">Requête d’audiences</a>
+                        <a href="query-audiences.md" title="Requête sur les audiences">Requête d’audiences</a>
                     </p>
                     <p class="is-size-6">Vérifiez le statut d’activation de l’audience Real-Time CDP et l’intégrité de la destination sans naviguer dans l’interface utilisateur de Platform. Utilise CX Enterprise MCP.</p>
                 </div>
-                <a href="query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
@@ -105,7 +105,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="manage-ajo-journeys.md" title="Vérifier les parcours AJO" target="_blank" rel="referrer">
+                    <a href="manage-ajo-journeys.md" title="Vérifier les parcours AJO">
                         <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="Vérifier les parcours AJO"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -114,11 +114,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="manage-ajo-journeys.md" target="_blank" rel="referrer" title="Vérifier les parcours AJO">Vérification des parcours AJO</a>
+                        <a href="manage-ajo-journeys.md" title="Vérifier les parcours AJO">Vérification des parcours AJO</a>
                     </p>
                     <p class="is-size-6">Bénéficiez d’une visibilité totale sur les parcours AJO actifs et la configuration des campagnes sans ouvrir AJO. Utilise CX Enterprise MCP.</p>
                 </div>
-                <a href="manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
@@ -128,7 +128,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="manage-aem-content.md" title="Gestion du contenu AEM avec l’IA" target="_blank" rel="referrer">
+                    <a href="manage-aem-content.md" title="Gestion du contenu AEM avec l’IA">
                         <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Gestion du contenu AEM avec l’IA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -137,11 +137,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="manage-aem-content.md" target="_blank" rel="referrer" title="Gestion du contenu AEM avec l’IA">Gérer le contenu AEM avec l’IA</a>
+                        <a href="manage-aem-content.md" title="Gestion du contenu AEM avec l’IA">Gérer le contenu AEM avec l’IA</a>
                     </p>
                     <p class="is-size-6">Découvrez, mettez à jour et publiez des pages et des fragments de contenu en utilisant le langage naturel. Utilise le serveur AEM Content MCP.</p>
                 </div>
-                <a href="manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
@@ -151,7 +151,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="optimize-content-with-performance-data.md" title="Optimiser le contenu en fonction des données de performance" target="_blank" rel="referrer">
+                    <a href="optimize-content-with-performance-data.md" title="Optimiser le contenu en fonction des données de performance">
                         <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="Optimiser le contenu en fonction des données de performance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -160,11 +160,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="Optimiser le contenu en fonction des données de performance">Optimiser le contenu en fonction des données de performances</a>
+                        <a href="optimize-content-with-performance-data.md" title="Optimiser le contenu en fonction des données de performance">Optimiser le contenu en fonction des données de performances</a>
                     </p>
                     <p class="is-size-6">Passez d’Analytics insight à la mise à jour publiée en une seule session, sans changer d’outil. Utilise CX Enterprise MCP et AEM Content MCP Server.</p>
                 </div>
-                <a href="optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
@@ -174,7 +174,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="aem-cloud-manager-mcp.md" title="Gestion des environnements AEM avec Cloud Manager" target="_blank" rel="referrer">
+                    <a href="aem-cloud-manager-mcp.md" title="Gestion des environnements AEM avec Cloud Manager">
                         <img class="is-bordered-r-small" src="../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png" alt="Gestion des environnements AEM avec Cloud Manager"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -183,11 +183,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="aem-cloud-manager-mcp.md" target="_blank" rel="referrer" title="Gestion des environnements AEM avec Cloud Manager">Gestion des environnements AEM avec Cloud Manager</a>
+                        <a href="aem-cloud-manager-mcp.md" title="Gestion des environnements AEM avec Cloud Manager">Gestion des environnements AEM avec Cloud Manager</a>
                     </p>
                     <p class="is-size-6">Vérifiez l’intégrité de l’environnement, examinez les exécutions de pipeline et gérez les déploiements à partir de votre client d’IA. Utilise le serveur AEM Cloud Manager MCP.</p>
                 </div>
-                <a href="aem-cloud-manager-mcp.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
                 </a>
             </div>
