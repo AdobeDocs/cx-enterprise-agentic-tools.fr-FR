@@ -3,10 +3,10 @@ title: Optimiser le contenu en fonction des données de performance
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -20,10 +20,10 @@ Pour boucler la boucle entre les données de performances de campagne et les mis
 
 | Détails du scénario | |
 | --- | --- |
-| **Applications d’entreprise CX** | [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **Audience** | Responsables de campagne, stratèges de contenu, opérations marketing |
-| **Prérequis** | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
+| Applications d’entreprise CX | [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Audience | Responsables de campagne, stratèges de contenu, opérations marketing |
+| Prérequis | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -256,8 +256,8 @@ Publish all confirmed changes and share the updated URLs.
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation du serveur MCP &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuration de CJA MCP et référence des outils |
-| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du MCP de contenu AEM |
+| [Documentation du serveur MCP ](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuration de CJA MCP et référence des outils |
+| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du MCP de contenu AEM |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilité et outils du serveur CJA MCP |
 | [Serveur AEM Content MCP dans le registre AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Disponibilité et outils du serveur AEM Content MCP |
-| [&#x200B; Serveurs MCP &#x200B;](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
+| [ Serveurs MCP ](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |

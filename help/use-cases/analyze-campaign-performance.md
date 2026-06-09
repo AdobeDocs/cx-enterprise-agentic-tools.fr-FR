@@ -3,7 +3,7 @@ title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 1%
@@ -21,10 +21,10 @@ L’analyse des campagnes qui nécessitait autrefois la création de rapports da
 
 | Détails du scénario | |
 | --- | --- |
-| **Applications d’entreprise CX** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **Audience** | Analystes, responsables de campagne |
-| **Prérequis** | Client d’IA compatible avec MCP, accès à CJA |
+| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Audience | Analystes, responsables de campagne |
+| Prérequis | Client d’IA compatible avec MCP, accès à CJA |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -273,7 +273,7 @@ Save this analysis as a Workspace project for executive reporting.
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation du serveur MCP &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | Guide complet de configuration et de référence des outils |
+| [Documentation du serveur MCP ](https://developer.adobe.com/analytics-mcp/docs/cja/) | Guide complet de configuration et de référence des outils |
 | [Guides d’utilisation de CJA MCP](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guides d’utilisation détaillés |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilité et outils du serveur CJA MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |
