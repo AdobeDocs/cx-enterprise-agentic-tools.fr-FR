@@ -3,9 +3,9 @@ title: Compétences de l’agent
 description: Workflows et instructions traités par Adobe qui guident les agents d’IA de manière cohérente tout au long des tâches d’entreprise CX.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 7%
 
 ---
@@ -24,8 +24,6 @@ Toutes les compétences de l’agent sont conservées dans le référentiel GitH
 ## Compétences de l’agent d’entreprise Adobe CX
 
 Toutes les compétences de l’agent sont conservées dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Sélectionnez une zone de fonctionnalité ci-dessous pour explorer les compétences de ce workflow.
-
-### Applications Adobe
 
 <!--
 CARDS
