@@ -3,9 +3,9 @@ title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2084'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,8 @@ Tous les serveurs Adobe MCP utilisent OAuth avec Adobe Identity Management Servi
 
 Avant de procéder à la configuration manuelle, vérifiez le registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector) pour trouver un connecteur géré pour votre client IA et votre application Adobe. Les connecteurs gérés gèrent automatiquement l’authentification. Si un connecteur est disponible pour votre client et votre application, utilisez-le au lieu des étapes manuelles ci-dessous.
 
+Les étapes ci-dessous utilisent le point d’entrée CX Enterprise MCP comme exemple. Le même processus s’applique à tout serveur Adobe MCP : remplacez l’URL du point d’entrée par celle du serveur auquel vous souhaitez vous connecter.
+
 ![Un agent d’IA se connectant à un serveur MCP Adobe](../assets/hero-connect-mcp-servers.gif)
 
 >[!BEGINTABS]
@@ -136,7 +138,7 @@ Claude.ai prend en charge les serveurs MCP distants via des connecteurs personna
 
 1. Accédez à **Paramètres > Intégrations**.
 2. Cliquez sur **Ajouter un connecteur personnalisé**.
-3. Saisissez `https://cx-enterprise.adobe.io/mcp` comme URL et un nom d’affichage tel que `Adobe CX Enterprise`.
+3. Saisissez le point d’entrée du serveur sous la forme d’une URL (par exemple, `https://cx-enterprise.adobe.io/mcp` pour CX Enterprise MCP) et d’un nom d’affichage de votre choix.
 4. Cliquez sur **Connexion** et connectez-vous avec votre Adobe ID. Sélectionnez l’organisation IMS appropriée.
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -145,7 +147,7 @@ Configuration complète : [documentation des connecteurs personnalisés Claude.a
 
 ### Utilisation de l’interface de ligne de commande
 
-Exécutez `claude mcp add` pour enregistrer CX Enterprise MCP. Une connexion vous donne accès à AJO, CJA et Real-Time CDP en fonction des licences de votre entreprise.
+Exécutez `claude mcp add` pour enregistrer un serveur Adobe MCP. Remplacez le nom et l’URL du serveur par les valeurs du serveur auquel vous souhaitez vous connecter. Cet exemple utilise le MCP CX Enterprise :
 
 ```bash
 claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.io/mcp
@@ -153,7 +155,7 @@ claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.
 
 ### Modifier votre fichier de paramètres
 
-Ajoutez le serveur à `~/.claude.json` (global) ou `.mcp.json` dans la racine de votre projet (au niveau du projet) :
+Ajoutez le serveur à `~/.claude.json` (global) ou `.mcp.json` dans la racine du projet (au niveau du projet). Remplacez la clé et l’URL par les valeurs du serveur auquel vous souhaitez vous connecter :
 
 ```json
 {
@@ -172,7 +174,7 @@ Configuration complète : [documentation Claude Code MCP](https://docs.anthropic
 
 >[!TAB Curseur]
 
-Ajoutez CX Enterprise MCP à votre fichier de configuration Cursor `mcp.json`, puis connectez-vous via **Paramètres > MCP**.
+Ajoutez un serveur MCP Adobe à votre fichier de configuration `mcp.json` Cursor, puis connectez-vous via **Paramètres > MCP**. Remplacez la clé et l’URL par les valeurs du serveur auquel vous souhaitez vous connecter. Cet exemple utilise le MCP CX Enterprise :
 
 - **Global (tous les projets) :** `~/.cursor/mcp.json`
 - **Project-level:** `.cursor/mcp.json` dans la racine du projet
@@ -187,8 +189,6 @@ Ajoutez CX Enterprise MCP à votre fichier de configuration Cursor `mcp.json`, p
   }
 }
 ```
-
-Une connexion vous donne accès à AJO, CJA et Real-Time CDP en fonction des licences de votre entreprise.
 
 Une fois ajoutés, les serveurs MCP apparaissent sous **Serveurs MCP installés** dans les paramètres du curseur. Sélectionnez **Se connecter** en regard de tout serveur affichant **Nécessite une authentification** et connectez-vous avec votre Adobe ID. Sélectionnez l’organisation IMS ayant accès à l’application.
 
@@ -209,7 +209,7 @@ ChatGPT prend en charge les serveurs MCP distants via [mode Développeur](https:
 1. Activez le mode Développeur dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations**.
 3. Cliquez sur **Ajouter un connecteur personnalisé** et choisissez **Serveur MCP distant**.
-4. Saisissez `https://cx-enterprise.adobe.io/mcp` comme URL et `Adobe CX Enterprise` comme nom.
+4. Saisissez le point d’entrée du serveur sous la forme d’une URL (par exemple, `https://cx-enterprise.adobe.io/mcp` pour CX Enterprise MCP) et d’un nom d’affichage de votre choix.
 5. Définissez l’authentification sur **OAuth**.
 6. Cliquez sur **Connexion** et connectez-vous avec votre Adobe ID. Sélectionnez l’organisation IMS appropriée.
 
@@ -224,7 +224,7 @@ L’interface de ligne de commande OpenAI Codex prend en charge les serveurs MCP
 - **Niveau utilisateur (tous les projets) :** `~/.codex/config.toml`
 - **Portée du projet :** `.codex/config.toml` dans la racine du projet
 
-Ajoutez CX Enterprise MCP :
+Remplacez le nom de section et l’URL par les valeurs du serveur auquel vous souhaitez vous connecter. Cet exemple utilise le MCP CX Enterprise :
 
 ```toml
 [mcp_servers.adobe-cx-enterprise]
@@ -243,7 +243,7 @@ Microsoft Copilot Studio se connecte aux serveurs MCP distants à l&#39;aide de 
 1. Ouvrez votre agent dans Copilot Studio.
 2. Accédez à la page **Outils**.
 3. Sélectionnez **Ajouter un outil > Nouvel outil > Protocole de contexte de modèle**.
-4. Dans l’assistant d’intégration MCP, saisissez les informations suivantes :
+4. Dans l’Assistant d’intégration MCP, entrez les détails du serveur, par exemple, pour le MCP CX Enterprise :
    - **Nom du serveur :** `Adobe CX Enterprise`
    - **URL du serveur :** `https://cx-enterprise.adobe.io/mcp`
 5. Définissez l’authentification sur **OAuth 2.0** et configurez-la avec vos URL d’autorisation et de jeton Adobe IMS.

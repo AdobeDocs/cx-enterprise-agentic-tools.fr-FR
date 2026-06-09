@@ -1,11 +1,11 @@
 ---
 title: Affichage des informations sur les campagnes sans création de rapports
-description: Utilisez la passerelle MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
-last-substantial-update: 2026-06-02T00:00:00Z
+description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -19,12 +19,12 @@ Client ![AI présentant les étapes suivantes recommandées pour améliorer les 
 
 L’analyse des campagnes qui nécessitait autrefois la création de rapports dans un outil distinct est désormais une conversation. Cette présentation explique comment connecter un client d’IA à Customer Journey Analytics (CJA) et poser des questions sur les performances en langage clair. Le temps d’accès à insight est ainsi plus rapide et aucune création de rapports manuelle n’est nécessaire.
 
-| | |
+| Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | Customer Journey Analytics (CJA) |
-| Outils agentiques | Passerelle MCP Entreprise CX |
-| Audience | Analystes, responsables de campagne |
-| Prérequis | Client d’IA compatible avec MCP, accès à CJA |
+| **Applications d’entreprise CX** | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **Audience** | Analystes, responsables de campagne |
+| **Prérequis** | Client d’IA compatible avec MCP, accès à CJA |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -34,7 +34,7 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 
 >[!TAB Claude.ai]
 
-Connectez la passerelle MCP d’entreprise CX en tant que connecteur personnalisé pour accéder aux outils Customer Journey Analytics.
+Connectez CX Enterprise MCP en tant que connecteur personnalisé pour accéder aux outils Customer Journey Analytics.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
 2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ Configuration complète : [documentation des connecteurs personnalisés Claude.a
 
 >[!TAB ChatGPT]
 
-Connectez la passerelle MCP Entreprise CX en utilisant le mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
+Connectez le CX Enterprise MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
 1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
@@ -55,7 +55,7 @@ Configuration complète : [documentation MCP ChatGPT](https://developers.openai.
 
 >[!TAB Autres clients d’IA]
 
-Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous à la passerelle MCP d’entreprise CX à l’aide de ce point d’entrée :
+Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au MCP d’entreprise CX à l’aide de ce point d’entrée :
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ Instructions de configuration complètes pour tous les clients pris en charge : 
 >
 >Lors de la première connexion, votre client d’IA peut vous demander de sélectionner une organisation IMS ou de spécifier un sandbox. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
 >
->Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la demande et approuvez ou refusez — aucune action n&#39;est entreprise sans votre confirmation.
+>Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la demande et approuvez ou refusez. Aucune action n’est entreprise sans votre confirmation.
 
 ## Étape 1 : découvrir les vues de données disponibles
 
@@ -154,7 +154,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->Les outils CJA accessibles via la passerelle CX Enterprise MCP peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
+>Les outils CJA accessibles par le biais du MCP Entreprise CX peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
 
 ## Ce que vous avez accompli
 
@@ -162,7 +162,7 @@ Vous avez connecté un client d’IA à Customer Journey Analytics et êtes pass
 
 ## Plus de choses à accomplir
 
-La passerelle MCP Entreprise CX peut afficher beaucoup plus d’informations sur Customer Journey Analytics que les couvertures de présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
+Le CX Enterprise MCP peut afficher beaucoup plus d’informations sur Customer Journey Analytics que les couvertures de présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
 
 +++Trouver ce qui fonctionne et ce qui ne fonctionne pas
 
@@ -246,7 +246,7 @@ What would have the biggest impact on revenue?
 
 +++Transformer les informations en action
 
-Les outils CJA accessibles par le biais de la passerelle MCP d’entreprise CX peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
+Les outils CJA accessibles via le client MCP Entreprise CX peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
 
 **Invites**
 

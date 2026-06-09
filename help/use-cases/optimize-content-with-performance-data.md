@@ -3,9 +3,9 @@ title: Optimiser le contenu en fonction des données de performance
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 1%
 
 ![Client AI comparant le contenu de page d’origine et celui mis à jour côte à côte](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Pour boucler la boucle entre les données de performances de campagne et les mises à jour de contenu, basculez normalement entre votre outil d’analyse et votre CMS. Cette présentation explique comment connecter Customer Journey Analytics et AEM au cours d’une même session d’IA : faire apparaître les campagnes présentant des écarts de conversion, diagnostiquer ce qui les génère, inspecter le contenu, obtenir des recommandations ciblées et appliquer les modifications sans quitter votre conversation.
+Pour boucler la boucle entre les données de performances de campagne et les mises à jour de contenu, basculez normalement entre votre outil d’analyse et votre CMS. Cette présentation explique comment connecter Customer Journey Analytics et AEM dans la même session d’IA : faire apparaître les campagnes avec des écarts de conversion, diagnostiquer ce qui les génère, inspecter le contenu, obtenir des recommandations ciblées et appliquer les modifications sans quitter votre conversation.
 
-| | |
+| Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | Customer Journey Analytics, Adobe Experience Manager as a Cloud Service |
-| Outils agentiques | Passerelle MCP Entreprise CX, serveur MCP de contenu AEM |
-| Audience | Responsables de campagne, stratèges de contenu, opérations marketing |
-| Prérequis | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
+| **Applications d’entreprise CX** | [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **Outils Agentic** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Audience** | Responsables de campagne, stratèges de contenu, opérations marketing |
+| **Prérequis** | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -42,7 +42,7 @@ Connectez les deux serveurs MCP en tant que connecteurs personnalisés. Ajoutez 
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle MCP Entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +58,7 @@ Connectez les deux serveurs MCP en mode Développeur ChatGPT (Pro, Plus, Busines
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle MCP Entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +69,7 @@ Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnemen
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle MCP Entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
@@ -82,7 +82,7 @@ Instructions de configuration complètes pour tous les clients pris en charge : 
 >
 >Lors de la première connexion, votre client d’IA peut vous demander de sélectionner une organisation IMS ou de spécifier un sandbox. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
 >
->Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la demande et approuvez ou refusez — aucune action n&#39;est entreprise sans votre confirmation.
+>Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la demande et approuvez ou refusez. Aucune action n’est entreprise sans votre confirmation.
 
 
 ## Étape 1 : Rechercher des campagnes avec un écart de conversion
@@ -171,7 +171,7 @@ Client ![AI créant une version optimisée de la page et résumant les modificat
 
 ## Ce que vous avez accompli
 
-Vous avez connecté Customer Journey Analytics et AEM en une seule session d’IA et déplacé les données de campagne vers les modifications de contenu déployées sans changer d’outil. Vous avez identifié des campagnes avec des écarts de conversion, diagnostiqué la cause première, inspecté la page de destination, reçu des recommandations ciblées basées sur les données et le contenu et appliqué les modifications dans la même conversation. Cela raccourcit la boucle des commentaires entre Analytics insight et le contenu publié et s’adapte à un nombre illimité de pages peu performantes au cours de la même session.
+Vous avez connecté Customer Journey Analytics et AEM en une seule session d’IA et déplacé les données de campagne vers les modifications de contenu déployées sans changer d’outil. Vous avez identifié des campagnes avec des écarts de conversion, diagnostiqué la cause première, inspecté la page de destination, reçu des recommandations ciblées basées sur les données et le contenu et appliqué les modifications dans la même conversation. Cela permet de raccourcir la boucle des commentaires entre Analytics insight et le contenu publié, et de mettre à l’échelle un nombre illimité de pages peu performantes au cours de la même session.
 
 
 ## Plus de choses à accomplir

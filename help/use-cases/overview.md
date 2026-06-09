@@ -3,9 +3,9 @@ title: Outils Agentic en action
 description: Présentation détaillée des outils Adobe CX Enterprise Agentic appliqués à de vrais workflows d’entreprise.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -195,35 +195,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-## Questions courantes
-
-+++Comment interroger les données Adobe d’un client d’IA ?
-
-Utilisez un serveur MCP. Connectez votre client d’IA au point d’entrée de serveur MCP Adobe approprié, puis posez des questions en langage naturel. Le serveur traduit votre requête en appels API Adobe et renvoie des résultats structurés.
-
-Consultez la section [Serveurs MCP](../tools/mcp-servers.md) pour commencer.
-
-+++
-
-+++Comment créer un workflow connectant plusieurs applications Adobe ?
-
-Connectez-vous à plusieurs serveurs MCP au cours d’une seule session d’IA ou utilisez les API d’Adobe pour une orchestration multi-applications personnalisée.
-
-Voir [API pour Builders](../tools/apis.md) et [Serveurs MCP](../tools/mcp-servers.md).
-
-+++
-
-+++Comment obliger un agent à suivre les bonnes pratiques d’Adobe ?
-
-Utilisez les compétences d’agent. Les compétences codent l’expertise du domaine Adobe afin que les agents effectuent les tâches de manière cohérente.
-
-Voir [Compétences Agent](../tools/agent-skills.md).
-
-+++
-
-+++Quels clients d’IA fonctionnent avec les serveurs MCP Adobe ?
-
-Tout client compatible MCP. Claude Code, Claude.ai, Cursor, ChatGPT et Google Gemini ont tous la prise en charge de MCP. Consultez la section [Serveurs MCP](../tools/mcp-servers.md) pour obtenir des liens complets sur la configuration et la comparaison des clients.
-
-+++

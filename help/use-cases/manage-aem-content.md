@@ -1,12 +1,12 @@
 ---
 title: Tenez le contenu à jour et envoyez les mises à jour plus rapidement
 description: Utilisez le serveur AEM Content MCP pour rechercher, réviser, mettre à jour et publier du contenu AEM sans passer d’un outil à l’autre.
-last-substantial-update: 2026-05-22T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 1%
+source-wordcount: '1053'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Les opérations de contenu dans Adobe Experience Manager, depuis la recherche de pages et la révision du contenu jusqu’à la mise à jour et la publication, nécessitent généralement de naviguer directement dans l’interface d’AEM. Cette présentation explique comment gérer ces opérations via un client d’IA à l’aide du serveur de gestion de contenu AEM, afin que les équipes de contenu puissent se déplacer plus rapidement sans basculer entre les outils.
 
-| | |
+| Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | Adobe Experience Manager as a Cloud Service |
-| Outils agentiques | Serveur AEM Content MCP |
-| Audience | Gestionnaires de contenu, équipes marketing |
-| Prérequis | Client d’IA compatible avec MCP, accès à AEM as a Cloud Service |
+| **Applications d’entreprise CX** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **Outils Agentic** | [Serveur AEM Content MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **Audience** | Gestionnaires de contenu, équipes marketing |
+| **Prérequis** | Client d’IA compatible avec MCP, accès à AEM as a Cloud Service |
 
 Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
 
@@ -73,7 +73,7 @@ Instructions de configuration complètes pour tous les clients pris en charge : 
 >
 >Lors de la première connexion, votre client d’IA peut vous demander de confirmer votre organisation ou l’environnement AEM. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
 >
->Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la mesure proposée et approuvez ou refusez — aucune modification n&#39;est apportée sans votre confirmation.
+>Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la mesure proposée et approuvez ou refusez. Aucune modification n’est apportée sans votre confirmation.
 
 ## Étape 1 : recherche de contenu dans l’ensemble de votre environnement AEM
 
