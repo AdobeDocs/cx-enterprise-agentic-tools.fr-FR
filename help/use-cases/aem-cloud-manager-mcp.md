@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480344/?captions=fre_fr&learn=on&enablevpops)
 
 La gestion des environnements Adobe Experience Manager implique généralement une connexion à Cloud Manager, une navigation dans les pipelines et les environnements et un changement de contexte pour suivre le statut du déploiement. Cette présentation explique comment gérer ces opérations à partir d’un client d’IA à l’aide du serveur MCP AEM Cloud Manager, de sorte que les développeurs et les équipes d’exploitation puissent vérifier le statut, passer en revue les pipelines et agir sur les détails de déploiement sans quitter leur environnement d’IA.
 
