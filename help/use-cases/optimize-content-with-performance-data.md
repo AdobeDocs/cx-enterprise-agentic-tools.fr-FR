@@ -3,9 +3,9 @@ title: Optimiser le contenu en fonction des données de performance
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 # Optimiser le contenu en fonction des données de performance
 <!-- last-modified: 2026-06-08 -->
 
-![Optimisation du contenu en fonction des données de performances](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![Client AI comparant le contenu de page d’origine et celui mis à jour côte à côte](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
 Pour boucler la boucle entre les données de performances de campagne et les mises à jour de contenu, basculez normalement entre votre outil d’analyse et votre CMS. Cette présentation explique comment connecter Customer Journey Analytics et AEM au cours d’une même session d’IA : faire apparaître les campagnes présentant des écarts de conversion, diagnostiquer ce qui les génère, inspecter le contenu, obtenir des recommandations ciblées et appliquer les modifications sans quitter votre conversation.
 
@@ -256,8 +256,8 @@ Publish all confirmed changes and share the updated URLs.
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation du serveur MCP &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuration de CJA MCP et référence des outils |
-| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du MCP de contenu AEM |
+| [Documentation du serveur MCP ](https://developer.adobe.com/analytics-mcp/docs/cja/) | Configuration de CJA MCP et référence des outils |
+| [Documentation d’AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | Guide de configuration et d’utilisation du MCP de contenu AEM |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | Disponibilité et outils du serveur CJA MCP |
 | [Serveur AEM Content MCP dans le registre AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | Disponibilité et outils du serveur AEM Content MCP |
-| [&#x200B; Serveurs MCP &#x200B;](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
+| [ Serveurs MCP ](../tools/mcp-servers.md) | Connexion d’un client d’IA aux serveurs MCP Adobe |
