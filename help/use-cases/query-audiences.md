@@ -3,9 +3,9 @@ title: Découvrez vos audiences et où elles sont activées
 description: Utilisez la passerelle MCP Entreprise CX pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![Requête sur les audiences avec le langage naturel](https://placehold.co/1600x900?text=Query+Audiences)
+Client ![AI fournissant une stratégie d’audience prioritaire avec des recommandations d’activation](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 Comprendre quelles audiences sont activées, où elles circulent et si les destinations sont saines implique généralement l’ouverture de Real-Time CDP et la navigation sur plusieurs écrans. Cette présentation explique comment obtenir les mêmes réponses par le biais d’un client d’IA, à l’aide du serveur RTCDP MCP pour faire apparaître la configuration de destination, le statut d’activation et l’intégrité du flux de données au moyen de questions en langage clair.
 
