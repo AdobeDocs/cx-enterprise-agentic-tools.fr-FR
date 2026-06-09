@@ -3,7 +3,7 @@ title: API pour les créateurs
 description: Créez des applications et des intégrations personnalisées à l’aide des API d’entreprise Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 12%
@@ -77,7 +77,7 @@ Ingestion des données Edge Network, collecte d’événements en temps réel et
 
 [Explorer l’API](https://developer.adobe.com/data-collection-apis/docs/)
 
->[!TAB Tab]
+>[!TAB ]
 
 Configuration du projet API, authentification et gestion des informations d’identification.
 
@@ -107,7 +107,7 @@ Gestion des utilisateurs, administration des identités et automatisation des co
 
 ![Un IDE se connectant aux API d’entreprise Adobe CX](../assets/hero-connect-apis.gif)
 
-Les agents de codage tels que Claude Code, Cursor et OpenAI Codex sont parfaitement adaptés à la création avec les API d’entreprise Adobe CX. Ajoutez une spécification OpenAPI à votre projet et l’agent peut découvrir les points d’entrée, créer des requêtes et expliquer le comportement de l’API sans câblage manuel. Pour commencer, deux éléments sont nécessaires : les informations d’identification authentifiées de Adobe Developer Console et l’ajout de la documentation de l’API à votre projet.
+Les agents de codage tels que Claude Code, Cursor et OpenAI Codex sont adaptés à la création avec les API d’entreprise Adobe CX. Ajoutez une spécification OpenAPI à votre projet pour que l’agent puisse découvrir les points d’entrée, créer des requêtes et donner une raison sur le comportement de l’API sans câblage manuel. Pour commencer, deux éléments sont nécessaires : les informations d’identification authentifiées de Adobe Developer Console et l’ajout de la documentation de l’API à votre projet.
 
 ### Configuration des informations d’identification d’API dans Adobe Developer Console
 
