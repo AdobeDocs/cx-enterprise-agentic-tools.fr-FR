@@ -3,9 +3,9 @@ title: Compétences de l’agent
 description: Workflows et instructions traités par Adobe qui guident les agents d’IA de manière cohérente tout au long des tâches d’entreprise CX.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 7%
 
 ---
@@ -19,13 +19,11 @@ ht-degree: 7%
 
 Les compétences des agents sont des workflows traités par Adobe qui fournissent aux agents d’IA des instructions détaillées pour exécuter de manière fiable les tâches d’Adobe CX Enterprise. Chaque compétence d’agent encode l’expertise du domaine et les bonnes pratiques afin que les agents produisent des résultats cohérents et validés sans avoir à improviser. Les compétences d’agent ont un sens lorsque vous souhaitez un comportement guidé et reproductible tout au long des conversations, en particulier pour les tâches qui nécessiteraient autrement une invite détaillée à chaque fois. Ils complètent les serveurs MCP et les API : les compétences des agents définissent le fonctionnement d’un agent. Les serveurs MCP et les API fournissent l’accès sous-jacent.
 
-Toutes les compétences de l’agent sont conservées dans le référentiel GitHub [des compétences &#x200B;](https://github.com/adobe/skills), qui est la source principale des détails de documentation, d’installation et d’implémentation des compétences de l’agent.
+Toutes les compétences de l’agent sont conservées dans le référentiel GitHub [des compétences ](https://github.com/adobe/skills), qui est la source principale des détails de documentation, d’installation et d’implémentation des compétences de l’agent.
 
 ## Compétences de l’agent d’entreprise Adobe CX
 
-Toutes les compétences de l’agent sont conservées dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Sélectionnez une zone de fonctionnalité ci-dessous pour explorer les compétences de ce workflow.
-
-### Applications Adobe
+Toutes les compétences de l’agent sont conservées dans le référentiel GitHub [Compétences ](https://github.com/adobe/skills). Sélectionnez une zone de fonctionnalité ci-dessous pour explorer les compétences de ce workflow.
 
 <!--
 CARDS
@@ -187,7 +185,7 @@ CARDS
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-Pour obtenir des détails complets sur les compétences, les méthodes d’installation et le code source, consultez le [référentiel GitHub des compétences &#x200B;](https://github.com/adobe/skills).
+Pour obtenir des détails complets sur les compétences, les méthodes d’installation et le code source, consultez le [référentiel GitHub des compétences ](https://github.com/adobe/skills).
 
 ## Fonctionnement des compétences d’agent
 
@@ -211,7 +209,7 @@ Pour les autres clients, vous devez télécharger et ajouter directement les fic
 
 ### Recherche de compétences d’agent
 
-Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
+Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences ](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
 
 Après avoir installé ou ajouté le package `adobe/skills`, certains clients d’IA vous permettent de répertorier directement toutes les compétences disponibles :
 
