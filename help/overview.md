@@ -2,9 +2,9 @@
 title: Outils Adobe CX Enterprise Agentic
 description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+source-git-commit: b9ed1988d395169decd601cae567d200f8993f04
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
@@ -42,80 +42,6 @@ CARDS
   {cta = Explore APIs for Builders}
   {image = assets/apis-card.png}
 -->
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/mcp-servers.md" title="Serveurs MCP" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/mcp-servers-card.png" alt="Serveurs MCP"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/mcp-servers.md" target="_blank" rel="referrer" title="Serveurs MCP"> Serveurs MCP </a>
-                    </p>
-                    <p class="is-size-6">Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise. Interroger des données, analyser des campagnes et accéder à des audiences sans quitter votre outil d’IA.</p>
-                </div>
-                <a href="tools/mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les serveurs MCP</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agent Skills">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/agent-skills.md" title="Compétences de l’agent" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/agent-skills-card.png" alt="Compétences de l’agent"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/agent-skills.md" target="_blank" rel="referrer" title="Compétences de l’agent">Compétences agent</a>
-                    </p>
-                    <p class="is-size-6">Workflows traités par Adobe qui guident les agents tout au long des tâches de CX Enterprise. Expertise du domaine encodée une fois, appliquée de manière cohérente.</p>
-                </div>
-                <a href="tools/agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les compétences de l’agent</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="APIs for Builders">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="tools/apis.md" title="API pour les créateurs" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="assets/apis-card.png" alt="API pour les créateurs"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="tools/apis.md" target="_blank" rel="referrer" title="API pour les créateurs">API pour Builders</a>
-                    </p>
-                    <p class="is-size-6">Créez des applications d’entreprise Adobe CX personnalisées à l’aide d’outils de codage agentiques tels que Claude Code et Cursor.</p>
-                </div>
-                <a href="tools/apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les API pour Builders</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
