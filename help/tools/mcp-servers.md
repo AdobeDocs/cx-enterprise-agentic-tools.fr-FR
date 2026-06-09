@@ -2,7 +2,8 @@
 title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 index: false
-source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
+last-substantial-update: 2026-06-09T00:00:00Z
+source-git-commit: 71fa5fedf6dad5075e8514f31564ac87156f1b39
 workflow-type: tm+mt
 source-wordcount: '2364'
 ht-degree: 4%
@@ -12,7 +13,7 @@ ht-degree: 4%
 
 # Serveurs MCP
 
-<!-- last-modified: 2026-06-08 -->
+<!-- last-modified: 2026-06-09 -->
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491324/?captions=fre_fr&learn=on&enablevpops)
 
