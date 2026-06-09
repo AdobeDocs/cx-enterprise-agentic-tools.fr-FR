@@ -1,8 +1,9 @@
 ---
 title: Outils Agentic en action
 description: Présentation détaillée des outils Adobe CX Enterprise Agentic appliqués à de vrais workflows d’entreprise.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 689ace21360ceed512cdd5869bd4f972014ff219
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

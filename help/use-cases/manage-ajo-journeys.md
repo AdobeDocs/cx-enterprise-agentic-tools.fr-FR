@@ -1,8 +1,9 @@
 ---
 title: Surveillez les problèmes de parcours avant qu’ils n’affectent les clients
 description: Utilisez la passerelle MCP Entreprise CX pour surveiller les parcours AJO actifs, passer en revue la configuration des campagnes et faire apparaître les problèmes opérationnels avant qu’ils n’atteignent votre audience.
+last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 3%

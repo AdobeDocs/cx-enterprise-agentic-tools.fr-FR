@@ -1,8 +1,9 @@
 ---
 title: Ressources
 description: Point d’entrée unique pour l’ensemble de la documentation, des registres, des API et des guides de développement des outils Adobe CX Enterprise Agentic.
+last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
