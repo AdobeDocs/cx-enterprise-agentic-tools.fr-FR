@@ -39,7 +39,7 @@ Les outils de chaque application sont disponibles en fonction des licences Adobe
 | --- | --- |
 | Adobe Journey Optimizer | [Vérifier les parcours, les campagnes et les configurations de canal](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Customer Journey Analytics | [Rapports de requête, découvrir les vues de données, créer des espaces de travail](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [Vérifier les destinations, le statut d’activation et l’intégrité du flux de données](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (version bêta fermée) |
+| Real-Time CDP | [Vérifier les destinations, le statut d’activation et l’intégrité du flux de données](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) (version bêta fermée) |
 
 Si votre application n’est pas répertoriée ici, reportez-vous à la [liste complète des serveurs MCP](#adobe-cx-enterprise-mcp-servers) ci-dessous.
 
@@ -225,11 +225,11 @@ Tous les points d’entrée sont répertoriés dans le registre Adobe AI [&#1282
 
 | Serveur | Point d’entrée | Outils |
 | --- | --- | --- |
-| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [CX Enterprise MCP](#cx-enterprise-mcp) | `https://cx-enterprise.adobe.io/mcp` | · [outils &#x200B;](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>· [outils Customer Journey Analytics](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>· [outils Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [Contenu &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [Affichage des outils](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 
 ## Connexion à votre client d’IA
 
