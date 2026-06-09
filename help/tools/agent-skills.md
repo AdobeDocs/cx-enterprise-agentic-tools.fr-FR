@@ -49,7 +49,7 @@ Compétences en agent pour la génération de modèles automatique, le test et l
 
 [Afficher les compétences de l’agent](https://github.com/adobe/skills/tree/main/plugins/app-builder)
 
->[!TAB ]
+>[!TAB Tab]
 
 Compétences d’agent pour la modification de photos par lots, la conception à partir de modèles, la modification vidéo et les variantes de médias sociaux avec Creative Cloud.
 
@@ -75,7 +75,7 @@ Pour les autres clients, vous devez télécharger et ajouter directement les fic
 
 ### Recherche de compétences d’agent
 
-Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences ](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
+Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
 
 Après avoir installé ou ajouté le package `adobe/skills`, certains clients d’IA vous permettent de répertorier directement toutes les compétences disponibles :
 
