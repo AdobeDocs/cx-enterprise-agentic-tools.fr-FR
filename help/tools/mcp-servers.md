@@ -3,7 +3,7 @@ title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -243,7 +243,7 @@ Microsoft Copilot Studio se connecte aux serveurs MCP distants à l&#39;aide de 
 1. Ouvrez votre agent dans Copilot Studio.
 2. Accédez à la page **Outils**.
 3. Sélectionnez **Ajouter un outil > Nouvel outil > Protocole de contexte de modèle**.
-4. Dans l’Assistant d’intégration MCP, entrez les détails du serveur, par exemple, pour le MCP CX Enterprise :
+4. Dans l’Assistant d’intégration MCP, saisissez les détails du serveur. Par exemple, pour le CX Enterprise MCP :
    - **Nom du serveur :** `Adobe CX Enterprise`
    - **URL du serveur :** `https://cx-enterprise.adobe.io/mcp`
 5. Définissez l’authentification sur **OAuth 2.0** et configurez-la avec vos URL d’autorisation et de jeton Adobe IMS.
