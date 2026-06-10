@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Métadonnées et disponibilité du serveur MCP |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
+| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Métadonnées et disponibilité du serveur MCP |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
