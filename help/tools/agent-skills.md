@@ -3,9 +3,9 @@ title: Compétences de l’agent
 description: Workflows et instructions traités par Adobe qui guident les agents d’IA de manière cohérente tout au long des tâches d’entreprise CX.
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Après avoir installé ou ajouté le package `adobe/skills`, certains clients d�
 - **GitHub CLI** : `gh upskill list`
 
 ## Compétences de l’agent en action
+
+Les compétences des agents mettent l’expertise du domaine Adobe au service de votre client d’IA, afin que les agents suivent des workflows éprouvés au lieu d’improviser. Chaque présentation ci-dessous montre une tâche commerciale spécifique réalisée de manière fiable, guidée par les bonnes pratiques Adobe du début à la sortie.
 
 <!--
 CARDS

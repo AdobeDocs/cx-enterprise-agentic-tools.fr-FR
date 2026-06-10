@@ -3,10 +3,10 @@ title: API pour les créateurs
 description: Créez des applications et des intégrations personnalisées à l’aide des API d’entreprise Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 11%
+source-wordcount: '886'
+ht-degree: 10%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 Lorsqu’Adobe publie une nouvelle version d’API : téléchargez un nouvel instantané dans `/specs`, mettez à jour la date dans `README.md`, puis régénérez l’index et le `AGENTS.md`.
 
 ## Les API en action
+
+Les API offrent aux équipes de développement un contrôle programmatique complet pour créer des applications ciblées qui automatisent des workflows CX Enterprise spécifiques. Ces procédures pas à pas présentent des intégrations réelles créées de bout en bout, de la configuration des informations d’identification au code de travail que votre entreprise peut envoyer.
 
 <!--
 CARDS
