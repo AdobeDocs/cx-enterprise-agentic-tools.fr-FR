@@ -3,9 +3,9 @@ title: Outils Adobe CX Enterprise Agentic
 description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 3%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491244/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-Laissez l’IA devenir votre collègue d’Adobe CX Enterprise. Connectez votre client d’IA à des campagnes, des audiences, des parcours et du contenu. Interagissez avec eux en langage clair à partir de n’importe quel outil que vous utilisez déjà. Pas de nouvelles interfaces, pas de changement de contexte, pas de codage requis pour commencer.
+Laissez AI devenir votre collaborateur pour Adobe CX Enterprise. Connectez votre client d’IA à des campagnes, des audiences, des parcours et du contenu. Interagissez avec eux en langage clair à partir de n’importe quel outil que vous utilisez déjà. Pas de nouvelles interfaces, pas de changement de contexte, pas de codage requis pour commencer.
 
 >[!TIP]
 >**Commencez avec CX Enterprise MCP.** Une connexion donne à votre client d’IA l’accès à Adobe Journey Optimizer, Customer Journey Analytics et Real-Time CDP en fonction des licences de votre entreprise. [Se connecter maintenant](tools/mcp-servers.md#cx-enterprise-mcp-servers)
@@ -161,24 +161,24 @@ Découvrez à quoi ressemblent les outils d’agentic d’Adobe CX Enterprise da
 CARDS
 
 * use-cases/analyze-campaign-performance.md
-  {title = Analyze campaign performance}
-  {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
-  {cta = Start walkthrough}
+  {title = Campaign insights without reports}
+  {description = Ask performance questions in plain language and get answers from Customer Journey Analytics, without building a single report.}
+  {cta = Surface campaign insights}
 
 * use-cases/manage-aem-content.md
-  {title = Manage AEM content with AI}
-  {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
-  {cta = Start walkthrough}
+  {title = Ship content updates faster}
+  {description = Find, update, and publish AEM pages and content fragments faster, without switching to the AEM interface.}
+  {cta = Ship content faster}
 
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Campaign insights without reports">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="Analyse des performances des campagnes">
-                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Analyse des performances des campagnes"
+                    <a href="use-cases/analyze-campaign-performance.md" title="Informations sur la campagne sans rapports">
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="Informations sur la campagne sans rapports"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -186,22 +186,22 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" title="Analyse des performances des campagnes">Analyse des performances des campagnes</a>
+                        <a href="use-cases/analyze-campaign-performance.md" title="Informations sur la campagne sans rapports">Informations sur Campaign sans rapports</a>
                     </p>
-                    <p class="is-size-6">Affichez les comparaisons avec Customer Journey Analytics et les tendances de conversion au moyen de questions en langage clair. Utilise CX Enterprise MCP.</p>
+                    <p class="is-size-6">Posez des questions sur les performances en langage clair et obtenez des réponses de Customer Journey Analytics, sans créer de rapport unique.</p>
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Affichage des informations sur les campagnes</span>
                 </a>
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Ship content updates faster">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="Gestion du contenu AEM avec l’IA">
-                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Gestion du contenu AEM avec l’IA"
+                    <a href="use-cases/manage-aem-content.md" title="Expédition plus rapide des mises à jour de contenu">
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="Expédition plus rapide des mises à jour de contenu"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -209,12 +209,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" title="Gestion du contenu AEM avec l’IA">Gérer le contenu AEM avec l’IA</a>
+                        <a href="use-cases/manage-aem-content.md" title="Expédition plus rapide des mises à jour de contenu">Envoyez plus rapidement des mises à jour de contenu</a>
                     </p>
-                    <p class="is-size-6">Découvrez, mettez à jour et publiez des pages et des fragments de contenu dans AEM en utilisant le langage naturel.</p>
+                    <p class="is-size-6">Recherchez, mettez à jour et publiez plus rapidement des pages et des fragments de contenu AEM, sans passer par l’interface d’AEM.</p>
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Démarrer la présentation</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Livrer le contenu plus rapidement</span>
                 </a>
             </div>
         </div>
@@ -228,9 +228,9 @@ CARDS
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
-| [Compétences de l’agent &#x200B;](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
-| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP |
+| [Compétences de l’agent ](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
+| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configuration et authentification du projet d’API |
-| [&#128279;](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
+| [](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
 | [Experience League](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentation et tutoriels complets sur l’application Adobe |

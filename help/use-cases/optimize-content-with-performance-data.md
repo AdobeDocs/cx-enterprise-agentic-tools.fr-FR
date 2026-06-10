@@ -1,27 +1,27 @@
 ---
-title: Optimiser le contenu en fonction des données de performance
+title: Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# Optimiser le contenu en fonction des données de performance
-<!-- last-modified: 2026-06-08 -->
+# Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
+<!-- last-modified: 2026-06-10 -->
 
 ![Client AI comparant le contenu de page d’origine et celui mis à jour côte à côte](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-Pour boucler la boucle entre les données de performances de campagne et les mises à jour de contenu, basculez normalement entre votre outil d’analyse et votre CMS. Cette présentation explique comment connecter Customer Journey Analytics et AEM dans la même session d’IA : faire apparaître les campagnes avec des écarts de conversion, diagnostiquer ce qui les génère, inspecter le contenu, obtenir des recommandations ciblées et appliquer les modifications sans quitter votre conversation.
+Les écarts de performances du contenu coûtent cher aux résultats des campagnes. Pour les combler, vous devez généralement basculer entre votre outil d’analyse et votre CMS. Cette présentation montre comment le faire en une seule session d’IA : faire apparaître les campagnes avec des écarts de conversion dans Customer Journey Analytics, diagnostiquer la cause, inspecter le contenu peu performant dans AEM et appliquer des mises à jour sans quitter votre conversation.
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Applications d’entreprise CX | [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Audience | Responsables de campagne, stratèges de contenu, opérations marketing |
 | Prérequis | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
 
