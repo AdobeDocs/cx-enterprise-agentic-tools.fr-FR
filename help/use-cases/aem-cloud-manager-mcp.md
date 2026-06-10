@@ -1,11 +1,11 @@
 ---
 title: Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
 description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre client d’IA.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480344/?captions=fre_fr&learn=on&enablevpops)
 
-La gestion des environnements Adobe Experience Manager implique généralement une connexion à Cloud Manager, une navigation dans les pipelines et les environnements et un changement de contexte pour suivre le statut du déploiement. Cette présentation explique comment gérer ces opérations à partir d’un client d’IA à l’aide du serveur MCP AEM Cloud Manager, de sorte que les développeurs et les équipes d’exploitation puissent vérifier le statut, passer en revue les pipelines et agir sur les détails de déploiement sans quitter leur environnement d’IA.
+Le déploiement est plus sûr si vous savez que votre environnement est sain avant d’effectuer des notifications push. Cette présentation explique comment vérifier le statut de l’environnement AEM, consulter l’historique des pipelines et déclencher des déploiements à partir d’un client d’IA à l’aide du serveur MCP AEM Cloud Manager, de sorte que les équipes puissent se déplacer rapidement sans perdre de visibilité.
 
 | Détails du scénario | |
 | --- | --- |

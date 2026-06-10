@@ -3,10 +3,10 @@ user-guide-title: Outils Adobe CX Enterprise Agentic
 breadcrumb-title: Outils Agentic
 user-guide-description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
 index: false
-source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
    + [API pour les créateurs](/help/tools/apis.md)
 + Outils Agentic en action {#in-action}
    + [Vue d’ensemble](/help/use-cases/overview.md)
-   + [Analyse des performances des campagnes](/help/use-cases/analyze-campaign-performance.md)
-   + [Requête sur les audiences](/help/use-cases/query-audiences.md)
-   + [Vérifier les parcours AJO](/help/use-cases/manage-ajo-journeys.md)
-   + [Gestion du contenu AEM](/help/use-cases/manage-aem-content.md)
-   + [Optimisation du contenu avec les données de performances](/help/use-cases/optimize-content-with-performance-data.md)
-   + [Déploiement sur AEM Cloud Service](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [Informations sur la campagne sans rapports](/help/use-cases/analyze-campaign-performance.md)
+   + [Activation des audiences en un coup d’œil](/help/use-cases/query-audiences.md)
+   + [Problèmes de parcours anticipé](/help/use-cases/manage-ajo-journeys.md)
+   + [Expédition plus rapide des mises à jour de contenu](/help/use-cases/manage-aem-content.md)
+   + [Combler les écarts de performances du contenu](/help/use-cases/optimize-content-with-performance-data.md)
+   + [Déployer les modifications d’AEM en toute confiance](/help/use-cases/aem-cloud-manager-mcp.md)

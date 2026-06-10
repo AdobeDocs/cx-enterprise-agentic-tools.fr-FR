@@ -1,11 +1,11 @@
 ---
 title: Tenez le contenu à jour et envoyez les mises à jour plus rapidement
 description: Utilisez le serveur AEM Content MCP pour rechercher, réviser, mettre à jour et publier du contenu AEM sans passer d’un outil à l’autre.
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![Le client AI confirmant que la page a été publiée et renvoyant l’URL active](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-Les opérations de contenu dans Adobe Experience Manager, depuis la recherche de pages et la révision du contenu jusqu’à la mise à jour et la publication, nécessitent généralement de naviguer directement dans l’interface d’AEM. Cette présentation explique comment gérer ces opérations via un client d’IA à l’aide du serveur de gestion de contenu AEM, afin que les équipes de contenu puissent se déplacer plus rapidement sans basculer entre les outils.
+Maintenir le contenu du site à jour est une pression opérationnelle constante. Cette présentation explique comment les équipes de contenu peuvent rechercher, réviser, mettre à jour et publier des pages et des fragments de contenu AEM par le biais d’un client d’IA, à l’aide du serveur de gestion de contenu d’AEM pour réduire le temps entre une décision de contenu et une mise à jour en direct.
 
 | Détails du scénario | |
 | --- | --- |
