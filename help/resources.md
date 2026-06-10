@@ -3,9 +3,9 @@ title: Ressources
 description: Point d’entrée unique pour l’ensemble de la documentation, des registres, des API et des guides de développement des outils Adobe CX Enterprise Agentic.
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 19%
 
 ---
@@ -23,8 +23,8 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 
 | Ressource | Ce que vous trouverez |
 |---|---|
-| [Registre Adobe AI : Serveurs MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Catalogue complet des serveurs MCP disponibles avec métadonnées, points d’entrée et statut |
-| [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Catalogue complet des compétences d’agent disponibles avec les détails de disponibilité et de configuration |
+| [Registre Adobe AI : Serveurs MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
+| [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Liste des compétences de l’agent avec disponibilité et détails de configuration pour certaines compétences |
 | [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 
 ## Serveurs MCP
@@ -40,7 +40,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 | Ressource | Ce que vous trouverez |
 |---|---|
 | [Référentiel de compétences &#x200B;](https://github.com/adobe/skills) | Source canonique pour toutes les compétences de l’agent, les méthodes d’installation et les détails d’implémentation |
-| [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Catalogue complet des compétences d’agent disponibles avec métadonnées et statut de disponibilité |
+| [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Liste des compétences de l’agent avec disponibilité et métadonnées pour des compétences sélectionnées |
 
 ## API pour les créateurs
 
