@@ -3,10 +3,10 @@ title: API pour les créateurs
 description: Créez des applications et des intégrations personnalisées à l’aide des API d’entreprise Adobe CX.
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 12%
+source-wordcount: '850'
+ht-degree: 11%
 
 ---
 
@@ -77,7 +77,7 @@ Ingestion des données Edge Network, collecte d’événements en temps réel et
 
 [Explorer l’API](https://developer.adobe.com/data-collection-apis/docs/)
 
->[!TAB Tab]
+>[!TAB ]
 
 Configuration du projet API, authentification et gestion des informations d’identification.
 
@@ -192,3 +192,43 @@ project/
 **Actualisation des spécifications**
 
 Lorsqu’Adobe publie une nouvelle version d’API : téléchargez un nouvel instantané dans `/specs`, mettez à jour la date dans `README.md`, puis régénérez l’index et le `AGENTS.md`.
+
+## Les API en action
+
+<!--
+CARDS
+
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+  {title = Invoke AEM APIs from a web app}
+  {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
+  {cta = Try with APIs}
+  {image = ../assets/using-api-card.png}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Invoke AEM APIs from a web app">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Appeler des API AEM à partir d’une application web" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Appeler des API AEM à partir d’une application web"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Appeler des API AEM à partir d’une application web">Appeler des API AEM à partir d’une application web</a>
+                    </p>
+                    <p class="is-size-6">Créez une application web qui authentifie les utilisateurs et appelle les OpenAPI d’AEM à l’aide d’OAuth pour fournir un accès gouverné et programmatique.</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Essayer avec les API</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
