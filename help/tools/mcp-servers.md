@@ -5,8 +5,8 @@ index: false
 last-substantial-update: 2026-06-17T00:00:00Z
 source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
 workflow-type: tm+mt
-source-wordcount: '2074'
-ht-degree: 3%
+source-wordcount: '2290'
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,13 @@ Les serveurs Adobe CX Enterprise MCP donnent à tout client d’IA compatible un
 
 Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro). Tout client d’IA compatible avec MCP se connecte à tout serveur MCP Adobe.
 
-## Serveurs MCP d’entreprise CX {#cx-enterprise-mcp-servers}
+## Serveurs MCP de CX Enterprise {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="MCP d’entreprise CX"
->abstract="Vos applications CX Enterprise, accessibles via un point d’entrée MCP unique. Demandez, analysez et agissez en langage clair à vos clients d’IA."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentation sur la gestion de la relation client (MCP) pour entreprise CX"
+>title="MCP de CX Enterprise"
+>abstract="Vos applications CX Enterprise, accessibles via un point d’entrée MCP unique. Demandez, analysez et agissez en langage clair à partir de vos clients d’IA."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentation sur MCP de CX Enterprise"
 
 ![Le CX Enterprise MCP connecte votre client IA aux outils de la suite Adobe CX Enterprise complète](../assets/mcp-gateway-hero.gif)
 
@@ -70,7 +70,7 @@ Adobe Experience Manager dispose de plusieurs serveurs MCP pour différents work
 | [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels |
 | [Contenu &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | Gestion des pages, des fragments de contenu, des ressources et des lancements |
 | [Contenu AEM (Lecture Seule)](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | Découvrir et interroger des pages, des fragments de contenu et des lancements sans accès en écriture |
-| [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Évaluer le contenu et les images par rapport aux directives et aux règles de conformité de la marque |
+| [Gouvernance de l’expérience &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | Évaluer le contenu et les images par rapport aux directives et aux règles de conformité de la marque |
 
 >[!NOTE]
 >
@@ -305,7 +305,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Affichage des informations sur les campagnes</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -328,7 +328,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation des audiences</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -351,7 +351,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Surveiller vos parcours </span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -374,7 +374,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Livrer le contenu plus rapidement</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -397,7 +397,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">combler les écarts de performances</span>
-                </a>
+                
             </div>
         </div>
     </div>
