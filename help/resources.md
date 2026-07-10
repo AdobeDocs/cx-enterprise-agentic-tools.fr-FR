@@ -14,7 +14,7 @@ ht-degree: 20%
 
 <!-- last-modified: 2026-05-08 -->
 
-![ Ressources ](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
+![&#x200B; Ressources &#x200B;](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
 Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterprise Agentic Tools, à un seul endroit.
 
@@ -24,7 +24,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 |---|---|
 | [Registre Adobe AI : Serveurs MCP](https://developer.adobe.com/ai-registry/?type=mcp) | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
 | [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Liste des compétences de l’agent avec disponibilité et détails de configuration pour certaines compétences |
-| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 
 ## Serveurs MCP
 
@@ -38,7 +38,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 
 | Ressource | Ce que vous trouverez |
 |---|---|
-| [Référentiel de compétences ](https://github.com/adobe/skills) | Source canonique pour toutes les compétences de l’agent, les méthodes d’installation et les détails d’implémentation |
+| [Référentiel de compétences &#x200B;](https://github.com/adobe/skills) | Source canonique pour toutes les compétences de l’agent, les méthodes d’installation et les détails d’implémentation |
 | [Adobe AI Registry : Compétences De L’Agent](https://developer.adobe.com/ai-registry/?type=skill) | Liste des compétences de l’agent avec disponibilité et métadonnées pour des compétences sélectionnées |
 
 ## API pour les créateurs
@@ -46,14 +46,14 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 | Ressource | Ce que vous trouverez |
 |---|---|
 | [API Adobe Experience Platform](https://developer.adobe.com/experience-platform-apis/) | Référence de l’API AEP : jeux de données, schémas, profils, requêtes, segmentation |
-| [API ](https://developer.adobe.com/journey-optimizer-apis/) | Référence de l’API AJO : parcours, campagnes, contenu, Offer Decisioning |
+| [API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/) | Référence de l’API AJO : parcours, campagnes, contenu, Offer Decisioning |
 | [API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/) | Référence de l’API CJA : données d’analyse, rapports, informations |
 | [API Data Collection](https://developer.adobe.com/data-collection-apis/docs/) | ingestion Edge Network, collecte d’événements en temps réel, diffusion en continu |
-| [API d’événements ](https://developer.adobe.com/events/docs/) | Intégrations basées sur des événements, webhooks, déclencheurs d’automatisation |
-| [SDK client ](https://developer.adobe.com/client-sdks/home/) | SDK mobiles, SDK Edge, messagerie in-app |
+| [API d’événements &#x200B;](https://developer.adobe.com/events/docs/) | Intégrations basées sur des événements, webhooks, déclencheurs d’automatisation |
+| [SDK client &#x200B;](https://developer.adobe.com/client-sdks/home/) | SDK mobiles, SDK Edge, messagerie in-app |
 | [API de confidentialité](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/home) | Workflows de confidentialité, gouvernance des données, demandes des titulaires de données |
-| [ API User Management ](https://developer.adobe.com/umapi/) | Gestion des utilisateurs, administration des identités, comptes d’entreprise |
-| [API ](https://developer.adobe.com/audience-manager/) | Workflows d’activation et de gestion de l’audience |
+| [&#x200B; API User Management &#x200B;](https://developer.adobe.com/umapi/) | Gestion des utilisateurs, administration des identités, comptes d’entreprise |
+| [API &#x200B;](https://developer.adobe.com/audience-manager/) | Workflows d’activation et de gestion de l’audience |
 
 ## Configuration du développeur
 
@@ -78,5 +78,5 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 | [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) | Documentation complète de l’application Real-Time CDP |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) | Documentation complète de l’application CJA |
 | [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/landing) | Documentation complète d’Adobe Analytics |
-| [Destinations ](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home) | Configuration et gestion des destinations |
-| [Tutoriels ](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview) | Tutoriels vidéo et parcours d’apprentissage AJO |
+| [Destinations &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/destinations/home) | Configuration et gestion des destinations |
+| [Tutoriels &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer-learn/tutorials/overview) | Tutoriels vidéo et parcours d’apprentissage AJO |
