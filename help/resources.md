@@ -2,11 +2,10 @@
 title: Ressources
 description: Point d’entrée unique pour l’ensemble de la documentation, des registres, des API et des guides de développement des outils Adobe CX Enterprise Agentic.
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 19%
+source-wordcount: '555'
+ht-degree: 20%
 
 ---
 
@@ -33,7 +32,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 |---|---|
 | [Documentation MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guide de configuration du serveur CJA MCP et référence des outils |
 | [Guides MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guides d’utilisation détaillés du serveur MCP CJA |
-| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
+| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
 
 ## Compétences de l’agent
 
@@ -48,7 +47,7 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 |---|---|
 | [API Adobe Experience Platform](https://developer.adobe.com/experience-platform-apis/) | Référence de l’API AEP : jeux de données, schémas, profils, requêtes, segmentation |
 | [API &#x200B;](https://developer.adobe.com/journey-optimizer-apis/) | Référence de l’API AJO : parcours, campagnes, contenu, Offer Decisioning |
-| [API &#x200B;](https://developer.adobe.com/cja-apis/docs/) | Référence de l’API CJA : données d’analyse, rapports, informations |
+| [API Customer Journey Analytics](https://developer.adobe.com/cja-apis/docs/) | Référence de l’API CJA : données d’analyse, rapports, informations |
 | [API Data Collection](https://developer.adobe.com/data-collection-apis/docs/) | ingestion Edge Network, collecte d’événements en temps réel, diffusion en continu |
 | [API d’événements &#x200B;](https://developer.adobe.com/events/docs/) | Intégrations basées sur des événements, webhooks, déclencheurs d’automatisation |
 | [SDK client &#x200B;](https://developer.adobe.com/client-sdks/home/) | SDK mobiles, SDK Edge, messagerie in-app |
