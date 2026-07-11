@@ -2,8 +2,7 @@
 user-guide-title: Outils Adobe CX Enterprise Agentic
 breadcrumb-title: Outils Agentic
 user-guide-description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 6%

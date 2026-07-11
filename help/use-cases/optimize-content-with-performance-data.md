@@ -2,8 +2,7 @@
 title: Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -42,7 +41,7 @@ Connectez les deux serveurs MCP en tant que connecteurs personnalisés. Ajoutez 
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -58,7 +57,7 @@ Connectez les deux serveurs MCP en mode Développeur ChatGPT (Pro, Plus, Busines
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
@@ -69,7 +68,7 @@ Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnemen
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| MCP d’entreprise CX | `https://cx-enterprise.adobe.io/mcp` |
+| MCP de CX Enterprise | `https://cx-enterprise.adobe.io/mcp` |
 | Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)

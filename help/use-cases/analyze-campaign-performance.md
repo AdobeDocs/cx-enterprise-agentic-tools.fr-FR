@@ -2,8 +2,7 @@
 title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 1%
