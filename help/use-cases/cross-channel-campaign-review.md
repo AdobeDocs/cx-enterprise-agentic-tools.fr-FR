@@ -2,8 +2,7 @@
 title: Exécuter une révision de campagne cross-canal
 description: Utilisez le MCP Entreprise CX dans une seule session d’IA pour obtenir une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1412'
 ht-degree: 5%
@@ -21,7 +20,7 @@ Une image complète de l’intégrité de la campagne nécessite des données pr
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Applications d’entreprise CX | [](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
 | Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Audience | Chargés d&#39;opération, opérations marketing |
 | Prérequis | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
@@ -91,8 +90,8 @@ What journeys are currently active in AJO?
 | Suivi après achat | E-mail, SMS | 14 Mai 2026 |
 | Réengagement de la fidélité | Email | 20 Mai 2026 |
 | Panier abandonné : 24 heures | E-mail, SMS | 10 Mai 2026 |
-| Promotion du printemps | E-mail, notification push | 19 Mai 2026 |
-| Reconquête : 90 Jours Inactif | Email | 28 Avril 2026 |
+| Promotion du printemps | E-mail, notification push | 19 mai 2026 |
+| Reconquête : 90 Jours Inactif | E-mail | 28 Avril 2026 |
 | Récompense d&#39;anniversaire | Email | 15 Avril 2026 |
 | Réengagement : opt-out push | SMS | 12 Mai 2026 |
 
@@ -140,7 +139,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 | Canal | Envois | CTR | de conversions | Conv. Taux |
 | --- | --- | --- | --- | --- |
-| Email | 48,320 | 8.4% | 1,973 | 4.1% |
+| E-mail | 48,320 | 8.4% | 1,973 | 4.1% |
 | Notification push | 31,200 | 12.1% | 987 | 3.2% |
 
 Taux de conversion combiné : 3,8 %. Le taux de clics des e-mails a augmenté de 1,2 % par rapport à la période de 30 jours précédente. Les conversions push sont aplaties.
@@ -291,6 +290,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
 | [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Disponibilité et outils du serveur AJO MCP |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |

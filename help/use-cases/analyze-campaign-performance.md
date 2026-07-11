@@ -2,8 +2,7 @@
 title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 last-substantial-update: 2026-06-09T00:00:00Z
-index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 1%
@@ -21,7 +20,7 @@ L’analyse des campagnes qui nécessitait autrefois la création de rapports da
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Audience | Analystes, responsables de campagne |
 | Prérequis | Client d’IA compatible avec MCP, accès à CJA |
@@ -274,4 +273,4 @@ Save this analysis as a Workspace project for executive reporting.
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
