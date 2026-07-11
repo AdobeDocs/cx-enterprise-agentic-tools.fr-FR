@@ -76,7 +76,7 @@ Ingestion des données Edge Network, collecte d’événements en temps réel et
 
 [Explorer l’API](https://developer.adobe.com/data-collection-apis/docs/)
 
->[!TAB ]
+>[!TAB Tab]
 
 Configuration du projet API, authentification et gestion des informations d’identification.
 
