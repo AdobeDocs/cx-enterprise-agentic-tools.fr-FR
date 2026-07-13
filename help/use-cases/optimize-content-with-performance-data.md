@@ -21,7 +21,7 @@ Les écarts de performances du contenu coûtent cher aux résultats des campagne
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
+| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
 | Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers), [Serveur AEM Content MCP](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | Audience | Responsables de campagne, stratèges de contenu, opérations marketing |
 | Prérequis | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |

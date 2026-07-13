@@ -285,4 +285,4 @@ Save this analysis as a Workspace project for executive reporting.
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
