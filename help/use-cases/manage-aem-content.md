@@ -2,10 +2,10 @@
 title: Tenez le contenu à jour et envoyez les mises à jour plus rapidement
 description: Utilisez le serveur AEM Content MCP pour rechercher, réviser, mettre à jour et publier du contenu AEM sans passer d’un outil à l’autre.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 3%
+source-wordcount: '1001'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![Le client AI confirmant que la page a été publiée et renvoyant l’URL active](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![Le client AI confirmant que la page a été publiée et renvoyant l’URL active](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 Maintenir le contenu du site à jour est une pression opérationnelle constante. Cette présentation explique comment les équipes de contenu peuvent rechercher, réviser, mettre à jour et publier des pages et des fragments de contenu AEM par le biais d’un client d’IA, à l’aide du serveur de gestion de contenu d’AEM pour réduire le temps entre une décision de contenu et une mise à jour en direct.
 
@@ -84,7 +86,9 @@ From WKND Dev environment, find all ski related content.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant les résultats de recherche de contenu de ski à partir de l’environnement AEM de développement WKND](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+Client ![AI affichant les résultats de recherche de contenu de ski à partir de l’environnement AEM de développement WKND](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -99,7 +103,9 @@ Show me the US English Home Page.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant la structure de contenu de la page d’accueil en anglais américain à partir d’AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+Client ![AI affichant la structure de contenu de la page d’accueil en anglais américain à partir d’AEM](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -114,7 +120,9 @@ Improve the Hero CTAs.
 
 +++Voir un exemple de réponse
 
-![Client AI proposant une copie améliorée de CTA Hero avec une invite de confirmation avant d’appliquer les modifications](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![Client AI proposant une copie améliorée de CTA Hero avec une invite de confirmation avant d’appliquer les modifications](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -133,7 +141,9 @@ Publish the changes and share the URL.
 
 +++Voir un exemple de réponse
 
-![Le client AI confirmant que la page a été publiée et renvoyant l’URL active](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![Le client AI confirmant que la page a été publiée et renvoyant l’URL active](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 

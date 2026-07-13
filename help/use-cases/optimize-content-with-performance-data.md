@@ -2,9 +2,9 @@
 title: Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 <!-- last-modified: 2026-06-10 -->
 
-![Client AI comparant le contenu de page d’origine et celui mis à jour côte à côte](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![Client AI comparant le contenu de page d’origine et celui mis à jour côte à côte](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 Les écarts de performances du contenu coûtent cher aux résultats des campagnes. Pour les combler, vous devez généralement basculer entre votre outil d’analyse et votre CMS. Cette présentation montre comment le faire en une seule session d’IA : faire apparaître les campagnes avec des écarts de conversion dans Customer Journey Analytics, diagnostiquer la cause, inspecter le contenu peu performant dans AEM et appliquer des mises à jour sans quitter votre conversation.
 
@@ -94,7 +96,9 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++Voir un exemple de réponse
 
-![Campagnes d’IA pour les clientes et clients avec un clic publicitaire élevé mais une faible conversion à partir de CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![Campagnes d’IA pour les clientes et clients avec un clic publicitaire élevé mais une faible conversion à partir de CJA](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -110,7 +114,9 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++Voir un exemple de réponse
 
-![Client d’IA diagnostiquant la chute des conversions par appareil, segment et facteur de contenu](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![Client d’IA diagnostiquant la chute des conversions par appareil, segment et facteur de contenu](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -126,7 +132,9 @@ Show me the Bali Surf Camp page.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le contenu actuel de la landing page depuis AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+Client ![AI affichant le contenu actuel de la landing page depuis AEM](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -142,7 +150,9 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++Voir un exemple de réponse
 
-![Client AI identifiant les sections de contenu peu performantes et recommandant des modifications spécifiques](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+![Client AI identifiant les sections de contenu peu performantes et recommandant des modifications spécifiques](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -158,7 +168,9 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++Voir un exemple de réponse
 
-Client ![AI créant une version optimisée de la page et résumant les modifications](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif)
+Client ![AI créant une version optimisée de la page et résumant les modifications](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 

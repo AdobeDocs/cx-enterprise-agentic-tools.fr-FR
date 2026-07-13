@@ -2,9 +2,9 @@
 title: Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
 description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre client d’IA.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut de l’environnement de production à partir de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+Client ![AI affichant le statut de l’environnement de production à partir de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant les cinq dernières exécutions de pipeline pour le pipeline de production](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+Client ![AI affichant les cinq dernières exécutions de pipeline pour le pipeline de production](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant la confirmation du déclenchement du pipeline et l’interface utilisateur de Cloud Manager reflétant le pipeline en cours d’exécution](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+Client ![AI affichant la confirmation du déclenchement du pipeline et l’interface utilisateur de Cloud Manager reflétant le pipeline en cours d’exécution](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut de l’exécution du pipeline déclenché](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+Client ![AI affichant le statut de l’exécution du pipeline déclenché](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 

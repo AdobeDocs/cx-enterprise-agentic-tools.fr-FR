@@ -2,9 +2,9 @@
 title: Surveillez les problèmes de parcours avant qu’ils n’affectent les clients
 description: Utilisez le CX Enterprise MCP pour surveiller les parcours AJO actifs, passer en revue la configuration des campagnes et faire apparaître les problèmes opérationnels avant qu’ils n’atteignent votre audience.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # Surveillez les problèmes de parcours avant qu’ils n’affectent les clients
 <!-- last-modified: 2026-06-08 -->
 
-![Client AI résumant la stratégie de campagne et de parcours avec un résumé](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![Client AI résumant la stratégie de campagne et de parcours avec un résumé](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 Les problèmes de parcours qui ne sont pas détectés peuvent atteindre les clients avant que quiconque ne s’en aperçoive. Cette présentation explique comment anticiper ces problèmes en vérifiant les parcours AJO actifs, en examinant la configuration de la campagne et en faisant apparaître les problèmes opérationnels par le biais d’un client d’IA, à l’aide du MCP Entreprise CX pour obtenir des réponses en langage clair sans ouvrir Adobe Journey Optimizer.
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++Voir un exemple de réponse
 
-![client AI répertoriant les parcours client disponibles et leurs objectifs commerciaux](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![client AI répertoriant les parcours client disponibles et leurs objectifs commerciaux](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++Voir un exemple de réponse
 
-![Client AI passant en revue les étapes du parcours Bienvenue aux nouveaux clients et l’expérience client](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![Client AI passant en revue les étapes du parcours Bienvenue aux nouveaux clients et l’expérience client](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++Voir un exemple de réponse
 
-![Client IA répertoriant les campagnes actives avec leur ciblage d’audience et les résultats escomptés](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![Client IA répertoriant les campagnes actives avec leur ciblage d’audience et les résultats escomptés](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Voir un exemple de réponse
 
-![Client AI expliquant la relation entre les campagnes et les parcours &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![Client AI expliquant la relation entre les campagnes et les parcours &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++Voir un exemple de réponse
 
-Client ![AI donnant des recommandations marketing prioritaires relatives au cycle de vie](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+Client ![AI donnant des recommandations marketing prioritaires relatives au cycle de vie](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
