@@ -2,9 +2,9 @@
 title: Affichage des informations sur les campagnes sans création de rapports
 description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-Client ![AI présentant les étapes suivantes recommandées pour améliorer les performances de la campagne](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
+Client ![AI présentant les étapes suivantes recommandées pour améliorer les performances de la campagne](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 L’analyse des campagnes qui nécessitait autrefois la création de rapports dans un outil distinct est désormais une conversation. Cette présentation explique comment connecter un client d’IA à Customer Journey Analytics (CJA) et poser des questions sur les performances en langage clair. Le temps d’accès à insight est ainsi plus rapide et aucune création de rapports manuelle n’est nécessaire.
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
 | Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | Audience | Analystes, responsables de campagne |
 | Prérequis | Client d’IA compatible avec MCP, accès à CJA |
@@ -82,7 +84,9 @@ What data views are available in my CJA account?
 
 +++Voir un exemple de réponse
 
-![Client AI répertoriant les vues de données CJA disponibles](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+![Client AI répertoriant les vues de données CJA disponibles](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -97,7 +101,9 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant les principales campagnes par chiffre d’affaires et taux de conversion à partir de la vue de données omnicanal - secteur](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+Client ![AI affichant les principales campagnes par chiffre d’affaires et taux de conversion à partir de la vue de données omnicanal - secteur](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -116,7 +122,9 @@ What factors are driving the results for these campaign groups?
 
 +++Voir un exemple de réponse
 
-Client ![AI expliquant les facteurs déterminant les performances du groupe de campagne](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+Client ![AI expliquant les facteurs déterminant les performances du groupe de campagne](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -131,7 +139,9 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++Voir un exemple de réponse
 
-![Le client AI ventile les performances des campagnes promotionnelles par e-mail par segment de client](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+![Le client AI ventile les performances des campagnes promotionnelles par e-mail par segment de client](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -146,7 +156,9 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++Voir un exemple de réponse
 
-![Le client IA recommande des actions prioritaires avec une valeur commerciale estimée](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+![Le client IA recommande des actions prioritaires avec une valeur commerciale estimée](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -273,4 +285,4 @@ Save this analysis as a Workspace project for executive reporting.
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |

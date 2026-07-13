@@ -2,9 +2,9 @@
 title: Découvrez vos audiences et où elles sont activées
 description: Utilisez CX Enterprise MCP pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-Client ![AI fournissant une stratégie d’audience prioritaire avec des recommandations d’activation](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+Client ![AI fournissant une stratégie d’audience prioritaire avec des recommandations d’activation](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 Savoir quelles audiences sont en direct, où elles circulent et si les destinations sont saines est essentiel avant le lancement d’une campagne ou en cas de contre-performance. Cette présentation explique comment obtenir une image d’activation complète par le biais d’un client d’IA, à l’aide de CX Enterprise MCP pour faire apparaître le statut de l’audience et l’intégrité de la destination en secondes, sans ouvrir Real-Time CDP.
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Voir un exemple de réponse
 
-![Client IA répertoriant les audiences disponibles et les comportements des clients qu’elles représentent](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![Client IA répertoriant les audiences disponibles et les comportements des clients qu’elles représentent](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Voir un exemple de réponse
 
-Client ![AI identifiant les audiences les plus importantes et expliquant ce qui les rend précieuses](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+Client ![AI identifiant les audiences les plus importantes et expliquant ce qui les rend précieuses](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut d’activation de l’audience et le mappage de destination](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+Client ![AI affichant le statut d’activation de l’audience et le mappage de destination](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Voir un exemple de réponse
 
-![Client AI donnant des recommandations prioritaires en matière de stratégie d’audience](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![Client AI donnant des recommandations prioritaires en matière de stratégie d’audience](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*Sélectionner pour zoomer.*
 
 +++
 
@@ -229,5 +239,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
+| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
