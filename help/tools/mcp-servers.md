@@ -2,9 +2,9 @@
 title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
+source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2404'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Sélectionnez une application pour afficher le point d’entrée et les fonction
 
 **Un point d’entrée. Plusieurs applications d’entreprise CX.**
 
-Connectez-vous une fois et votre client AI aura accès aux applications CX Enterprise en fonction des licences de votre entreprise. Pour permettre à votre organisation de demander l’accès, envoyez un e-mail à [&#128279;](mailto:cxo-mcp-feedback@adobe.com).
+Connectez-vous une fois et votre client AI aura accès aux applications CX Enterprise en fonction des licences de votre entreprise. Pour permettre à votre organisation de demander l’accès, envoyez un e-mail à [&#128279;](mailto:adobecxmcp@adobe.com).
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -62,7 +62,7 @@ Pour consulter la documentation complète, voir [CX Enterprise MCP](https://expe
 
 >[!NOTE]
 >
->L’accès à chaque application CX Enterprise dépend des droits de votre entreprise et des autorisations de votre utilisateur dans Adobe Admin Console. Pour activer CX Enterprise MCP pour votre organisation, envoyez un e-mail à [&#128279;](mailto:cxo-mcp-feedback@adobe.com).
+>L’accès à chaque application CX Enterprise dépend des droits de votre entreprise et des autorisations de votre utilisateur dans Adobe Admin Console. Pour activer CX Enterprise MCP pour votre organisation, envoyez un e-mail à [&#128279;](mailto:adobecxmcp@adobe.com).
 
 >[!TAB Experience Manager]
 
