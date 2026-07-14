@@ -1,8 +1,8 @@
 ---
 title: Exécuter une révision de campagne cross-canal
-description: Utilisez le MCP Entreprise CX dans une seule session d’IA pour obtenir une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances.
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Utilisez la passerelle CX Coworker dans une seule session d’IA pour obtenir une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Une image complète de l’intégrité de la campagne nécessite des données pr
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Outils agentiques | [Passerelle de collègue CX](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Audience | Chargés d&#39;opération, opérations marketing |
 | Prérequis | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
 
@@ -35,31 +35,31 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 
 >[!TAB Claude.ai]
 
-Connectez CX Enterprise MCP en tant que connecteur personnalisé. Une connexion vous donne accès aux outils AJO, CJA et Real-Time CDP.
+Connectez la passerelle CX Coworker en tant que connecteur personnalisé. Une connexion vous donne accès aux outils AJO, CJA et Real-Time CDP.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
-2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
+2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
 3. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Connectez le CX Enterprise MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
+Connectez la passerelle CX Coworker en utilisant le mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
 1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
-3. Saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
+3. Saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
 4. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Autres clients d’IA]
 
-Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au MCP d’entreprise CX à l’aide de ce point d’entrée :
+Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous à la passerelle CX Coworker à l’aide de ce point d’entrée :
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
@@ -93,8 +93,8 @@ What journeys are currently active in AJO?
 | Réengagement de la fidélité | E-mail | 20 Mai 2026 |
 | Panier abandonné : 24 heures | E-mail, SMS | 10 Mai 2026 |
 | Promotion du printemps | E-mail, notification push | 19 mai 2026 |
-| Reconquête : 90 Jours Inactif | Email | 28 Avril 2026 |
-| Récompense d&#39;anniversaire | Email | 15 Avril 2026 |
+| Reconquête : 90 Jours Inactif | E-mail | 28 Avril 2026 |
+| Récompense d&#39;anniversaire | E-mail | 15 Avril 2026 |
 | Réengagement : opt-out push | SMS | 12 Mai 2026 |
 
 3 parcours ont été modifiés ces 7 derniers jours. Voulez-vous des détails sur l&#39;un d&#39;entre eux ?

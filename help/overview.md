@@ -1,8 +1,8 @@
 ---
 title: Outils Adobe CX Enterprise Agentic
 description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 Laissez AI devenir votre collaborateur pour Adobe CX Enterprise. Connectez votre client d’IA à des campagnes, des audiences, des parcours et du contenu. Interagissez avec eux en langage clair à partir de n’importe quel outil que vous utilisez déjà. Pas de nouvelles interfaces, pas de changement de contexte, pas de codage requis pour commencer.
 
 >[!TIP]
->**Commencez avec CX Enterprise MCP.** Une connexion donne à votre client d’IA l’accès à Adobe Journey Optimizer, Customer Journey Analytics et Real-Time CDP en fonction des licences de votre entreprise. [Se connecter maintenant](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Commencez avec la passerelle CX Coworker.** Une connexion donne à votre client d’IA l’accès à Adobe Journey Optimizer, Customer Journey Analytics et Real-Time CDP en fonction des licences de votre entreprise. [Se connecter maintenant](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB  Serveurs MCP ]
 
-Utilisez n’importe quel client d’IA compatible pour accéder aux applications CX Enterprise en langage clair. Aucun codage requis. Commencez avec CX Enterprise MCP pour une connexion unique à AJO, CJA et Real-Time CDP, ou connectez-vous directement à AEM et à d’autres applications.
+Utilisez n’importe quel client d’IA compatible pour accéder aux applications CX Enterprise en langage clair. Aucun codage requis. Commencez par la passerelle CX Coworker pour une connexion unique à AJO, CJA et Real-Time CDP, ou connectez-vous directement à AEM et à d’autres applications.
 
 - Connectez-vous en quelques minutes depuis Claude, Cursor, ChatGPT et d&#39;autres clients compatibles avec MCP
 - Interrogation des campagnes, des audiences et des données de parcours à l’aide du langage naturel
