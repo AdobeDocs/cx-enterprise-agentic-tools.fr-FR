@@ -1,8 +1,8 @@
 ---
 title: Affichage des informations sur les campagnes sans création de rapports
-description: Utilisez le MCP Entreprise CX pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Utilisez la passerelle CX Coworker pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 1%
@@ -22,8 +22,8 @@ L’analyse des campagnes qui nécessitait autrefois la création de rapports da
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Outils agentiques | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) |
+| Outils agentiques | [Passerelle de collègue CX](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Audience | Analystes, responsables de campagne |
 | Prérequis | Client d’IA compatible avec MCP, accès à CJA |
 
@@ -35,31 +35,31 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 
 >[!TAB Claude.ai]
 
-Connectez CX Enterprise MCP en tant que connecteur personnalisé pour accéder aux outils Customer Journey Analytics.
+Connectez la passerelle CX Coworker en tant que connecteur personnalisé pour accéder aux outils de Customer Journey Analytics.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
-2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
+2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
 3. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Connectez le CX Enterprise MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
+Connectez la passerelle CX Coworker en utilisant le mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
 1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
-3. Saisissez l’URL du serveur : `https://cx-enterprise.adobe.io/mcp`
+3. Saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
 4. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Autres clients d’IA]
 
-Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au MCP d’entreprise CX à l’aide de ce point d’entrée :
+Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous à la passerelle CX Coworker à l’aide de ce point d’entrée :
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
@@ -165,7 +165,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->Les outils CJA accessibles par le biais du MCP Entreprise CX peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
+>Les outils CJA accessibles par le biais de la passerelle CX Coworker peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
 
 ## Ce que vous avez accompli
 
@@ -173,7 +173,7 @@ Vous avez connecté un client d’IA à Customer Journey Analytics et êtes pass
 
 ## Plus de choses à accomplir
 
-Le CX Enterprise MCP peut afficher beaucoup plus d’informations sur Customer Journey Analytics que les couvertures de présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
+La passerelle CX Coworker peut afficher beaucoup plus d’informations sur Customer Journey Analytics que les couvertures de présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
 
 +++Trouver ce qui fonctionne et ce qui ne fonctionne pas
 
@@ -257,7 +257,7 @@ What would have the biggest impact on revenue?
 
 +++Transformer les informations en action
 
-Les outils CJA accessibles via le client MCP Entreprise CX peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
+Les outils CJA accessibles par le biais de la passerelle CX Coworker peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
 
 **Invites**
 
@@ -285,4 +285,4 @@ Save this analysis as a Workspace project for executive reporting.
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |
+| [Documentation ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing){target="_blank"} | Documentation complète de l’application CJA |

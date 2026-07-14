@@ -1,8 +1,8 @@
 ---
 title: Outils Adobe CX Enterprise Agentic
 description: Connectez les agents AI et les outils de développement aux fonctionnalités d’entreprise d’Adobe CX à l’aide des serveurs MCP, des compétences des agents et des API.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 2%
@@ -14,12 +14,12 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491244/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Laissez AI devenir votre collaborateur pour Adobe CX Enterprise. Connectez votre client d’IA à des campagnes, des audiences, des parcours et du contenu. Interagissez avec eux en langage clair à partir de n’importe quel outil que vous utilisez déjà. Pas de nouvelles interfaces, pas de changement de contexte, pas de codage requis pour commencer.
 
 >[!TIP]
->**Commencez avec CX Enterprise MCP.** Une connexion donne à votre client d’IA l’accès à Adobe Journey Optimizer, Customer Journey Analytics et Real-Time CDP en fonction des licences de votre entreprise. [Se connecter maintenant](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**Commencez avec la passerelle CX Coworker.** Une connexion donne à votre client d’IA l’accès à Adobe Journey Optimizer, Customer Journey Analytics et Real-Time CDP en fonction des licences de votre entreprise. [Se connecter maintenant](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB  Serveurs MCP ]
 
-Utilisez n’importe quel client d’IA compatible pour accéder aux applications CX Enterprise en langage clair. Aucun codage requis. Commencez avec CX Enterprise MCP pour une connexion unique à AJO, CJA et Real-Time CDP, ou connectez-vous directement à AEM et à d’autres applications.
+Utilisez n’importe quel client d’IA compatible pour accéder aux applications CX Enterprise en langage clair. Aucun codage requis. Commencez par la passerelle CX Coworker pour une connexion unique à AJO, CJA et Real-Time CDP, ou connectez-vous directement à AEM et à d’autres applications.
 
 - Connectez-vous en quelques minutes depuis Claude, Cursor, ChatGPT et d&#39;autres clients compatibles avec MCP
 - Interrogation des campagnes, des audiences et des données de parcours à l’aide du langage naturel
@@ -227,9 +227,9 @@ CARDS
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
-| [Compétences de l’agent &#x200B;](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
-| [Catalogue des API &#x200B;](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
+| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp) | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
+| [Compétences de l’agent ](https://github.com/adobe/skills) | Compétences en agent organisées par Adobe pour les workflows CX Enterprise |
+| [Catalogue des API ](https://developer.adobe.com/apis) | Référence complète de l’API d’entreprise Adobe CX |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | Configuration et authentification du projet d’API |
-| [&#128279;](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
+| [](https://adminconsole.adobe.com) | Gestion de l’accès aux utilisateurs et aux produits |
 | [Experience League](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/home) | Documentation et tutoriels complets sur l’application Adobe |
