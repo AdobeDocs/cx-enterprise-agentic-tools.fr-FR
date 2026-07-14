@@ -22,7 +22,7 @@ Une image complète de l’intégrité de la campagne nécessite des données pr
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
 | Outils agentiques | [Passerelle de collègue CX](../tools/mcp-servers.md#cx-coworker-gateway) |
 | Audience | Chargés d&#39;opération, opérations marketing |
 | Prérequis | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
