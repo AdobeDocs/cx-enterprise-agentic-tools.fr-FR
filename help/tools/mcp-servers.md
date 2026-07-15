@@ -2,9 +2,9 @@
 title: Serveurs MCP
 description: Connectez n’importe quel client d’IA compatible MCP aux workflows Adobe CX Enterprise à l’aide de serveurs Model Context Protocol.
 last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
-source-wordcount: '2421'
+source-wordcount: '2422'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ Les serveurs MCP Adobe donnent à tout client d’IA compatible un accès direct
 
 Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro). Tout client d’IA compatible avec MCP se connecte à tout serveur MCP Adobe.
 
-## Passerelle de collaborateur CX {#cx-coworker-gateway}
+## Serveurs MCP d’entreprise CX {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
