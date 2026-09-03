@@ -20,13 +20,13 @@ Les serveurs MCP Adobe donnent à tout client d’IA compatible un accès direct
 
 Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro). Tout client d’IA compatible avec MCP se connecte à tout serveur MCP Adobe.
 
-## Serveurs MCP d’entreprise CX {#cx-enterprise-mcp-servers}
+## Serveurs MCP de CX Enterprise {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="Passerelle de collaborateur CX"
+>title="Passerelle CX Coworker"
 >abstract="Vos applications CX Enterprise, accessibles via un point d’entrée MCP unique. Demandez, analysez et agissez en langage clair à partir de vos clients d’IA."
->additional-url="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentation sur la passerelle de collaborateur CX"
+>additional-url="https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="Documentation sur la passerelle CX Coworker"
 
 ![La passerelle CX Coworker connecte votre client AI aux outils de la suite Adobe CX Enterprise complète](../assets/mcp-gateway-hero.gif)
 
@@ -308,7 +308,7 @@ CARDS
                 </div>
                 <a href="../use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Affichage des informations sur les campagnes</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -331,7 +331,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation des audiences</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -354,7 +354,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Surveiller vos parcours </span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -377,7 +377,7 @@ CARDS
                 </div>
                 <a href="../use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Livrer le contenu plus rapidement</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -400,7 +400,7 @@ CARDS
                 </div>
                 <a href="../use-cases/optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">combler les écarts de performances</span>
-                
+                </a>
             </div>
         </div>
     </div>
