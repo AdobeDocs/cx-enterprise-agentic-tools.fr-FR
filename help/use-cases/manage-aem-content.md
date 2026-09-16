@@ -21,7 +21,7 @@ Maintenir le contenu du site à jour est une pression opérationnelle constante.
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Outils agentiques | [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Serveur AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Serveur AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Audience | Gestionnaires de contenu, équipes marketing |
 | Prérequis | Client d’IA compatible avec MCP, accès à AEM as a Cloud Service |
 

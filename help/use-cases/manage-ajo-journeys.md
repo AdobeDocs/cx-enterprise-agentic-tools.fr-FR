@@ -20,7 +20,7 @@ Les problèmes de parcours qui ne sont pas détectés peuvent atteindre les clie
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [Adobe Journey Optimizer (AJO)](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) |
-| Outils agentiques | [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Adobe Journey Optimizer MCP Server](../tools/mcp-servers.md) |
+| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Adobe Journey Optimizer MCP Server](../tools/mcp-servers.md) |
 | Audience | Chargés d&#39;opération, marketeurs |
 | Prérequis | Client d’IA compatible avec MCP, accès à AJO |
 
@@ -147,7 +147,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++Voir un exemple de réponse
 
-![Client AI expliquant la relation entre les campagnes et les parcours ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+![Client AI expliquant la relation entre les campagnes et les parcours &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
 
 *Sélectionner pour zoomer.*
 
@@ -269,4 +269,4 @@ What channel configurations are set up in our AJO environment?
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Disponibilité et outils du serveur AJO MCP |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |

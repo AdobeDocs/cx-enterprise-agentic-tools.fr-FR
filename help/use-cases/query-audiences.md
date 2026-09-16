@@ -25,7 +25,7 @@ Savoir quelles audiences sont en direct, où elles circulent et si les destinati
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| Outils agentiques | [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
+| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | Audience | Marketeurs, analystes, opérateurs |
 | Prérequis | Client d’IA compatible avec MCP, accès à Real-Time CDP |
 
@@ -247,5 +247,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
-| [Documentation ](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
+| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
+| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
