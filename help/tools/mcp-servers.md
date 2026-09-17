@@ -26,27 +26,27 @@ Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](http
 
 ![CX Enterprise Coworker connectant un client AI aux applications CX Enterprise](../assets/mcp-sub-hero.gif)
 
-CX Enterprise Coworker est le moyen le plus rapide de travailler sur vos applications d’entreprise CX.**&#x200B;** Il se connecte à vos applications CX Enterprise sans configuration de serveur, sans point d’entrée à enregistrer et sans configuration de client d’IA. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+CX Enterprise Coworker est le moyen le plus rapide de travailler sur vos applications d’entreprise CX.**** Il se connecte à vos applications CX Enterprise sans configuration de serveur, sans point d’entrée à enregistrer et sans configuration de client d’IA. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
 
 Si vous préférez connecter votre propre client d’IA directement à une application Adobe spécifique, plusieurs applications disposent également de leur propre serveur MCP.
 
 | Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Également via CX Enterprise Coworker |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Examiner les configurations des parcours, des campagnes et des canaux | Oui |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | Oui |
-| [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Découverte de suites de rapports, création de segments et création d’espaces de travail | Oui |
-| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox, les rapports de performances et les URL de prévisualisation (bêta publique : les outils sont en lecture seule et les outils d’écriture sont prévus pour la disponibilité générale). | Oui |
-| [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Rechercher des audiences, des destinations, des sources et des exécutions de flux ; inspecter les espaces de noms d’identité et les politiques de fusion (bêta publique : place sur la liste autorisée requise, tous les outils sont en lecture seule). | Oui |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Examiner les configurations des parcours, des campagnes et des canaux | Oui |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | Oui |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Découverte de suites de rapports, création de segments et création d’espaces de travail | Oui |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox, les rapports de performances et les URL de prévisualisation (bêta publique : les outils sont en lecture seule et les outils d’écriture sont prévus pour la disponibilité générale). | Oui |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Rechercher des audiences, des destinations, des sources et des exécutions de flux ; inspecter les espaces de noms d’identité et les politiques de fusion (bêta publique : place sur la liste autorisée requise, tous les outils sont en lecture seule). | Oui |
 | [Serveur AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Gérer les pages, les fragments de contenu, les ressources et les lancements ; évaluer le contenu et les images par rapport aux directives de la marque et aux règles de conformité | Oui |
-| [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels | Non |
+| [](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels | Non |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Orchestrer l’analyse des audiences, les diagnostics AEP et la création de parcours B2B AJO dans les applications AEP | Non |
-| [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gérer le travail, les projets, les enregistrements de planification, les informations et les approbations de contenu | Non |
-| [&#128279;](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gérez les formulaires, les campagnes intelligentes, les prospects, les listes, les programmes, les e-mails et les opérations en bloc | Oui |
-| Adobe Experience Platform | Via [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte de jeux de données, navigation dans les schémas et gestion des sandbox | S.O. |
-| Campaign Classic | Via [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte des instances Campaign, navigation dans les schémas, exécution des requêtes, contrôle des workflows et exécution de SOAP/JS | S.O. |
-| Expérimentation | Via [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Rapports, mesures, informations, opportunités et planification de la taille des échantillons pour les expériences A/B, MVT et MAB | S.O. |
-| GenStudio for Performance Marketing | Via [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Accès aux données de performances publicitaires et aux informations créatives | S.O. |
-| Adobe Journey Optimizer B2B edition | Via [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Gérez les parcours B2B, les programmes de compte, les groupes d’achats et la personnalisation | S.O. |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gérer le travail, les projets, les enregistrements de planification, les informations et les approbations de contenu | Non |
+| [](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gérez les formulaires, les campagnes intelligentes, les prospects, les listes, les programmes, les e-mails et les opérations en bloc | Oui |
+| Adobe Experience Platform | Via [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte de jeux de données, navigation dans les schémas et gestion des sandbox | S.O. |
+| Campaign Classic | Via [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte des instances Campaign, navigation dans les schémas, exécution des requêtes, contrôle des workflows et exécution de SOAP/JS | S.O. |
+| Expérimentation | Via [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Rapports, mesures, informations, opportunités et planification de la taille des échantillons pour les expériences A/B, MVT et MAB | S.O. |
+| GenStudio for Performance Marketing | Via [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Accès aux données de performances publicitaires et aux informations créatives | S.O. |
+| Adobe Journey Optimizer B2B edition | Via [](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Gérez les parcours B2B, les programmes de compte, les groupes d’achats et la personnalisation | S.O. |
 
 >[!NOTE]
 >
@@ -66,13 +66,13 @@ Si vous utilisez CX Enterprise Coworker, ces connexions se produisent automatiqu
 
 CX Enterprise Coworker comprend déjà plusieurs de ces fonctionnalités MCP. Aucun serveur à ajouter, aucun point d’entrée à enregistrer et aucun client d’IA à configurer. Connectez-vous à CX Enterprise Coworker et vous êtes prêt à l’utiliser.
 
-Documentation complète : [documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+Documentation complète : [documentation ](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
 
 >[!TAB Claude.ai]
 
 ### <img src="../assets/icons/star.svg" width="24" height="24" alt="Recommandé"> Utiliser un connecteur géré
 
-Accédez au registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector) et recherchez votre application Adobe. Si un connecteur Claude est répertorié (par exemple, le connecteur [&#128279;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), suivez ses instructions de configuration au lieu des étapes ci-dessous.
+Accédez au registre Adobe AI [](https://developer.adobe.com/ai-registry/?type=connector) et recherchez votre application Adobe. Si un connecteur Claude est répertorié (par exemple, le connecteur [](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)), suivez ses instructions de configuration au lieu des étapes ci-dessous.
 
 ### Se connecter à l’aide d’un connecteur personnalisé
 
@@ -142,7 +142,7 @@ Configuration complète : [documentation Cursor MCP](https://cursor.com/docs/mcp
 
 ### <img src="../assets/icons/star.svg" width="24" height="24" alt="Recommandé"> Utiliser un connecteur géré
 
-Accédez au registre Adobe AI [&#128279;](https://developer.adobe.com/ai-registry/?type=connector) et recherchez votre application Adobe. Si un connecteur ChatGPT est répertorié, suivez ses instructions de configuration au lieu des étapes ci-dessous.
+Accédez au registre Adobe AI [](https://developer.adobe.com/ai-registry/?type=connector) et recherchez votre application Adobe. Si un connecteur ChatGPT est répertorié, suivez ses instructions de configuration au lieu des étapes ci-dessous.
 
 ### Se connecter à l’aide d’un serveur MCP distant
 
