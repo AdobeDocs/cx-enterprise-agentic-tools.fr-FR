@@ -1,14 +1,12 @@
 ---
 title: Affichage des informations sur les campagnes sans création de rapports
-description: Utilisez la passerelle CX Coworker pour poser des questions sur les performances de Customer Journey Analytics en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Utilisez le serveur MCP Customer Journey Analytics pour poser des questions sur les performances en langage clair et obtenir des réponses sans avoir à naviguer dans les Report Builders.
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
-
+source-wordcount: '1079'
+ht-degree: 4%
 ---
-
 
 # Affichage des informations sur les campagnes sans création de rapports
 
@@ -23,7 +21,7 @@ L’analyse des campagnes qui nécessitait autrefois la création de rapports da
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) |
-| Outils agentiques | [Passerelle de collègue CX](../tools/mcp-servers.md#cx-coworker-gateway) |
+| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | Audience | Analystes, responsables de campagne |
 | Prérequis | Client d’IA compatible avec MCP, accès à CJA |
 
@@ -33,33 +31,39 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+Le moyen le plus rapide d’obtenir ces réponses est CX Enterprise Coworker, qui ne nécessite aucune configuration de serveur ou de client d’IA. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+
+Si vous préférez connecter votre propre client d’IA directement à Customer Journey Analytics, consultez les onglets ci-dessous.
+
 >[!TAB Claude.ai]
 
-Connectez la passerelle CX Coworker en tant que connecteur personnalisé pour accéder aux outils de Customer Journey Analytics.
+Connectez le serveur Customer Journey Analytics MCP en tant que connecteur personnalisé.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
-2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
+2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://cja-mcp.adobe.io/mcp`
 3. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-Connectez la passerelle CX Coworker en utilisant le mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
+Connectez le serveur Customer Journey Analytics MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
 1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
-3. Saisissez l’URL du serveur : `https://cx-coworker-gateway.adobe.io/mcp`
+3. Saisissez l’URL du serveur : `https://cja-mcp.adobe.io/mcp`
 4. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB Autres clients d’IA]
 
-Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous à la passerelle CX Coworker à l’aide de ce point d’entrée :
+Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au serveur Customer Journey Analytics MCP à l’aide de ce point d’entrée :
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://cja-mcp.adobe.io/mcp
 ```
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
@@ -165,7 +169,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->Les outils CJA accessibles par le biais de la passerelle CX Coworker peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
+>Les outils de CJA peuvent créer des segments, des mesures calculées et des projets Workspace dans CJA au cours de la même session. Pour mettre à jour des campagnes, des parcours ou du contenu dans d’autres applications, connectez le serveur MCP approprié ou accédez directement à l’application.
 
 ## Ce que vous avez accompli
 
@@ -173,7 +177,7 @@ Vous avez connecté un client d’IA à Customer Journey Analytics et êtes pass
 
 ## Plus de choses à accomplir
 
-La passerelle CX Coworker peut afficher beaucoup plus d’informations sur Customer Journey Analytics que les couvertures de présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
+Le serveur Customer Journey Analytics MCP peut afficher beaucoup plus d’informations que les couvertures de la présentation. Développez un scénario ci-dessous pour afficher les invites que vous pouvez essayer dans la même session.
 
 +++Trouver ce qui fonctionne et ce qui ne fonctionne pas
 
@@ -257,7 +261,7 @@ What would have the biggest impact on revenue?
 
 +++Transformer les informations en action
 
-Les outils CJA accessibles par le biais de la passerelle CX Coworker peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
+Les outils CJA peuvent créer des segments, des audiences, des mesures calculées et des projets Workspace directement dans CJA sans quitter votre session d’IA. Utilisez ces invites pour agir sur ce que vous avez trouvé.
 
 **Invites**
 

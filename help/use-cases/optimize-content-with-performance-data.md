@@ -1,14 +1,12 @@
 ---
 title: Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 description: Utilisez CJA et AEM ensemble dans une seule session d’IA pour rechercher les campagnes avec des écarts de conversion, diagnostiquer la cause et mettre à jour le contenu sans changer d’outil.
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 2%
-
+source-wordcount: '1146'
+ht-degree: 7%
 ---
-
 
 # Combler les écarts de performances du contenu avec des mises à jour pilotées par les données
 <!-- last-modified: 2026-06-10 -->
@@ -22,7 +20,7 @@ Les écarts de performances du contenu coûtent cher aux résultats des campagne
 | Détails du scénario | |
 | --- | --- |
 | Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/overview/introduction) |
-| Outils agentiques | [Passerelle de collaborateur CX](../tools/mcp-servers.md#cx-coworker-gateway), [Serveur AEM Content MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Customer Journey Analytics MCP Server](../tools/mcp-servers.md) et [AEM MCP Server](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | Audience | Responsables de campagne, stratèges de contenu, opérations marketing |
 | Prérequis | Client d’IA compatible MCP, accès CJA, accès AEM as a Cloud Service |
 
@@ -32,6 +30,12 @@ Chaque étape affiche une invite représentative et un exemple de réponse de l�
 ## Avant de commencer
 
 >[!BEGINTABS]
+
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworker couvre l’ensemble de cette présentation, sans configuration de serveur requise. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+
+Si vous préférez connecter directement votre propre client d’IA, connectez les deux serveurs MCP à l’aide des onglets ci-dessous.
 
 >[!TAB Claude.ai]
 
@@ -43,8 +47,8 @@ Connectez les deux serveurs MCP en tant que connecteurs personnalisés. Ajoutez 
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle de collaborateur CX | `https://cx-coworker-gateway.adobe.io/mcp` |
-| Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
+| Serveur MCP AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
@@ -59,8 +63,8 @@ Connectez les deux serveurs MCP en mode Développeur ChatGPT (Pro, Plus, Busines
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle de collaborateur CX | `https://cx-coworker-gateway.adobe.io/mcp` |
-| Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
+| Serveur MCP AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
@@ -70,8 +74,8 @@ Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnemen
 
 | Serveur | Point d’entrée |
 | --- | --- |
-| Passerelle de collaborateur CX | `https://cx-coworker-gateway.adobe.io/mcp` |
-| Serveur AEM Content MCP | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
+| Serveur MCP AEM | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
 
@@ -177,7 +181,7 @@ Client ![AI créant une version optimisée de la page et résumant les modificat
 
 >[!CAUTION]
 >
->Examinez le résumé complet des modifications proposées avant de confirmer. Le serveur AEM Content MCP écrira les modifications dans votre environnement AEM. Les pages restent à l’état publié jusqu’à ce que vous les republiiez explicitement.
+>Examinez le résumé complet des modifications proposées avant de confirmer. Le serveur MCP AEM écrira les modifications dans votre environnement AEM. Les pages restent à l’état publié jusqu’à ce que vous les republiiez explicitement.
 
 
 ## Ce que vous avez accompli
@@ -268,4 +272,4 @@ Publish all confirmed changes and share the updated URLs.
 | Ressource | Ce que vous trouverez |
 | --- | --- |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |
-| [Serveur AEM Content MCP dans le registre AI](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | Disponibilité et outils du serveur AEM Content MCP |
+| [Documentation d’AEM MCP Server](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | Disponibilité et outils du serveur AEM MCP |
