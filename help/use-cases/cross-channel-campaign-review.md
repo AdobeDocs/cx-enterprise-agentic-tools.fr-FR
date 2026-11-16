@@ -1,48 +1,52 @@
 ---
 title: Exécuter une révision de campagne cross-canal
 description: Obtenez une vue unifiée de l’intégrité des campagnes AJO, CJA et Real-Time CDP sur l’ensemble des parcours, des audiences et des performances dans une seule session d’IA.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 8%
+source-wordcount: '1651'
+ht-degree: 7%
 ---
 
 # Exécuter une révision de campagne cross-canal
 
 <!-- last-modified: 2026-05-21 -->
 
-![Exécution d’une révision de campagne cross-canal](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+![Exécuter une révision de campagne cross-canal](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 Une image complète de l’intégrité de la campagne nécessite des données provenant de plusieurs systèmes : les parcours actifs d’AJO, le statut d’activation de l’audience de Real-Time CDP et les mesures de performances de CJA. Cette présentation explique comment regrouper les trois dans une seule session d’IA, afin que vous puissiez passer de l’état du parcours à l’intégrité de l’audience et suivre les tendances de performances dans une seule conversation plutôt que dans trois outils distincts.
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [&#128279;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home) [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview) [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) et [Real-Time CDP](../tools/mcp-servers.md) serveurs MCP |
+| Applications CX Enterprise | [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home), [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-overview), [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Outils agentiques | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker pour les plateformes d’IA](../tools/mcp-servers.md#connect-to-your-ai-platform) ou [Adobe Journey Optimizer](../tools/mcp-servers.md), [Customer Journey Analytics](../tools/mcp-servers.md) et [Real-Time CDP](../tools/mcp-servers.md) serveurs MCP |
 | Audience | Chargés d&#39;opération, opérations marketing |
-| Prérequis | Client d’IA compatible avec MCP, accès à AJO, CJA et Real-Time CDP |
+| Prérequis | l’accès à AJO, CJA et Real-Time CDP, ainsi qu’à Coworker, une plateforme d’IA avec Coworker pour les plateformes d’IA ou une plateforme d’IA compatible avec MCP |
 
-Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
+Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. Une section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire dans la même session.
 
 ## Avant de commencer
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworker se connecte à AJO, CJA et Real-Time CDP en un seul endroit, sans configuration de serveur ou de client d’IA requise. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+Coworker se connecte à AJO, CJA et Real-Time CDP en un seul endroit, sans configuration de serveur ou de plateforme d’IA requise. [Essayer Un Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
 
-Si vous préférez connecter directement votre propre client d’IA, connectez les trois serveurs MCP à l’aide des onglets ci-dessous. Le serveur Real-Time CDP MCP est en version bêta publique et nécessite que votre organisation soit traitée.
+Si vous ne pouvez pas ou ne souhaitez pas utiliser directement Coworker, utilisez-le plutôt à partir de votre propre plateforme d’IA. Consultez l’onglet **Collègues pour les plateformes d’IA**. Si cela ne fonctionne pas non plus pour vous, connectez directement votre plateforme d’IA aux serveurs MCP AJO, CJA et Real-Time CDP à l’aide des onglets restants. Le serveur Real-Time CDP MCP est en version bêta publique et nécessite que votre organisation soit traitée.
+
+>[!TAB Collègue pour les plateformes d’IA]
+
+Vous pouvez également effectuer cette présentation avec Coworker pour les plateformes d’IA à partir de votre propre plateforme d’IA. [Configuration de Coworker pour les plateformes d’IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentation Adobe](https://experienceleague.adobe.com/fr/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
 Connectez les trois serveurs MCP en tant que connecteurs personnalisés. Ajoutez chacun séparément.
 
 1. Accédez à **Paramètres > Intégrations** dans Claude.ai.
-2. Sélectionnez **Ajouter un connecteur personnalisé**, saisissez une URL de serveur, puis sélectionnez **Se connecter**.
+2. Sélectionnez **Ajouter un connecteur personnalisé**, saisissez une URL de serveur, puis sélectionnez **Connecter**.
 3. Connectez-vous avec votre Adobe ID, puis réessayez pour les serveurs restants.
 
 | Serveur | Point d’entrée |
@@ -51,13 +55,13 @@ Connectez les trois serveurs MCP en tant que connecteurs personnalisés. Ajoutez
 | Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
 | Serveur MCP Real-Time CDP | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+Configuration complète : [Documentation sur les connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
 Connectez les trois serveurs MCP en mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis). Ajoutez chaque serveur séparément.
 
-1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
+1. Activez le **mode Développeur** dans les **paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
 3. Saisissez une URL de serveur, sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 4. Répétez l’opération pour les serveurs restants.
@@ -68,9 +72,9 @@ Connectez les trois serveurs MCP en mode Développeur ChatGPT (Pro, Plus, Busine
 | Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
 | Serveur MCP Real-Time CDP | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+Configuration complète : [Documentation du MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Autres clients d’IA]
+>[!TAB Autres plateformes d’IA]
 
 Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous aux trois serveurs MCP à l’aide des points d’entrée suivants :
 
@@ -80,7 +84,7 @@ Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnemen
 | Serveur MCP Customer Journey Analytics | `https://cja-mcp.adobe.io/mcp` |
 | Serveur MCP Real-Time CDP | `https://rtcdp-mcp.adobe.io/mcp` |
 
-Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
+Instructions de configuration complètes pour toutes les plateformes d’IA prises en charge : [Connexion à votre plateforme d’IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ Instructions de configuration complètes pour tous les clients pris en charge : 
 >
 >Connectez-vous avec votre Adobe ID lorsque vous y êtes invité et sélectionnez l’organisation IMS liée à vos environnements AJO, CJA et Real-Time CDP. Choisir la mauvaise organisation est la source la plus courante d’erreurs d’authentification.
 >
->Lors de la première connexion, votre client d’IA peut vous demander de sélectionner une organisation IMS ou de spécifier un sandbox. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
+>Lors de la première connexion, votre plateforme d’IA peut vous demander de sélectionner une organisation IMS ou de spécifier un sandbox. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
 >
 >Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la demande et approuvez ou refusez. Aucune action n’est entreprise sans votre confirmation.
 
@@ -104,7 +108,7 @@ What journeys are currently active in AJO?
 
 8 parcours actifs ont été trouvés dans votre organisation AJO :
 
-| Parcours | Canal(s) | Last modified |
+| Parcours | Canal(s) | Dernière modification |
 | --- | --- | --- |
 | Série de bienvenue : nouveaux membres | E-mail, notification push | 18 Mai 2026 |
 | Suivi après achat | E-mail, SMS | 14 Mai 2026 |
@@ -130,7 +134,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++Voir un exemple de réponse
 
-**Segment de fidélité à valeur élevée** : statut d’activation sur les destinations :
+**Segment de fidélité à forte valeur** : statut d’activation sur les destinations :
 
 | Destination | Statut | Dernière exécution réussie | Taille de l’audience |
 | --- | --- | --- | --- |
@@ -169,7 +173,7 @@ Taux de conversion combiné : 3,8 %. Le taux de clics des e-mails a augmenté de
 
 ## Étape 4 : synthétiser un résumé de l&#39;intégrité de la campagne
 
-Demandez à votre client d’IA de rassembler l’image sur les trois sources et de faire apparaître tout ce qui nécessite une attention particulière.
+Demandez à votre plateforme d’IA de rassembler l’image sur les trois sources et de faire apparaître tout ce qui nécessite une attention particulière.
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -179,13 +183,13 @@ Give me a summary of our campaign health: what is running, which audiences are a
 
 Voici votre résumé de l’intégrité actuelle de la campagne dans AJO, Real-Time CDP et CJA :
 
-parcours actifs :**8 en ligne, 3 modifiés cette semaine.** Le parcours de réengagement de la fidélité est le plus récemment mis à jour.
+**parcours actifs :** 8 actifs, 3 modifiés cette semaine. Le parcours de réengagement de la fidélité est le plus récemment mis à jour.
 
-**Activation de l’audience :** tous les segments circulent correctement vers 4 destinations. Aucune erreur de flux de données détectée.
+**Activation de l’audience :** tous les segments s’écoulant correctement vers 4 destinations. Aucune erreur de flux de données détectée.
 
-**Performances :** le taux de clics des e-mails est élevé dans les campagnes de fidélité. La conversion push est plate. Aucun canal n’est en déclin significatif.
+**Performances :** le taux de clics des e-mails est en hausse dans les campagnes de fidélité. La conversion push est plate. Aucun canal n’est en déclin significatif.
 
-**Indicateurs pour l’attention :**
+**Indicateurs pour l&#39;attention :**
 
 - Le parcours de reconquête (90 jours inactif) a été modifié pour la dernière fois il y a 23 jours et n’a pas été examiné récemment.
 - Le taux de conversion des notifications push est resté stable pendant 3 périodes consécutives, ce qui mérite d’être vérifié pour les messages ou le timing.
@@ -195,11 +199,11 @@ Aucun problème critique détecté. Deux éléments ci-dessus méritent d’êtr
 +++
 
 
-C’est là que l’approche multi-serveur s’avère payante : votre client d’IA raisonne sur la configuration du parcours, le statut de l’audience et les données de performances dans une seule conversation.
+C’est là que l’approche multi-serveur s’avère payante : votre plateforme d’IA raisonne sur la configuration du parcours, le statut de l’audience et les données de performances dans une seule conversation.
 
 ## Étape 5 : Agir sur ce que vous avez trouvé
 
-La révision a fait apparaître deux éléments. Demandez à votre client d’IA de vous aider à prioriser et à acheminer chacun d’eux.
+La révision a fait apparaître deux éléments. Demandez à votre plateforme d’IA de vous aider à prioriser et à acheminer chacune d’elles.
 
 ```
 For each flag you identified, what should I do and where should I go to do it?
@@ -209,7 +213,7 @@ For each flag you identified, what should I do and where should I go to do it?
 
 Voici un plan d’action hiérarchisé pour les deux indicateurs :
 
-**1. Parcours de reconquête : passez en revue les conditions de reprise (MCP AJO, puis application AJO si des modifications sont nécessaires)**
+**1. Parcours de reconquête : passez en revue les conditions de rentrée (MCP AJO, puis application AJO si des modifications sont nécessaires)**
 
 Le parcours Win-Back n&#39;a pas été modifié depuis 23 jours. Me demander de passer en revue ses conditions de rentrée actuelles et sa logique de sortie. Si les conditions semblent obsolètes ou incorrectes, les modifications structurelles du flux du parcours nécessitent l’ouverture d’AJO. Les mises à jour de la limite de fréquence et de l’audience peuvent être effectuées ici.
 
@@ -217,8 +221,8 @@ Le parcours Win-Back n&#39;a pas été modifié depuis 23 jours. Me demander de 
 
 La conversion plate signale généralement une fatigue des messages ou une incohérence entre l’offre et l’audience. Deux chemins :
 
-- **Mettre à jour le contenu push maintenant (AEM MCP) :** si les notifications push pointent vers une page de destination, ajoutez le serveur AEM Content MCP et mettez à jour la copie de page ou le CTA sans changer d’outil.
-- **Exécution d’un test A/B push (application AJO) :** créez une variante au niveau de la campagne avec des messages différents pour déterminer s’il s’agit de contenu ou de ciblage. Cela nécessite d’accéder directement à AJO.
+- **Mettre à jour le contenu push maintenant (AEM MCP) :** si les notifications push renvoient vers une page de destination, ajoutez le serveur AEM Content MCP et mettez à jour la copie de page ou CTA sans changer d’outil.
+- **Exécutez un test A/B push (application AJO) :** créez une variante au niveau de la campagne avec des messages différents pour déterminer s’il s’agit de contenu ou de ciblage. Cela nécessite d’accéder directement à AJO.
 
 Par quoi souhaiteriez-vous commencer ?
 
@@ -310,6 +314,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
+| [Documentation AJO](https://experienceleague.adobe.com/fr/docs/journey-optimizer/using/ajo-home){target="_blank"} | Documentation complète de l’application AJO |
 | [Serveur AJO MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | Disponibilité et outils du serveur AJO MCP |
 | [Serveur CJA MCP dans le registre IA](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | Disponibilité et outils du serveur CJA MCP |

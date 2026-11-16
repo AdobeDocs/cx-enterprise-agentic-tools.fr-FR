@@ -1,22 +1,20 @@
 ---
 title: Compétences de l’agent
-description: Workflows et instructions traités par Adobe qui guident les agents d’IA de manière cohérente tout au long des tâches d’entreprise CX.
-last-substantial-update: 2026-05-19T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Workflows traités par Adobe et instructions qui guident les agents d’IA de manière cohérente tout au long des tâches CX Enterprise.
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
-
 ---
-
 
 # Compétences de l’agent
 
 <!-- last-modified: 2026-06-11 -->
 
-![Compétences agent pour Adobe CX Enterprise](../assets/hero-agent-skills.png)
+![Compétences de l’agent pour Adobe CX Enterprise](../assets/hero-agent-skills.png)
 
-Les compétences des agents sont des workflows traités par Adobe qui fournissent aux agents d’IA des instructions détaillées pour exécuter de manière fiable les tâches d’Adobe CX Enterprise. Chaque compétence d’agent encode l’expertise du domaine et les bonnes pratiques afin que les agents produisent des résultats cohérents et validés sans avoir à improviser. Les compétences d’agent ont un sens lorsque vous souhaitez un comportement guidé et reproductible tout au long des conversations, en particulier pour les tâches qui nécessiteraient autrement une invite détaillée à chaque fois. Ils complètent les serveurs MCP et les API : les compétences des agents définissent le fonctionnement d’un agent. Les serveurs MCP et les API fournissent l’accès sous-jacent.
+Les compétences des agents sont des workflows traités par Adobe qui fournissent aux agents d’IA des instructions détaillées pour exécuter des tâches Adobe CX Enterprise de manière fiable. Chaque compétence d’agent encode l’expertise du domaine et les bonnes pratiques afin que les agents produisent des résultats cohérents et validés sans avoir à improviser. Les compétences d’agent ont un sens lorsque vous souhaitez un comportement guidé et reproductible tout au long des conversations, en particulier pour les tâches qui nécessiteraient autrement une invite détaillée à chaque fois. Ils complètent les serveurs MCP et les API : les compétences des agents définissent le fonctionnement d’un agent. Les serveurs MCP et les API fournissent l’accès sous-jacent.
 
 ## Compétences de l’agent Adobe CX Enterprise
 
@@ -48,7 +46,7 @@ Compétences en agent pour la génération de modèles automatique, le test et l
 
 [Afficher les compétences de l’agent](https://github.com/adobe/skills/tree/main/plugins/app-builder)
 
->[!TAB Tab]
+>[!TAB Creative Cloud]
 
 Compétences d’agent pour la modification de photos par lots, la conception à partir de modèles, la modification vidéo et les variantes de médias sociaux avec Creative Cloud.
 
@@ -58,33 +56,33 @@ Compétences d’agent pour la modification de photos par lots, la conception à
 
 ## Ajouter des compétences d’agent
 
-![Fonctionnement des compétences d’agent](../assets/hero-connect-agent-skills.gif)
+![Fonctionnement des compétences de l&#39;agent](../assets/hero-connect-agent-skills.gif)
 
 Une compétence d’agent est un ensemble d’instructions qui indique à un agent d’IA comment effectuer une tâche à l’aide d’outils d’agent Adobe. Lorsqu’un agent charge une compétence, il suit ce workflow plutôt que d’improviser.
 
 ### Installation des compétences de l’agent
 
-Les compétences de l’agent sont installées en fonction du client d’IA que vous utilisez. Certains clients prennent en charge l’installation directe à partir de la ligne de commande :
+Les compétences de l’agent sont installées en fonction de la plateforme d’IA que vous utilisez. Certaines plateformes d’IA prennent en charge l’installation directe à partir de la ligne de commande :
 
 - **Code Claude** : `/plugin install adobe/skills`
 - **Environnements de nœud** : `npx skills add adobe/skills`
-- **GitHub CLI** : `gh upskill adobe/skills`
+- **Interface de ligne de commande GitHub** : `gh upskill adobe/skills`
 
-Pour les autres clients, vous devez télécharger et ajouter directement les fichiers de compétences à votre client d’IA. Consultez le [LISEZ-MOI des compétences Adobe sur GitHub](https://github.com/adobe/skills#installation) pour obtenir des instructions d’installation complètes par client.
+D’autres plateformes d’IA nécessitent que vous téléchargiez et ajoutiez les fichiers de compétences directement à votre plateforme d’IA. Pour obtenir des instructions d’installation complètes par le client, consultez le [LISEZ-MOI sur les compétences Adobe sur GitHub](https://github.com/adobe/skills#installation).
 
 ### Recherche des compétences de l’agent
 
-Parcourez la liste complète des compétences disponibles dans le référentiel GitHub [Compétences &#x200B;](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
+Parcourez la liste complète des compétences disponibles dans le [référentiel GitHub des compétences Adobe](https://github.com/adobe/skills). Chaque compétence d’agent comprend un fichier `SKILL.md` avec des conseils détaillés, des références et des exemples.
 
-Après avoir installé ou ajouté le package `adobe/skills`, certains clients d’IA vous permettent de répertorier directement toutes les compétences disponibles :
+Après avoir installé ou ajouté le package `adobe/skills`, certaines plateformes d’IA vous permettent de répertorier directement toutes les compétences disponibles :
 
 - **Code Claude** : `claude /plugin list`
 - **Environnements de nœud** : `npx skills list`
-- **GitHub CLI** : `gh upskill list`
+- **Interface de ligne de commande GitHub** : `gh upskill list`
 
 ## Compétences de l’agent en action
 
-Les compétences des agents mettent l’expertise du domaine Adobe au service de votre client d’IA, afin que les agents suivent des workflows éprouvés au lieu d’improviser. Chaque présentation ci-dessous montre une tâche commerciale spécifique réalisée de manière fiable, guidée par les bonnes pratiques Adobe du début à la sortie.
+Les compétences des agents mettent l’expertise du domaine Adobe au service de votre plateforme d’IA, afin que les agents suivent des workflows éprouvés au lieu d’improviser. Chaque présentation ci-dessous montre une tâche commerciale spécifique réalisée de manière fiable, guidée par les bonnes pratiques Adobe du début à la sortie.
 
 <!--
 CARDS
@@ -111,13 +109,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Développement de composants AEM avec l’IA">Développement de composants AEM avec l’IA</a>
+                        <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Développement de composants AEM avec l’IA">Développer des composants AEM avec l’IA</a>
                     </p>
                     <p class="is-size-6">Utilisez le code Claude ou le curseur avec les compétences de l’agent pour créer un modèle automatique, coder et affiner les composants AEM en fonction des bonnes pratiques d’Adobe.</p>
                 </div>
                 <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Utilisation des compétences d’agent</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Essayer avec les compétences de l’agent</span>
+                </a>
             </div>
         </div>
     </div>

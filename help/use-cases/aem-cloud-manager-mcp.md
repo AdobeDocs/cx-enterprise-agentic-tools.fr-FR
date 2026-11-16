@@ -1,14 +1,12 @@
 ---
 title: Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
-description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre client d’IA.
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: Vérifiez l’intégrité de l’environnement, consultez l’historique des pipelines et déclenchez ou gérez les déploiements sans quitter votre plateforme d’IA.
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
-
+source-wordcount: '951'
+ht-degree: 3%
 ---
-
 
 # Effectuez un déploiement sur AEM as a Cloud Service en toute confiance
 
@@ -16,16 +14,16 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480344/?captions=fre_fr&learn=on&enablevpops)
 
-Le déploiement est plus sûr si vous savez que votre environnement est sain avant d’effectuer des notifications push. Cette présentation explique comment vérifier le statut de l’environnement AEM, consulter l’historique des pipelines et déclencher des déploiements à partir d’un client d’IA à l’aide du serveur MCP AEM Cloud Manager, de sorte que les équipes puissent se déplacer rapidement sans perdre de visibilité.
+Le déploiement est plus sûr si vous savez que votre environnement est sain avant d’effectuer des notifications push. Cette présentation explique comment vérifier le statut de l’environnement AEM, passer en revue l’historique des pipelines et déclencher des déploiements à partir d’une plateforme d’IA à l’aide du serveur AEM Cloud Manager MCP, afin que les équipes puissent se déplacer rapidement sans perdre de visibilité.
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| Applications CX Enterprise | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
 | Outils agentiques | [Serveur AEM Cloud Manager MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | Audience | Développeurs, opérations de développement, équipes opérationnelles |
-| Prérequis | Client d’IA compatible avec MCP, accès à AEM Cloud Manager |
+| Prérequis | Plateforme d&#39;IA compatible MCP, accès AEM Cloud Manager |
 
-Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. Une section **Plus d’invites pour essayer** suit pour une exploration supplémentaire dans la même session.
+Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. Une section **Plus d&#39;invites pour essayer** s&#39;affiche pour une exploration supplémentaire dans la même session.
 
 ## Avant de commencer
 
@@ -39,7 +37,7 @@ Accédez d’abord au répertoire de votre projet, puis ajoutez le serveur Cloud
 claude mcp add --transport http adobe-cloud-manager https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-Vous pouvez également l’ajouter manuellement à `.mcp.json` dans la racine de votre projet :
+Ou ajoutez-le manuellement à `.mcp.json` dans la racine de votre projet :
 
 ```json
 {
@@ -54,11 +52,11 @@ Vous pouvez également l’ajouter manuellement à `.mcp.json` dans la racine de
 
 Redémarrez Claude Code. Les outils de Cloud Manager seront disponibles lors de votre prochaine session.
 
-Configuration complète : [documentation Claude Code MCP](https://docs.anthropic.com/en/docs/claude-code/mcp)
+Configuration complète : [Documentation Claude Code MCP](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 >[!TAB Curseur]
 
-Ajoutez le serveur Cloud Manager MCP à `~/.cursor/mcp.json` (global) ou `.cursor/mcp.json` dans la racine de votre projet :
+Ajoutez le serveur MCP Cloud Manager à `~/.cursor/mcp.json` (global) ou `.cursor/mcp.json` dans la racine de votre projet :
 
 ```json
 {
@@ -71,11 +69,11 @@ Ajoutez le serveur Cloud Manager MCP à `~/.cursor/mcp.json` (global) ou `.curso
 }
 ```
 
-Ouvrez **Paramètres > MCP**, sélectionnez **Se connecter** en regard du serveur et connectez-vous avec votre Adobe ID.
+Ouvrez **Paramètres > MCP**, sélectionnez **Se connecter** à côté du serveur et connectez-vous avec votre Adobe ID.
 
-Configuration complète : [documentation Cursor MCP](https://cursor.com/docs/mcp)
+Configuration complète : [Documentation Cursor MCP](https://cursor.com/docs/mcp)
 
->[!TAB  Copilote GitHub ]
+>[!TAB Copilote GitHub]
 
 Ajoutez le serveur MCP Cloud Manager à `.vscode/mcp.json` dans la racine de votre projet :
 
@@ -90,13 +88,13 @@ Ajoutez le serveur MCP Cloud Manager à `.vscode/mcp.json` dans la racine de vot
 }
 ```
 
-Note : VS Code utilise `"servers"` comme clé de niveau supérieur, et non `"mcpServers"`.
+Remarque : le code VS utilise `"servers"` comme clé de niveau supérieur, et non `"mcpServers"`.
 
-Ouvrez le panneau **Conversation copilote GitHub**, passez en **mode Agent**, puis sélectionnez **Se connecter** en regard du serveur. Les outils MCP ne sont disponibles qu’en mode Agent.
+Ouvrez le panneau **Conversation copilote GitHub**, passez en **mode Agent** et sélectionnez **Connexion** en regard du serveur. Les outils MCP ne sont disponibles qu’en mode Agent.
 
-Configuration complète : documentation sur les serveurs MCP [VS Code](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+Configuration complète : [Documentation des serveurs MCP de code VS](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB Autres clients d’IA]
+>[!TAB Autres plateformes d’IA]
 
 Vous utilisez un autre environnement compatible avec MCP ? Connectez-vous au serveur Cloud Manager MCP à l’aide de ce point d’entrée :
 
@@ -104,15 +102,15 @@ Vous utilisez un autre environnement compatible avec MCP ? Connectez-vous au ser
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
+Instructions de configuration complètes pour toutes les plateformes d’IA prises en charge : [Connexion à votre plateforme d’IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Connectez-vous avec votre Adobe ID lorsque vous y êtes invité et sélectionnez l’organisation IMS liée à votre programme AEM as a Cloud Service. Les autorisations sont appliquées au niveau du Cloud Manager. Votre client d’IA peut uniquement effectuer des opérations pour lesquelles votre compte est autorisé.
+>Connectez-vous avec votre Adobe ID lorsque vous y êtes invité et sélectionnez l’organisation IMS liée à votre programme AEM as a Cloud Service. Les autorisations sont appliquées au niveau du Cloud Manager. Votre plateforme d’IA peut uniquement effectuer des opérations pour lesquelles votre compte est autorisé.
 >
->Lors de la première connexion, votre client d’IA peut vous demander de confirmer votre organisation ou votre programme AEM. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
+>Lors de la première connexion, votre plateforme d’IA peut vous demander de confirmer votre organisation ou votre programme AEM. Une fois ce contexte défini, le serveur MCP l’utilise pour le reste de la session.
 >
 >Certains outils vous demandent votre approbation avant de s’exécuter. Examinez la mesure proposée et approuvez ou refusez. Aucune action n’est entreprise sans votre confirmation.
 
@@ -126,9 +124,9 @@ What is the status of the production environment?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut de l’environnement de production à partir de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![Plateforme d’IA affichant le statut de l’environnement de production de Cloud Manager](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
@@ -143,16 +141,16 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant les cinq dernières exécutions de pipeline pour le pipeline de production](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+![Plateforme d’IA affichant les cinq dernières exécutions de pipeline pour le pipeline de production](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
 
 ## Étape 3 : déclencher un pipeline
 
-Démarrer un pipeline directement à partir de votre client d’IA. Le serveur confirme l’environnement cible et demande une validation avant de démarrer.
+Démarrer un pipeline directement à partir de votre plateforme d’IA. Le serveur confirme l’environnement cible et demande une validation avant de démarrer.
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,20 +158,20 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant la confirmation du déclenchement du pipeline et l’interface utilisateur de Cloud Manager reflétant le pipeline en cours d’exécution](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![Plateforme d’IA affichant la confirmation du déclencheur de pipeline et l’interface utilisateur de Cloud Manager reflétant le pipeline en cours d’exécution](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
 
 >[!CAUTION]
 >
->Le client d’IA vous demandera de confirmer le nom du pipeline avant de déclencher une exécution. Saisissez le nom exact du pipeline pour continuer. Examinez attentivement l’environnement cible avant de confirmer, en particulier pour les pipelines qui se déploient en production.
+>La plateforme d’IA vous demandera de confirmer le nom du pipeline avant de déclencher une exécution. Saisissez le nom exact du pipeline pour continuer. Examinez attentivement l’environnement cible avant de confirmer, en particulier pour les pipelines qui se déploient en production.
 
 ## Étape 4 : vérifier le statut du pipeline
 
-Après le déclenchement d’une exécution, demandez à votre client d’IA une mise à jour de statut sans passer à l’interface de Cloud Manager.
+Après le déclenchement d’une exécution, demandez à votre plateforme d’IA une mise à jour de l’état sans passer à l’interface de Cloud Manager.
 
 ```
 What is the status of the triggered pipeline?
@@ -181,9 +179,9 @@ What is the status of the triggered pipeline?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut de l’exécution du pipeline déclenché](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![Plateforme d’IA affichant le statut de l’exécution du pipeline déclenchée](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
