@@ -12,7 +12,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480344/?captions=fre_fr&learn=on&enablevpops)
 
 Le déploiement est plus sûr si vous savez que votre environnement est sain avant d’effectuer des notifications push. Cette présentation explique comment vérifier le statut de l’environnement AEM, passer en revue l’historique des pipelines et déclencher des déploiements à partir d’une plateforme d’IA à l’aide du serveur AEM Cloud Manager MCP, afin que les équipes puissent se déplacer rapidement sans perdre de visibilité.
 
