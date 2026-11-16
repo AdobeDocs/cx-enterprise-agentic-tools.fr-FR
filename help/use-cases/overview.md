@@ -1,14 +1,12 @@
 ---
 title: Outils Agentic en action
 description: Présentation détaillée des outils Adobe CX Enterprise Agentic appliqués à de vrais workflows d’entreprise.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-06-08
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # Outils agentiques en action
 
@@ -16,7 +14,7 @@ ht-degree: 0%
 
 ![Outils Agentic en action](../assets/hero-agentic-tools-in-action.png)
 
-Présentation détaillée des workflows réels d’Adobe CX Enterprise. Chaque présentation commence là où se termine la configuration, avec les outils connectés et un véritable workflow à terminer.
+Procédures pas à pas relatives aux workflows Adobe CX Enterprise réels. Chaque présentation commence là où se termine la configuration, avec les outils connectés et un véritable workflow à terminer.
 
 <!--
 CARDS
@@ -48,7 +46,7 @@ CARDS
 
 * aem-cloud-manager-mcp.md
   {title = Deploy AEM changes with confidence}
-  {description = Check environment health, review pipeline history, and deploy to AEM from your AI client, without switching tools.}
+  {description = Check environment health, review pipeline history, and deploy to AEM from your AI platform, without switching tools.}
   {cta = Deploy with confidence}
   {image = ../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png}
 -->
@@ -67,13 +65,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="analyze-campaign-performance.md" title="Informations sur la campagne sans rapports">Informations sur Campaign sans rapports</a>
+                        <a href="analyze-campaign-performance.md" title="Informations sur la campagne sans rapports">Informations de campagne sans rapports</a>
                     </p>
                     <p class="is-size-6">Posez des questions sur les performances en langage clair et obtenez des réponses de Customer Journey Analytics, sans créer de rapport unique.</p>
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Affichage des informations sur les campagnes</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Informations sur la campagne de surface</span>
+                </a>
             </div>
         </div>
     </div>
@@ -90,13 +88,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="query-audiences.md" title="Activation des audiences en un coup d’œil">Aperçu de l’activation des audiences</a>
+                        <a href="query-audiences.md" title="Activation des audiences en un coup d’œil">Activation de l’audience en un coup d’œil</a>
                     </p>
                     <p class="is-size-6">Identifiez les audiences en direct, où elles circulent et si les destinations sont saines, sans naviguer dans Real-Time CDP.</p>
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation des audiences</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation de l’audience</span>
+                </a>
             </div>
         </div>
     </div>
@@ -113,13 +111,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="manage-ajo-journeys.md" title="Problèmes de parcours anticipé">Problèmes de parcours des captures en amont</a>
+                        <a href="manage-ajo-journeys.md" title="Problèmes de parcours anticipé">Problèmes de parcours anticipé</a>
                     </p>
                     <p class="is-size-6">Surveillez les parcours actifs et les problèmes opérationnels de surface avant qu’ils n’atteignent votre audience.</p>
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Surveiller vos parcours </span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Surveiller vos parcours</span>
+                </a>
             </div>
         </div>
     </div>
@@ -136,13 +134,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="manage-aem-content.md" title="Expédition plus rapide des mises à jour de contenu">Envoyez plus rapidement des mises à jour de contenu</a>
+                        <a href="manage-aem-content.md" title="Expédition plus rapide des mises à jour de contenu">Expédier les mises à jour de contenu plus rapidement</a>
                     </p>
                     <p class="is-size-6">Recherchez, mettez à jour et publiez plus rapidement des pages et des fragments de contenu AEM, sans passer par l’interface d’AEM.</p>
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Livrer le contenu plus rapidement</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Expédier le contenu plus rapidement</span>
+                </a>
             </div>
         </div>
     </div>
@@ -159,13 +157,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="optimize-content-with-performance-data.md" title="Combler les écarts de performances du contenu">combler les écarts de performances du contenu</a>
+                        <a href="optimize-content-with-performance-data.md" title="Combler les écarts de performances du contenu">Combler les écarts de performances du contenu</a>
                     </p>
                     <p class="is-size-6">Mettez en évidence les écarts de conversion dans CJA, identifiez-les au contenu peu performant dans AEM et appliquez le correctif dans une seule session d’IA.</p>
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">combler les écarts de performances</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Combler les écarts de performances</span>
+                </a>
             </div>
         </div>
     </div>
@@ -182,13 +180,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="aem-cloud-manager-mcp.md" title="Déployer les modifications d’AEM en toute confiance">Déployez les modifications d’AEM en toute confiance</a>
+                        <a href="aem-cloud-manager-mcp.md" title="Déployer les modifications d’AEM en toute confiance">Déployer les modifications d’AEM en toute confiance</a>
                     </p>
-                    <p class="is-size-6">Vérifiez l’intégrité de l’environnement, examinez l’historique des pipelines et effectuez un déploiement sur AEM à partir de votre client d’IA, sans changer d’outil.</p>
+                    <p class="is-size-6">Vérifiez l’intégrité de l’environnement, examinez l’historique des pipelines et effectuez un déploiement sur AEM à partir de votre plateforme d’IA, sans changer d’outil.</p>
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Déployer en toute confiance</span>
-                
+                </a>
             </div>
         </div>
     </div>
