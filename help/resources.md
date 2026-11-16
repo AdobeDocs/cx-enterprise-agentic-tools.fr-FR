@@ -28,10 +28,10 @@ Toutes les ressources Adobe essentielles pour travailler avec Adobe CX Enterpris
 
 | Ressource | Ce que vous trouverez |
 |---|---|
-| [Adobe CX Enterprise Coworker pour les plateformes d’IA](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | Conditions préalables et configuration pour utiliser Coworker de Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise et d&#39;autres plateformes d&#39;IA |
+| [Adobe CX Enterprise Coworker pour les plateformes d’IA](https://experienceleague.adobe.com/fr/docs/coworker/content/ai-platforms#set-up-coworker) | Conditions préalables et configuration pour utiliser Coworker de Claude, ChatGPT, Microsoft 365 Copilot, Gemini Enterprise et d&#39;autres plateformes d&#39;IA |
 | [Documentation MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/) | Guide de configuration du serveur CJA MCP et référence des outils |
 | [Guides MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/guides/) | Guides d’utilisation détaillés du serveur MCP CJA |
-| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
+| [Documentation Real-Time CDP MCP](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | Guide de configuration du serveur MCP RTCDP |
 
 ## Compétences de l’agent
 
