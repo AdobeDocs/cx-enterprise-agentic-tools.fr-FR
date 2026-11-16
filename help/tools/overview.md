@@ -1,14 +1,12 @@
 ---
 title: Outils Agentic
-description: Comparez les serveurs MCP, les compétences des agents et les API pour Builders et choisissez l’outil agentique approprié pour vos workflows Adobe CX Enterprise.
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Comparez les serveurs MCP, les compétences des agents et les API pour Builders, puis choisissez l’outil agentique approprié pour vos workflows Adobe CX Enterprise.
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 0%
-
+source-wordcount: '1129'
+ht-degree: 2%
 ---
-
 
 # Outils agentiques
 
@@ -21,7 +19,7 @@ CARDS
 
 * mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any compatible AI client to Adobe CX Enterprise data and workflows. No coding required.}
+  {description = Connect any compatible AI platform to Adobe CX Enterprise data and workflows. No coding required.}
   {cta = Explore MCP Servers}
   {image = ../assets/mcp-servers-card.png}
 
@@ -53,13 +51,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="mcp-servers.md" title="Serveurs MCP"> Serveurs MCP </a>
+                        <a href="mcp-servers.md" title="Serveurs MCP">Serveurs MCP</a>
                     </p>
-                    <p class="is-size-6">Connectez n’importe quel client IA compatible aux données et workflows Adobe CX Enterprise. Aucun codage requis.</p>
+                    <p class="is-size-6">Connectez n’importe quelle plateforme d’IA compatible aux données et aux workflows Adobe CX Enterprise. Aucun codage requis.</p>
                 </div>
                 <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les serveurs MCP</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -76,13 +74,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="agent-skills.md" title="Compétences de l’agent">Compétences agent</a>
+                        <a href="agent-skills.md" title="Compétences de l’agent">Compétences De L’Agent</a>
                     </p>
-                    <p class="is-size-6">Instructions de workflow traitées par Adobe qui guident les agents de manière cohérente tout au long des tâches CX Enterprise.</p>
+                    <p class="is-size-6">Instructions relatives aux workflows traités par Adobe qui guident les agents de manière cohérente tout au long des tâches CX Enterprise.</p>
                 </div>
                 <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les compétences de l’agent</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -104,8 +102,8 @@ CARDS
                     <p class="is-size-6">Créez des applications et des intégrations personnalisées en utilisant les mêmes API que celles qui alimentent les produits Adobe.</p>
                 </div>
                 <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les API pour Builders</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Explorer les API pour les créateurs</span>
+                </a>
             </div>
         </div>
     </div>
@@ -117,39 +115,39 @@ CARDS
 
 | | Serveurs MCP | Compétences de l’agent | API pour les créateurs |
 | --- | --- | --- | --- |
-| Idéal pour | Utilisateurs de l’application d’entreprise CX | Utilisateurs et développeurs d’applications d’entreprise CX | Développeurs |
+| Idéal pour | Utilisateurs de l’application CX Enterprise | Utilisateurs et développeurs de l’application CX Enterprise | Développeurs |
 | Nécessite un codage | Non | Non | Oui |
 | Heure de configuration | Minutes | Minutes | Heures en jours |
-| Ce que vous obtenez | Accès aux applications CX Enterprise à partir de vos clients AI | Workflows guidés et reproductibles | Contrôle programmatique complet |
+| Ce que vous obtenez | Accès aux applications CX Enterprise à partir de vos plateformes d’IA | Workflows guidés et reproductibles | Contrôle programmatique complet |
 
-## Vous ne savez pas par où commencer ?
+## Vous ne savez pas par où commencer ?
 
-- Pour utiliser l’IA afin d’interagir avec les applications d’entreprise CX (prendre des mesures, interroger des données et laisser l’IA découvrir ce qu’il doit faire ensuite par le biais d’une conversation naturelle), les [serveurs MCP](mcp-servers.md) constituent le point de départ le plus flexible.
-- Pour que les agents suivent de manière cohérente les bonnes pratiques d’Adobe pour les workflows CX Enterprise sans improvisation, [les compétences des agents](agent-skills.md) codent cette expertise de domaine dans des instructions réutilisables.
-- Pour créer une application ciblée qui simplifie ou automatise un workflow CX Enterprise spécifique pour vos utilisateurs, les [API pour les créateurs](apis.md) vous permettent de contrôler directement et par programmation ce qui se passe exactement.
+- Pour utiliser l’IA afin d’interagir avec les applications CX Enterprise (prendre des mesures, interroger des données et laisser l’IA découvrir ce qu’il doit faire ensuite par le biais d’une conversation naturelle), les [serveurs MCP](mcp-servers.md) constituent le point de départ le plus flexible.
+- Pour que les agents suivent systématiquement les bonnes pratiques d’Adobe pour les workflows CX Enterprise sans improvisation, [les compétences des agents](agent-skills.md) codent cette expertise de domaine dans des instructions réutilisables.
+- Pour créer une application ciblée qui simplifie ou automatise un workflow CX Enterprise spécifique pour vos utilisateurs, les [API pour les créateurs](apis.md) vous donnent un contrôle direct et programmable sur ce qui se passe exactement.
 
 >[!BEGINTABS]
 
->[!TAB  Serveurs MCP ]
+>[!TAB Serveurs MCP]
 
-Considérez les serveurs MCP comme un lien dynamique entre votre client IA et les applications CX Enterprise. Connectez-vous une seule fois et votre IA peut interroger les campagnes, extraire les audiences, vérifier le statut du parcours, etc., le tout en langage clair, sans code nécessaire.
+Considérez les serveurs MCP comme un lien en direct entre votre plateforme d’IA et vos applications CX Enterprise. Commencez par [Adobe CX Enterprise Coworker pour les plateformes d’IA](mcp-servers.md#connect-to-your-ai-platform) : connectez-vous une seule fois pour que votre plateforme d’IA puisse utiliser Adobe CX Enterprise Coworker pour interroger les campagnes, extraire les audiences, vérifier l’état du parcours, etc., le tout en langage clair et sans code. Si cela ne fonctionne pas pour vous, connectez-vous directement aux [serveurs MCP de produit](mcp-servers.md#connect-to-your-ai-platform).
 
-**Utiliser des serveurs MCP quand :**
+**Utiliser des serveurs MCP lorsque :**
 
-- Vous souhaitez intégrer l’IA directement dans vos workflows CX Enterprise.
-- Vous souhaitez que les données CX Enterprise se trouvent dans le client AI que vous utilisez déjà
+- Vous souhaitez intégrer l’IA directement dans vos workflows CX Enterprise
+- Vous souhaitez que les données CX Enterprise se trouvent dans la plateforme d’IA que vous utilisez déjà
 - Vous effectuez une analyse exploratoire ou une récupération de données ad hoc
 - Vous souhaitez obtenir des résultats rapidement, sans démarrer de projet
 
 [Explorer les serveurs MCP](mcp-servers.md)
 
->[!TAB Compétences agent]
+>[!TAB Compétences De L’Agent]
 
-Les compétences de l’agent sont des compétences de domaine Adobe, encodées en instructions que votre agent peut suivre. Au lieu d&#39;espérer que votre agent comprenne les bonnes étapes, une compétence lui indique exactement ce qu&#39;il faut faire, de manière fiable, répétée et déjà adaptée aux workflows d&#39;entreprise CX.
+Les compétences de l’agent sont des compétences de domaine Adobe, encodées en instructions que votre agent peut suivre. Au lieu d’espérer que votre agent comprenne les bonnes étapes, une compétence lui indique exactement ce qu’il doit faire, de manière fiable, répétée et déjà adapté aux workflows CX Enterprise.
 
-**Utiliser les compétences de l’agent lorsque :**
+**Utiliser les compétences d&#39;agent quand :**
 
-- Vous souhaitez suivre les bonnes pratiques d’Adobe lors de l’exécution de tâches dans les applications d’entreprise CX via des clients AI
+- Vous souhaitez suivre les bonnes pratiques d’Adobe lors de l’exécution de travaux dans des applications CX Enterprise via des plateformes d’IA
 - Vous souhaitez que la même tâche soit effectuée de la même manière à chaque fois
 - Vous exécutez des workflows de production de contenu ou de médias répétables.
 
@@ -159,12 +157,12 @@ Les compétences de l’agent sont des compétences de domaine Adobe, encodées 
 
 Les API sont les blocs de création. Ils permettent aux développeurs d’accéder directement et par programmation aux données et aux opérations d’Adobe, en utilisant les mêmes API que celles qui alimentent leurs propres produits Adobe. Utilisez-les pour créer des expériences personnalisées ciblées qui rationalisent des workflows d’entreprise spécifiques avec les mécanismes de sécurisation dont votre entreprise a besoin.
 
-**Utiliser des API quand :**
+**Utiliser des API lorsque :**
 
 - Vous créez une application ou une intégration personnalisée pour un cas d’utilisation professionnel spécifique
 - Vous devez optimiser ou automatiser un workflow avec des mécanismes de sécurisation et des contrôles spécifiques
 - Vous utilisez Claude Code ou Cursor pour générer une application complète
-- Vous devez intégrer les données CX Enterprise dans un autre système
+- Vous devez intégrer des données CX Enterprise dans un autre système
 
 [Explorer les API pour Builders](apis.md)
 
@@ -172,7 +170,7 @@ Les API sont les blocs de création. Ils permettent aux développeurs d’accéd
 
 ## Les utiliser ensemble
 
-Ces outils sont conçus pour fonctionner ensemble. C’est en les combinant que vous tirez le meilleur parti d’Adobe AI. Les compétences des agents peuvent guider la manière dont un client d’IA utilise les serveurs MCP, ce qui permet aux agents de rester sur la bonne voie pour les workflows d’entreprise CX. Les compétences peuvent également indiquer comment et à quel moment appeler les API, en ajoutant les mécanismes de sécurisation des bonnes pratiques Adobe aux automatisations personnalisées. Vous n&#39;avez pas à en choisir un seul.
+Ces outils sont conçus pour fonctionner ensemble. C’est en les combinant que vous tirez le meilleur parti d’Adobe AI. Les compétences des agents peuvent guider la manière dont une plateforme d’IA utilise les serveurs MCP, ce qui permet aux agents de rester sur la bonne voie pour les workflows CX Enterprise. Les compétences peuvent également indiquer comment et à quel moment appeler les API, en ajoutant les mécanismes de sécurisation des bonnes pratiques Adobe aux automatisations personnalisées. Vous n&#39;avez pas à en choisir un seul.
 
 ## Outils agentiques en action
 
@@ -186,13 +184,13 @@ CARDS
   {description = See which audiences are live, where they are flowing, and whether destinations are healthy, without navigating Real-Time CDP.}
   {cta = Check audience activation}
 
-* https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
   {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
   {cta = Try with Agent Skills}
   {image = ../assets/agent-skills-card.png}
 
-* https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
   {title = Invoke AEM APIs from a web app}
   {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
   {cta = Try with APIs}
@@ -214,13 +212,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" title="Activation des audiences en un coup d’œil">Aperçu de l’activation des audiences</a>
+                        <a href="../use-cases/query-audiences.md" title="Activation des audiences en un coup d’œil">Activation de l’audience en un coup d’œil</a>
                     </p>
                     <p class="is-size-6">Identifiez les audiences en direct, où elles circulent et si les destinations sont saines, sans naviguer dans Real-Time CDP.</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation des audiences</span>
-                
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Vérifier l’activation de l’audience</span>
+                </a>
             </div>
         </div>
     </div>
@@ -228,7 +226,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Développement de composants AEM avec l’IA" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="Développement de composants AEM avec l’IA" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="Développement de composants AEM avec l’IA"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -237,13 +235,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Développement de composants AEM avec l’IA">Développement de composants AEM avec l’IA</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="Développement de composants AEM avec l’IA">Développer des composants AEM avec l’IA</a>
                     </p>
                     <p class="is-size-6">Utilisez le code Claude ou le curseur avec les compétences de l’agent pour créer un modèle automatique, coder et affiner les composants AEM en fonction des bonnes pratiques d’Adobe.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Utilisation des compétences d’agent</span>
-                
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Essayer avec les compétences de l’agent</span>
+                </a>
             </div>
         </div>
     </div>
@@ -251,7 +249,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Appeler des API AEM à partir d’une application web" target="_blank" rel="referrer">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Appeler des API AEM à partir d’une application web" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Appeler des API AEM à partir d’une application web"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -260,13 +258,13 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Appeler des API AEM à partir d’une application web">Appeler des API AEM à partir d’une application web</a>
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Appeler des API AEM à partir d’une application web">Appeler les API AEM à partir d’une application web</a>
                     </p>
                     <p class="is-size-6">Créez une application web qui authentifie les utilisateurs et appelle les OpenAPI d’AEM à l’aide d’OAuth pour fournir un accès gouverné et programmatique.</p>
                 </div>
-                <a href="https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Essayer avec les API</span>
-                
+                </a>
             </div>
         </div>
     </div>

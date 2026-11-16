@@ -1,22 +1,22 @@
 ---
 title: Découvrez vos audiences et où elles sont activées
 description: Utilisez le serveur Real-Time CDP MCP pour surveiller le statut d’activation des audiences, vérifier l’intégrité de la destination et les problèmes de surface avant qu’ils n’affectent vos campagnes.
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '1080'
+ht-degree: 3%
 ---
 
 # Découvrez vos audiences et où elles sont activées
 
 <!-- last-modified: 2026-06-04 -->
 
-Client ![AI fournissant une stratégie d’audience prioritaire avec des recommandations d’activation](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![Plateforme d’IA offrant une stratégie d’audience prioritaire avec des recommandations d’activation](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
-Savoir quelles audiences sont en direct, où elles circulent et si les destinations sont saines est essentiel avant le lancement d’une campagne ou en cas de contre-performance. Cette présentation montre comment obtenir une image d’activation complète par le biais d’un client d’IA, en utilisant le serveur Real-Time CDP MCP pour faire apparaître le statut de l’audience et l’intégrité de la destination en secondes, sans ouvrir Real-Time CDP.
+Savoir quelles audiences sont en direct, où elles circulent et si les destinations sont saines est essentiel avant le lancement d’une campagne ou en cas de contre-performance. Cette présentation montre comment obtenir une image d’activation complète par le biais d’une plateforme d’IA, en utilisant le serveur Real-Time CDP MCP pour faire apparaître le statut de l’audience et l’intégrité de la destination en secondes, sans ouvrir Real-Time CDP.
 
 >[!NOTE]
 >
@@ -24,22 +24,26 @@ Savoir quelles audiences sont en direct, où elles circulent et si les destinati
 
 | Détails du scénario | |
 | --- | --- |
-| Applications d’entreprise CX | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
-| Outils agentiques | [&#128279;](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
+| Applications CX Enterprise | [Real-Time Customer Data Platform (Real-Time CDP)](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home) |
+| Outils agentiques | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home), [Adobe CX Enterprise Coworker pour les plateformes d’IA](../tools/mcp-servers.md#connect-to-your-ai-platform) ou [Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | Audience | Marketeurs, analystes, opérateurs |
-| Prérequis | Client d’IA compatible avec MCP, accès à Real-Time CDP |
+| Prérequis | Un accès à Real-Time CDP, plus Coworker, une plateforme d’IA avec Coworker pour les plateformes d’IA ou une plateforme d’IA compatible avec MCP |
 
-Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. La section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire au cours de la même session.
+Chaque étape affiche une invite représentative et un exemple de réponse de l’IA. Une section **Plus que vous pouvez accomplir** suit pour une exploration supplémentaire dans la même session.
 
 ## Avant de commencer
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-Le moyen le plus rapide d’obtenir cette image d’activation est CX Enterprise Coworker, qui ne nécessite aucune configuration de serveur ou de client d’IA. [Essayer CX Enterprise Coworker](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
+Le moyen le plus rapide d’obtenir cette image d’activation est Coworker, qui ne nécessite aucune configuration de serveur ou de plateforme d’IA. [Essayer Un Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home)
 
-Si vous préférez connecter votre propre client d’IA directement à Real-Time CDP, consultez les onglets ci-dessous. Le serveur Real-Time CDP MCP est en version bêta publique et nécessite que votre organisation soit traitée.
+Si vous ne pouvez pas ou ne souhaitez pas utiliser directement Coworker, utilisez-le plutôt à partir de votre propre plateforme d’IA. Consultez l’onglet **Collègues pour les plateformes d’IA**. Si cela ne fonctionne pas non plus pour vous, connectez directement votre plateforme d’IA au serveur Real-Time CDP MCP à l’aide des onglets restants. Le serveur Real-Time CDP MCP est en version bêta publique et nécessite que votre organisation soit traitée.
+
+>[!TAB Collègue pour les plateformes d’IA]
+
+Vous pouvez également effectuer cette présentation avec Coworker pour les plateformes d’IA à partir de votre propre plateforme d’IA. [Configuration de Coworker pour les plateformes d’IA](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Documentation Adobe](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
@@ -49,20 +53,20 @@ Connectez le serveur Real-Time CDP MCP en tant que connecteur personnalisé.
 2. Sélectionnez **Ajouter un connecteur personnalisé** et saisissez l’URL du serveur : `https://rtcdp-mcp.adobe.io/mcp`
 3. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
-Configuration complète : [documentation des connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+Configuration complète : [Documentation sur les connecteurs personnalisés Claude.ai](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
 Connectez le serveur Real-Time CDP MCP à l&#39;aide du mode Développeur ChatGPT (Pro, Plus, Business, Enterprise ou Education plan requis).
 
-1. Activez le **mode Développeur** dans **Paramètres ChatGPT**.
+1. Activez le **mode Développeur** dans les **paramètres ChatGPT**.
 2. Accédez à **Paramètres > Intégrations** et sélectionnez **Ajouter un connecteur personnalisé > Serveur MCP distant**.
-3. Saisissez l’URL du serveur : `https://rtcdp-mcp.adobe.io/mcp`
+3. Saisissez l&#39;URL du serveur : `https://rtcdp-mcp.adobe.io/mcp`
 4. Sélectionnez **Connexion** et connectez-vous avec votre Adobe ID.
 
-Configuration complète : [documentation MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+Configuration complète : [Documentation du MCP ChatGPT](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB Autres clients d’IA]
+>[!TAB Autres plateformes d’IA]
 
 Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnement compatible avec MCP ? Connectez-vous au serveur Real-Time CDP MCP à l’aide de ce point d’entrée :
 
@@ -70,7 +74,7 @@ Utiliser Gemini, Microsoft Copilot, Cursor, Claude Code ou un autre environnemen
 https://rtcdp-mcp.adobe.io/mcp
 ```
 
-Instructions de configuration complètes pour tous les clients pris en charge : [Connexion à votre client IA](../tools/mcp-servers.md)
+Instructions de configuration complètes pour toutes les plateformes d’IA prises en charge : [Connexion à votre plateforme d’IA](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,9 +92,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++Voir un exemple de réponse
 
-![Client IA répertoriant les audiences disponibles et les comportements des clients qu’elles représentent](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![Plateforme d’IA répertoriant les audiences disponibles et les comportements des clients qu’elles représentent](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
@@ -105,9 +109,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++Voir un exemple de réponse
 
-Client ![AI identifiant les audiences les plus importantes et expliquant ce qui les rend précieuses](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![Plateforme d’IA identifiant les audiences les plus importantes et expliquant leur intérêt](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
@@ -122,9 +126,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++Voir un exemple de réponse
 
-Client ![AI affichant le statut d’activation de l’audience et le mappage de destination](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![Plateforme d’IA affichant le statut d’activation de l’audience et le mappage de destination](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
@@ -139,9 +143,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++Voir un exemple de réponse
 
-![Client AI donnant des recommandations prioritaires en matière de stratégie d’audience](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+![Plateforme d’IA donnant des recommandations de stratégie d’audience prioritaires](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
 
-*Sélectionner pour zoomer.*
+*Sélectionner pour effectuer un zoom.*
 
 +++
 
@@ -152,7 +156,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## Ce que vous avez accompli
 
-Vous avez connecté un client d’IA à Real-Time CDP et dressé un portrait stratégique de votre portefeuille d’audiences en quatre invites. Vous avez mappé les audiences disponibles aux comportements de client qu’elles capturent, identifié vos segments les plus volumineux et les plus précieux, confirmé où chaque audience se dirige et vers quelles destinations, et reçu des recommandations prioritaires sur votre prochaine activation. Vous pouvez ainsi parcourir plusieurs écrans de Real-Time CDP plutôt que d’avoir une conversation stratégique directe.
+Vous avez utilisé Coworker ou votre plateforme d’IA avec Real-Time CDP et créé une image stratégique de votre portfolio d’audiences dans quatre invites. Vous avez mappé les audiences disponibles aux comportements de client qu’elles capturent, identifié vos segments les plus volumineux et les plus précieux, confirmé où chaque audience se dirige et vers quelles destinations, et reçu des recommandations prioritaires sur votre prochaine activation. Vous pouvez ainsi parcourir plusieurs écrans de Real-Time CDP plutôt que d’avoir une conversation stratégique directe.
 
 ## Plus de choses à accomplir
 
@@ -247,5 +251,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | Ressource | Ce que vous trouverez |
 | --- | --- |
-| [Registre &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
-| [Documentation &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
+| [Registre Adobe AI](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | Connecteurs gérés et détails du serveur pour certains serveurs MCP Adobe |
+| [Documentation Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/home){target="_blank"} | Documentation complète de l’application Real-Time CDP |
