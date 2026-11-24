@@ -34,7 +34,7 @@ Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](http
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="Coworker"
 >abstract="Demandez, analysez et agissez en langage clair dans toutes vos applications CX Enterprise, sans configuration de serveur. Pour les applications individuelles disposant de leur propre serveur MCP, connectez-vous directement à la place."
->additional-url="https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home" text="Documentation des collègues"
+>additional-url="https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home" text="Documentation sur Coworker"
 
 ![Collègue connectant une plateforme d’IA aux applications CX Enterprise](../assets/mcp-sub-hero.gif)
 
