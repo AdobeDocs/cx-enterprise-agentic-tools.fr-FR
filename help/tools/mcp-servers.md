@@ -22,7 +22,7 @@ Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](http
 >
 >* **Une connexion, mais pas beaucoup.** Vous configurez un serveur MCP au lieu de connecter chaque application Adobe séparément.
 >* **Votre accès, reporté.** Vous vous connectez avec vos informations d’identification Adobe et Coworker utilise l’accès que vous avez déjà. Il n’existe aucune configuration d’autorisations distincte.
->* **Sûr et régi par la conception.** Coworker donne à chaque utilisateur un accès contrôlé aux applications CX Enterprise situées derrière lui. Certains utilisateurs et utilisatrices peuvent avoir un accès en lecture seule à certains contenus ou données, tandis que d’autres ont un accès en lecture et en écriture, selon la configuration de leur utilisateur ou utilisatrice et l’accès qui leur a été accordé. [En savoir plus sur le contrôle d&#39;accès dans Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/administration/access-control).
+>* **Sûr et régi par la conception.** Coworker donne à chaque utilisateur un accès contrôlé aux applications CX Enterprise situées derrière lui. Certains utilisateurs et utilisatrices peuvent avoir un accès en lecture seule à certains contenus ou données, tandis que d’autres ont un accès en lecture et en écriture, selon la configuration de leur utilisateur ou utilisatrice et l’accès qui leur a été accordé. [En savoir plus sur le contrôle d&#39;accès dans Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control).
 >
 >Vous travaillez déjà sur d’autres plateformes d’IA et avez créé des workflows autour d’elles ? Vous pouvez également accéder aux fonctionnalités de Coworker à partir de ces plateformes, sans modifier votre façon de travailler. [Configurer Coworker pour les plateformes d’IA](#connect-to-your-ai-platform)
 >
@@ -34,7 +34,7 @@ Les serveurs Adobe MCP respectent la norme ouverte [Model Context Protocol](http
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="Coworker"
 >abstract="Demandez, analysez et agissez en langage clair dans toutes vos applications CX Enterprise, sans configuration de serveur. Pour les applications individuelles disposant de leur propre serveur MCP, connectez-vous directement à la place."
->additional-url="https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home" text="Documentation des collègues"
+>additional-url="https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home" text="Documentation sur Coworker"
 
 ![Collègue connectant une plateforme d’IA aux applications CX Enterprise](../assets/mcp-sub-hero.gif)
 
@@ -48,16 +48,16 @@ Plusieurs applications possèdent leur propre serveur MCP.
 
 | Serveur MCP | Point d’entrée | Ce que vous pouvez faire | Également via Coworker |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Examiner les configurations des parcours, des campagnes et des canaux | Oui |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | Oui |
-| [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Découverte de suites de rapports, création de segments et création d’espaces de travail | Oui |
-| [Adobe Target](https://experienceleague.adobe.com/fr/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox, les rapports de performances et les URL de prévisualisation (bêta publique : les outils sont en lecture seule et les outils d’écriture sont prévus pour la disponibilité générale). | Oui |
-| [Real-Time CDP](https://experienceleague.adobe.com/fr/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Rechercher des audiences, des destinations, des sources et des exécutions de flux ; inspecter les espaces de noms d’identité et les politiques de fusion (bêta publique : place sur la liste autorisée requise, tous les outils sont en lecture seule). | Oui |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | Examiner les configurations des parcours, des campagnes et des canaux | Oui |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | Requête sur les rapports, découverte des vues de données et création d’espaces de travail | Oui |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | Découverte de suites de rapports, création de segments et création d’espaces de travail | Oui |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | Examinez les activités, les offres, les audiences, les mbox, les rapports de performances et les URL de prévisualisation (bêta publique : les outils sont en lecture seule et les outils d’écriture sont prévus pour la disponibilité générale). | Oui |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | Rechercher des audiences, des destinations, des sources et des exécutions de flux ; inspecter les espaces de noms d’identité et les politiques de fusion (bêta publique : place sur la liste autorisée requise, tous les outils sont en lecture seule). | Oui |
 | [Serveur AEM MCP](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | Gérer les pages, les fragments de contenu, les ressources et les lancements ; évaluer le contenu et les images par rapport aux directives de la marque et aux règles de conformité | Oui |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | Gestion des programmes, environnements, pipelines et référentiels | Non |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | Orchestrer l’analyse des audiences, les diagnostics AEP et la création de parcours B2B AJO dans les applications AEP | Non |
-| [Adobe Workfront](https://experienceleague.adobe.com/fr/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gérer le travail, les projets, les enregistrements de planification, les informations et les approbations de contenu | Non |
-| [Marketo Engage](https://experienceleague.adobe.com/fr/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gérez les formulaires, les campagnes intelligentes, les prospects, les listes, les programmes, les e-mails et les opérations en bloc | Oui |
+| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | Gérer le travail, les projets, les enregistrements de planification, les informations et les approbations de contenu | Non |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | Gérez les formulaires, les campagnes intelligentes, les prospects, les listes, les programmes, les e-mails et les opérations en bloc | Oui |
 | Adobe Experience Platform | Via [Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte de jeux de données, navigation dans les schémas et gestion des sandbox | S.O. |
 | Campaign Classic | Via [Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Découverte des instances Campaign, navigation dans les schémas, exécution des requêtes, contrôle des workflows et exécution de SOAP/JS | S.O. |
 | Expérimentation | Via [Collègue](https://experienceleague.adobe.com/fr/docs/cx-enterprise-coworker/content/home) | Rapports, mesures, informations, opportunités et planification de la taille des échantillons pour les expériences A/B, MVT et MAB | S.O. |
@@ -88,9 +88,9 @@ Documentation complète : [Documentation de Coworker](https://experienceleague.a
 
 Coworker pour les plateformes d’IA est un serveur MCP qui connecte votre plateforme d’IA à Coworker. Tout ce qui est disponible dans Coworker l’est également. Vous utilisez votre plateforme d’IA, telle que Claude, ChatGPT, Microsoft 365 Copilot ou Gemini Enterprise, comme interface de chat, et Coworker effectue le travail en arrière-plan, de la même manière que lorsque vous utilisez Coworker directement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3508457/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
 
-Vous vous connectez avec vos informations d’identification Adobe et Coworker utilise l’accès lié à votre identité Adobe. Coworker est sûr et régi par la conception. Ce que vous pouvez lire ou modifier dépend de la configuration de votre utilisateur, de l’accès qui vous est accordé dans Coworker et de l’accès accordé dans les applications que Coworker utilise en votre nom. Voir [Contrôle d&#39;accès pour Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/administration/access-control).
+Vous vous connectez avec vos informations d’identification Adobe et Coworker utilise l’accès lié à votre identité Adobe. Coworker est sûr et régi par la conception. Ce que vous pouvez lire ou modifier dépend de la configuration de votre utilisateur, de l’accès qui vous est accordé dans Coworker et de l’accès accordé dans les applications que Coworker utilise en votre nom. Voir [Contrôle d&#39;accès pour Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control).
 
 Avant de commencer, vérifiez les points suivants :
 
@@ -98,7 +98,7 @@ Avant de commencer, vérifiez les points suivants :
 * Votre organisation dispose de Adobe Experience Platform et d’au moins l’une des solutions suivantes : Adobe Real-Time CDP, Adobe Journey Optimizer ou Adobe Customer Journey Analytics.
 * Vous avez accès à une plateforme d’IA prise en charge.
 
-Le point d&#39;entrée du serveur est `https://mcp.coworker.experience.adobe.io`. La configuration diffère selon la plateforme d’IA et commence généralement par une approbation d’Adobe CX Enterprise Coworker par un administrateur pour votre organisation. [Configurer Coworker pour les plateformes d’IA](https://experienceleague.adobe.com/fr/docs/coworker/content/ai-platforms#set-up-coworker)
+Le point d&#39;entrée du serveur est `https://mcp.coworker.experience.adobe.io`. La configuration diffère selon la plateforme d’IA et commence généralement par une approbation d’Adobe CX Enterprise Coworker par un administrateur pour votre organisation. [Configurer Coworker pour les plateformes d’IA](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB Claude.ai]
 
