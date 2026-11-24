@@ -88,7 +88,7 @@ Documentation complète : [Documentation de Coworker](https://experienceleague.a
 
 Coworker pour les plateformes d’IA est un serveur MCP qui connecte votre plateforme d’IA à Coworker. Tout ce qui est disponible dans Coworker l’est également. Vous utilisez votre plateforme d’IA, telle que Claude, ChatGPT, Microsoft 365 Copilot ou Gemini Enterprise, comme interface de chat, et Coworker effectue le travail en arrière-plan, de la même manière que lorsque vous utilisez Coworker directement.
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508457/?captions=fre_fr&learn=on&enablevpops)
 
 Vous vous connectez avec vos informations d’identification Adobe et Coworker utilise l’accès lié à votre identité Adobe. Coworker est sûr et régi par la conception. Ce que vous pouvez lire ou modifier dépend de la configuration de votre utilisateur, de l’accès qui vous est accordé dans Coworker et de l’accès accordé dans les applications que Coworker utilise en votre nom. Voir [Contrôle d&#39;accès pour Coworker](https://experienceleague.adobe.com/fr/docs/coworker/content/administration/access-control).
 
